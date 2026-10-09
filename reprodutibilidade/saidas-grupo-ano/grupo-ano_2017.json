@@ -1,0 +1,81 @@
+{
+ "ano": 2017,
+ "respostas_com_texto": 89738,
+ "com_assinatura": 89318,
+ "grupos": [
+  {
+   "ano": 2017,
+   "grupo": "Executivo federal (ministérios e Presidência)",
+   "respostas": 29925,
+   "literal_n": 7778,
+   "literal_pct": 25.99,
+   "quase_n": 7140,
+   "quase_pct": 23.86
+  },
+  {
+   "ano": 2017,
+   "grupo": "Autarquias, fundações e agências",
+   "respostas": 27482,
+   "literal_n": 4064,
+   "literal_pct": 14.79,
+   "quase_n": 8028,
+   "quase_pct": 29.21
+  },
+  {
+   "ano": 2017,
+   "grupo": "Universidades e institutos federais",
+   "respostas": 20800,
+   "literal_n": 1549,
+   "literal_pct": 7.45,
+   "quase_n": 2863,
+   "quase_pct": 13.76
+  },
+  {
+   "ano": 2017,
+   "grupo": "Estatais, bancos e empresas públicas",
+   "respostas": 10353,
+   "literal_n": 1340,
+   "literal_pct": 12.94,
+   "quase_n": 2267,
+   "quase_pct": 21.9
+  },
+  {
+   "ano": 2017,
+   "grupo": "Controle interno",
+   "respostas": 965,
+   "literal_n": 700,
+   "literal_pct": 72.54,
+   "quase_n": 113,
+   "quase_pct": 11.71
+  },
+  {
+   "ano": 2017,
+   "grupo": "Defensoria",
+   "respostas": 213,
+   "literal_n": 0,
+   "literal_pct": 0.0,
+   "quase_n": 63,
+   "quase_pct": 29.58
+  }
+ ],
+ "minhash": {
+  "pares_verificados": 5784135,
+  "pares_aceitos_soma_das_bandas": 5294208,
+  "baldes_ignorados_por_tamanho": 224,
+  "membros_ignorados": 104719,
+  "maior_grupo": 432
+ },
+ "metodo": {
+  "normalizacao": "resposta inteira, minúsculas, sem pontuação",
+  "shingle": 5,
+  "k_permutacoes": 128,
+  "semente": 20261008,
+  "jaccard_limiar": 0.8,
+  "bandas": 16,
+  "linhas_banda": 8,
+  "limiar_grupo": 5,
+  "max_balde": 200,
+  "classificacao": "regra declarada em lai_pipeline.classificar_orgao, uniforme em todos os anos"
+ },
+ "segundos": 186.8
+}

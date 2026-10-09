@@ -132,3 +132,23 @@ independente das evidências derivadas.
 - **Replicação parcial declarada:** as figuras 4 e 6 do artigo 2 ainda não estão ligadas ao script
   Python (dependem dos arquivos de medição das camadas 1 e 3).
 - **Conferência é de número, não de prosa:** os scripts conferem se o valor afirmado confere.
+
+## Medições acrescentadas na versão 1.1
+
+- `reprodutibilidade/minhash_resposta_inteira.py` — a medição de padronização sobre a **resposta
+  inteira** (11 anos, **938.987 respostas**), com os mesmos parâmetros do módulo da janela de 250
+  caracteres, para comparação direta.
+- `reprodutibilidade/padronizacao_por_grupo_ano.py` — a mesma medição **por grupo de órgão e por
+  ano**, com a regra de classificação declarada em `lai_pipeline.py`.
+- `reprodutibilidade/consolidar_resposta_inteira.py` — tabelas A–D, `resumo.json` e as figuras F1–F3
+  (comparação das duas medidas, série por grupo, dispersão com a plataformização).
+- `reprodutibilidade/recursos_estudo_A.py` — base analítica dos **222.242 recursos e reclamações**.
+  Atenção: o dado aberto traz esses registros **codificados**; não há texto livre do cidadão
+  (o campo de detalhamento está preenchido em 0,6% dos casos).
+- `reprodutibilidade/montar_artigo3.py` — monta as tabelas do artigo 3 a partir dos CSV consolidados.
+
+**Resultado medido (938.987 respostas, 2015–2025):** repetição **literal** cai de **20,64%** (janela de
+250 caracteres) para **14,86%** (resposta inteira); **quase-repetição** sobe de **22,55%** para
+**24,21%**. A correlação com a plataformização do atendimento é **negativa** (r = −0,672 na
+quase-repetição; −0,712 na literal, 11 anos) e, retirada a tendência do tempo, sobrevive apenas na
+repetição literal (r = −0,699; a da quase-repetição cai para −0,377).

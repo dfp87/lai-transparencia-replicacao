@@ -1,0 +1,36 @@
+{
+ "ano": 2025,
+ "respostas_com_texto": 83827,
+ "com_assinatura": 83493,
+ "normalizacao": "RESPOSTA INTEIRA, minusculas, sem pontuacao",
+ "shingle": 5,
+ "k_permutacoes": 128,
+ "semente": 20261008,
+ "jaccard_limiar": 0.8,
+ "limiar_grupo": 5,
+ "max_balde": 200,
+ "amostra": null,
+ "limite_shingles": 0,
+ "tamanho_texto": {
+  "media": 1452.9,
+  "mediana": 1029.0,
+  "maximo": 13483,
+  "n": 83827
+ },
+ "literal_inteira_md5": {
+  "pct": 13.41,
+  "n": 11243,
+  "aberturas_distintas": 70842
+ },
+ "minhash": {
+  "pct": 20.09,
+  "n": 16838,
+  "grupos_ge_5": 831,
+  "maior_grupo": 565,
+  "pares_verificados": 3821740,
+  "pares_quase_iguais": 426547,
+  "baldes_ignorados_por_tamanho": 100,
+  "membros_ignorados": 86983
+ },
+ "segundos": 210.9
+}

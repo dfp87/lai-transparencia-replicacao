@@ -34,3 +34,6 @@ __pycache__/
 *.key
 *.pem
 config.local.*
+
+# base linha a linha dos recursos (46 MB; regenerada por recursos_estudo_A.py)
+saidas-recursos/base-recursos.csv

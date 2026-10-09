@@ -1,0 +1,42 @@
+{
+ "anos_medidos": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "total_respostas_com_texto": 938987,
+ "quase_janela250_pct_ponderado": 22.55,
+ "quase_inteira_pct_ponderado": 24.21,
+ "literal_janela250_pct_ponderado": 20.64,
+ "literal_inteira_pct_ponderado": 14.86,
+ "correlacoes": {
+  "quase_inteira_vs_plataforma": {
+   "n": 11,
+   "pearson": -0.672,
+   "spearman": -0.618
+  },
+  "literal_inteira_vs_plataforma": {
+   "n": 11,
+   "pearson": -0.712,
+   "spearman": -0.745
+  },
+  "quase_inteira_vs_plataforma_residuos_tendencia": {
+   "n": 11,
+   "pearson": -0.377,
+   "spearman": -0.5
+  },
+  "literal_inteira_vs_plataforma_residuos_tendencia": {
+   "n": 11,
+   "pearson": -0.699,
+   "spearman": -0.236
+  }
+ }
+}

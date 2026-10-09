@@ -1,0 +1,72 @@
+{
+ "ano": 2025,
+ "respostas_com_texto": 20000,
+ "com_assinatura": 19913,
+ "grupos": [
+  {
+   "ano": 2025,
+   "grupo": "Autarquias, fundações e agências",
+   "respostas": 6447,
+   "literal_n": 716,
+   "literal_pct": 11.11,
+   "quase_n": 1681,
+   "quase_pct": 26.07
+  },
+  {
+   "ano": 2025,
+   "grupo": "Executivo federal (ministérios e Presidência)",
+   "respostas": 6135,
+   "literal_n": 1082,
+   "literal_pct": 17.64,
+   "quase_n": 543,
+   "quase_pct": 8.85
+  },
+  {
+   "ano": 2025,
+   "grupo": "Universidades e institutos federais",
+   "respostas": 3851,
+   "literal_n": 255,
+   "literal_pct": 6.62,
+   "quase_n": 343,
+   "quase_pct": 8.91
+  },
+  {
+   "ano": 2025,
+   "grupo": "Estatais, bancos e empresas públicas",
+   "respostas": 3272,
+   "literal_n": 221,
+   "literal_pct": 6.75,
+   "quase_n": 636,
+   "quase_pct": 19.44
+  },
+  {
+   "ano": 2025,
+   "grupo": "Controle interno",
+   "respostas": 295,
+   "literal_n": 24,
+   "literal_pct": 8.14,
+   "quase_n": 29,
+   "quase_pct": 9.83
+  }
+ ],
+ "minhash": {
+  "pares_verificados": 470983,
+  "pares_quase_iguais": 425305,
+  "baldes_ignorados_por_tamanho": 16,
+  "membros_ignorados": 14290,
+  "maior_grupo": 128
+ },
+ "metodo": {
+  "normalizacao": "resposta inteira, minúsculas, sem pontuação",
+  "shingle": 5,
+  "k_permutacoes": 128,
+  "semente": 20261008,
+  "jaccard_limiar": 0.8,
+  "bandas": 16,
+  "linhas_banda": 8,
+  "limiar_grupo": 5,
+  "max_balde": 200,
+  "classificacao": "regra declarada em lai_pipeline.classificar_orgao, uniforme em todos os anos"
+ },
+ "segundos": 43.8
+}

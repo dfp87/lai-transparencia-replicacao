@@ -1,0 +1,26 @@
+  [2015] 60000 respostas | 92s
+{"ano": 2015, "respostas": 71116, "grupos": 6, "segundos": 231.4}
+  [2016] 60000 respostas | 163s
+{"ano": 2016, "respostas": 81042, "grupos": 6, "segundos": 373.9}
+  [2017] 60000 respostas | 77s
+{"ano": 2017, "respostas": 89738, "grupos": 6, "segundos": 186.8}
+  [2018] 19998 respostas | 29s
+  [2018] 59996 respostas | 82s
+{"ano": 2018, "respostas": 90628, "grupos": 5, "segundos": 207.2}
+  [2019] 60000 respostas | 91s
+{"ano": 2019, "respostas": 95398, "grupos": 5, "segundos": 207.2}
+  [2020] 60000 respostas | 104s
+  [2020] 100000 respostas | 175s
+  [2020] 110663 respostas | 201s
+{"ano": 2020, "respostas": 110663, "grupos": 5, "segundos": 280.6}
+  [2021] 60000 respostas | 113s
+{"ano": 2021, "respostas": 79111, "grupos": 5, "segundos": 202.8}
+  [2022] 60000 respostas | 107s
+  [2022] 69062 respostas | 123s
+{"ano": 2022, "respostas": 69062, "grupos": 5, "segundos": 165.8}
+  [2023] 60000 respostas | 43s
+{"ano": 2023, "respostas": 89508, "grupos": 5, "segundos": 87.3}
+  [2024] 60000 respostas | 46s
+{"ano": 2024, "respostas": 78894, "grupos": 5, "segundos": 77.4}
+  [2025] 60000 respostas | 47s
+{"ano": 2025, "respostas": 83827, "grupos": 5, "segundos": 83.1}
