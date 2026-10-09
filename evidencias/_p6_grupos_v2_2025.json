@@ -1,0 +1,122 @@
+[
+ {
+  "grupo": "Autarquias, fundações e agências",
+  "pedidos": 48550,
+  "dias_mediana": 11.0,
+  "acima20": 20.618769053308068,
+  "negado": 6.760041194644696,
+  "concedido": 83.66014418125644,
+  "prorrog": 18.840370751802265,
+  "pct": 32.32593598732264
+ },
+ {
+  "grupo": "Executivo federal (ministérios e presidência)",
+  "pedidos": 37381,
+  "dias_mediana": 17.0,
+  "acima20": 33.79524357293812,
+  "negado": 8.980498114015141,
+  "concedido": 76.69404242797143,
+  "prorrog": 33.87014793611728,
+  "pct": 24.889306140929097
+ },
+ {
+  "grupo": "Universidades e institutos federais",
+  "pedidos": 23970,
+  "dias_mediana": 12.0,
+  "acima20": 25.769712140175223,
+  "negado": 4.267834793491865,
+  "concedido": 86.23696287025449,
+  "prorrog": 18.135168961201504,
+  "pct": 15.959890537922218
+ },
+ {
+  "grupo": "Estatais, bancos públicos e correios",
+  "pedidos": 14277,
+  "dias_mediana": 7.0,
+  "acima20": 14.442810114169644,
+  "negado": 17.930937872101982,
+  "concedido": 74.69356307347482,
+  "prorrog": 13.497233312320517,
+  "pct": 9.506022411761181
+ },
+ {
+  "grupo": "Esfera municipal (prefeituras, câmaras, autarquias locais)",
+  "pedidos": 10246,
+  "dias_mediana": 14.0,
+  "acima20": 35.38327336168357,
+  "negado": 3.0353308608237364,
+  "concedido": 64.63009955104431,
+  "prorrog": 16.416162404840914,
+  "pct": 6.82207085738636
+ },
+ {
+  "grupo": "Esfera estadual (governos, secretarias, autarquias)",
+  "pedidos": 7307,
+  "dias_mediana": 15.0,
+  "acima20": 38.40023185045646,
+  "negado": 3.859312987546189,
+  "concedido": 70.82249897358696,
+  "prorrog": 19.885041740796495,
+  "pct": 4.865203177329898
+ },
+ {
+  "grupo": "Outros federais (não classificados)",
+  "pedidos": 4558,
+  "dias_mediana": 11.0,
+  "acima20": 18.16586222027205,
+  "negado": 5.901711276875822,
+  "concedido": 84.15971917507679,
+  "prorrog": 13.229486616937253,
+  "pct": 3.03484276478304
+ },
+ {
+  "grupo": "Controle interno (CGU)",
+  "pedidos": 1852,
+  "dias_mediana": 21.0,
+  "acima20": 58.7915078933043,
+  "negado": 9.719222462203025,
+  "concedido": 67.0086393088553,
+  "prorrog": 39.30885529157667,
+  "pct": 1.2331129443567772
+ },
+ {
+  "grupo": "Conselhos profissionais e serviços autônomos",
+  "pedidos": 1136,
+  "dias_mediana": 6.0,
+  "acima20": 15.766164747564215,
+  "negado": 7.306338028169014,
+  "concedido": 57.482394366197184,
+  "prorrog": 12.5,
+  "pct": 0.7563802941626884
+ },
+ {
+  "grupo": "Controle externo (TCU/TCE/TCM)",
+  "pedidos": 500,
+  "dias_mediana": 1.0,
+  "acima20": 1.6,
+  "negado": 0.6,
+  "concedido": 76.6,
+  "prorrog": 0.6,
+  "pct": 0.3329138618673804
+ },
+ {
+  "grupo": "Judiciário",
+  "pedidos": 378,
+  "dias_mediana": 15.0,
+  "acima20": 33.06666666666666,
+  "negado": 14.02116402116402,
+  "concedido": 65.87301587301587,
+  "prorrog": 5.555555555555555,
+  "pct": 0.2516828795717396
+ },
+ {
+  "grupo": "Defensoria",
+  "pedidos": 34,
+  "dias_mediana": 104.5,
+  "acima20": 73.52941176470588,
+  "negado": 2.941176470588235,
+  "concedido": 82.35294117647058,
+  "prorrog": 2.941176470588235,
+  "pct": 0.02263814260698187
+ }
+]

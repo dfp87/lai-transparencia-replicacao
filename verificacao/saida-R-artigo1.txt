@@ -1,0 +1,180 @@
+========================================================================
+ Replicação — 'Os guardiões fora do espelho' (LAI, 2012-2025)
+ Base: /workspace/lai-transparencia-replicacao 
+ Data/hora: 09/10/2026 16:51:54 
+========================================================================
+
+[1] Lendo os 14 JSON anuais e o de grupos auditados...
+    JSON lidos: 14 anos ( 2012 - 2025 )
+    Grupos auditados (v3, 2025) lidos: 14 grupos; soma de pedidos = 150.189 
+
+[2a] Volume, decisões e prazos recalculados dos JSON anuais.
+  ano pedidos n_prazo mediana_dias p90_dias pct_acima_20 n_decisoes
+ 2012   55212   55212            7       27         21.3      55212
+ 2013   86661   86661           10       29         23.0      86661
+ 2014   90167   90143           11       27         21.5      90167
+ 2015  102423  102422           10       29         22.5     102423
+ 2016  111458  111458           10       30         24.4     111458
+ 2017  120790  120790           10       30         23.1     120790
+ 2018  127313  127313            9       28         21.5     127313
+ 2019  128926  128926           11       27         20.7     128926
+ 2020  154079  154073            9       28         21.5     154079
+ 2021  123271  123062           10       28         20.3     123271
+ 2022  117993  117761            9       27         18.6     117993
+ 2023  142427  141906           11       29         22.8     142427
+ 2024  131030  130195           13       30         25.8     131030
+ 2025  150189  148681           13       30         26.2     150189
+ acesso_negado
+          4857
+          9629
+          9943
+          7697
+          8112
+          8557
+          9397
+         10791
+         10851
+          8713
+          8210
+         10624
+         10420
+         11404
+
+[2b] Soma dos catorze anos: 1.641.939 pedidos
+
+[2c] Tabela por grupo (v3) recalculada. Total negativo (ponderado) = 7,6 %
+
+[2d] Parcela dos guardiões recalculada ( 0.96% a 2.25% ).
+
+[3] Microdados encontrados: /root/lai/csv - recalculando do microdado...
+    Microdado x JSON — pedidos iguais em 14 de 14 anos; %acima20 iguais em 14 anos.
+  ano pedidos_micro mediana_micro p90_micro pct_acima_20_micro negado_micro
+ 2012         55212             7        27           21.30696         4857
+ 2013         86661            10        29           23.00804         9629
+ 2014         90167            11        27           21.46478         9943
+ 2015        102423            10        29           22.49614         7697
+ 2016        111458            10        30           24.40022         8112
+ 2017        120790            10        30           23.12443         8557
+ 2018        127313             9        28           21.46992         9397
+ 2019        128926            11        27           20.67698        10791
+ 2020        154079             9        28           21.53849        10851
+ 2021        123271            10        28           20.31659         8713
+ 2022        117993             9        27           18.58085         8210
+ 2023        142427            11        29           22.79044        10624
+ 2024        131030            13        30           25.75752        10420
+ 2025        150189            13        30           26.24411        11404
+
+[4] Escrevendo tabelas em /workspace/lai-transparencia-replicacao/reprodutibilidade/saidas-R ...
+    OK.
+
+[5] Gerando as 5 figuras em /workspace/lai-transparencia-replicacao/reprodutibilidade/figuras-R ...
+    -> G1_grupos-acima-de-20-dias_R.png 
+    -> G2_grupos-negativa_R.png 
+    -> G3_grupos-volume_R.png
+    -> G4_serie-de-pedidos_R.png
+    -> G5_parcela-guardioes_R.png
+
+[6] Conferência contra os números publicados no artigo...
+
+BLOCO              ITEM                                         INDICADOR        ARTIGO     RECALC. VEREDITO
+-------------------------------------------------------------------------------------------------------------- 
+Globais 2025       Total de pedidos                             pedidos          150189      150189     BATE
+Globais 2025       Respostas com data válida                   n prazo          148681      148681     BATE
+Globais 2025       Mediana de resposta                          dias                 13          13     BATE
+Globais 2025       p90 de resposta                              dias                 30          30     BATE
+Globais 2025       Respostas acima de 20 dias                   %                  26.2        26.2     BATE
+Série anual       Pedidos em 2012                              pedidos           55212       55212     BATE
+Série anual       Pedidos em 2015                              pedidos          102423      102423     BATE
+Série anual       Pedidos em 2020                              pedidos          154079      154079     BATE
+Série anual       Pedidos em 2025                              pedidos          150189      150189     BATE
+Série anual       Soma 2012-2025                               pedidos         1641939     1641939     BATE
+Quadro 1           Executivo federal (ministérios e presidência pedidos           45296       45296     BATE
+Quadro 1           Executivo federal (ministérios e presidência % do acervo        30.2        30.2     BATE
+Quadro 1           Executivo federal (ministérios e presidência mediana              16          16     BATE
+Quadro 1           Executivo federal (ministérios e presidência % acima20          31.5        31.5     BATE
+Quadro 1           Executivo federal (ministérios e presidência % negativa          8.4         8.4     BATE
+Quadro 1           Autarquias, fundações e agências          pedidos           43339       43339     BATE
+Quadro 1           Autarquias, fundações e agências          % do acervo        28.9        28.9     BATE
+Quadro 1           Autarquias, fundações e agências          mediana              10          10     BATE
+Quadro 1           Autarquias, fundações e agências          % acima20          19.8        19.8     BATE
+Quadro 1           Autarquias, fundações e agências          % negativa          6.8         6.8     BATE
+Quadro 1           Universidades e institutos federais          pedidos           20703       20703     BATE
+Quadro 1           Universidades e institutos federais          % do acervo        13.8        13.8     BATE
+Quadro 1           Universidades e institutos federais          mediana              13          13     BATE
+Quadro 1           Universidades e institutos federais          % acima20          28.2        28.2     BATE
+Quadro 1           Universidades e institutos federais          % negativa          4.1         4.1     BATE
+Quadro 1           Estatais, bancos e empresas públicas        pedidos           19262       19262     BATE
+Quadro 1           Estatais, bancos e empresas públicas        % do acervo        12.8        12.8     BATE
+Quadro 1           Estatais, bancos e empresas públicas        mediana               8           8     BATE
+Quadro 1           Estatais, bancos e empresas públicas        % acima20          15.4        15.4     BATE
+Quadro 1           Estatais, bancos e empresas públicas        % negativa         14.8        14.8     BATE
+Quadro 1           Esfera municipal                             pedidos           10246       10246     BATE
+Quadro 1           Esfera municipal                             % do acervo         6.8         6.8     BATE
+Quadro 1           Esfera municipal                             mediana              14          14     BATE
+Quadro 1           Esfera municipal                             % acima20          35.4        35.4     BATE
+Quadro 1           Esfera municipal                             % negativa            3           3     BATE
+Quadro 1           Esfera estadual                              pedidos            7134        7134     BATE
+Quadro 1           Esfera estadual                              % do acervo         4.8         4.8     BATE
+Quadro 1           Esfera estadual                              mediana              15          15     BATE
+Quadro 1           Esfera estadual                              % acima20          38.4        38.4     BATE
+Quadro 1           Esfera estadual                              % negativa            4           4     BATE
+Quadro 1           Controle interno (CGU/CGE/CGM)               pedidos            1852        1852     BATE
+Quadro 1           Controle interno (CGU/CGE/CGM)               % do acervo         1.2         1.2     BATE
+Quadro 1           Controle interno (CGU/CGE/CGM)               mediana              21          21     BATE
+Quadro 1           Controle interno (CGU/CGE/CGM)               % acima20          58.8        58.8     BATE
+Quadro 1           Controle interno (CGU/CGE/CGM)               % negativa          9.7         9.7     BATE
+Quadro 1           Conselhos profissionais                      pedidos             759         759     BATE
+Quadro 1           Conselhos profissionais                      % do acervo         0.5         0.5     BATE
+Quadro 1           Conselhos profissionais                      mediana               6           6     BATE
+Quadro 1           Conselhos profissionais                      % acima20          11.7        11.7     BATE
+Quadro 1           Conselhos profissionais                      % negativa          7.5         7.5     BATE
+Quadro 1           Controle externo (TCU/TCE/TCM)               pedidos             500         500     BATE
+Quadro 1           Controle externo (TCU/TCE/TCM)               % do acervo         0.3         0.3     BATE
+Quadro 1           Controle externo (TCU/TCE/TCM)               mediana               1           1     BATE
+Quadro 1           Controle externo (TCU/TCE/TCM)               % acima20           1.6         1.6     BATE
+Quadro 1           Controle externo (TCU/TCE/TCM)               % negativa          0.6         0.6     BATE
+Quadro 1           Judiciário                                  pedidos             378         378     BATE
+Quadro 1           Judiciário                                  % do acervo         0.3         0.3     BATE
+Quadro 1           Judiciário                                  mediana              15          15     BATE
+Quadro 1           Judiciário                                  % acima20          33.1        33.1     BATE
+Quadro 1           Judiciário                                  % negativa           14          14     BATE
+Quadro 1           Serviços autônomos e sociais               pedidos             377         377     BATE
+Quadro 1           Serviços autônomos e sociais               % do acervo         0.3         0.3     BATE
+Quadro 1           Serviços autônomos e sociais               mediana              10          10     BATE
+Quadro 1           Serviços autônomos e sociais               % acima20          23.9        23.9     BATE
+Quadro 1           Serviços autônomos e sociais               % negativa          6.9         6.9     BATE
+Quadro 1           Legislativo                                  pedidos             173         173     BATE
+Quadro 1           Legislativo                                  % do acervo         0.1         0.1     BATE
+Quadro 1           Legislativo                                  mediana             —         —     BATE
+Quadro 1           Legislativo                                  % acima20           —         —     BATE
+Quadro 1           Legislativo                                  % negativa            0           0     BATE
+Quadro 1           Outros federais                              pedidos             136         136     BATE
+Quadro 1           Outros federais                              % do acervo         0.1         0.1     BATE
+Quadro 1           Outros federais                              mediana              14          14     BATE
+Quadro 1           Outros federais                              % acima20          28.7        28.7     BATE
+Quadro 1           Outros federais                              % negativa          3.7         3.7     BATE
+Quadro 1           Defensoria                                   pedidos              34          34     BATE
+Quadro 1           Defensoria                                   % do acervo           0           0     BATE
+Quadro 1           Defensoria                                   mediana           104.5       104.5     BATE
+Quadro 1           Defensoria                                   % acima20          73.5        73.5     BATE
+Quadro 1           Defensoria                                   % negativa          2.9         2.9     BATE
+Quadro 1 (total)   Total                                        pedidos          150189      150189     BATE
+Quadro 1 (total)   Total                                        % do acervo         100         100     BATE
+Quadro 1 (total)   Total                                        mediana              13          13     BATE
+Quadro 1 (total)   Total                                        % acima20          26.2        26.2     BATE
+Quadro 1 (total)   Total                                        % negativa          7.6         7.6     BATE
+Parcela guardiões Mínimo (2020)                               %                  0.96        0.96     BATE
+Parcela guardiões Máximo (2025)                               %                  2.25        2.25     BATE
+Perímetro 2025    % de esfera federal                          %                  86.8        86.8     BATE
+-------------------------------------------------------------------------------------------------------------- 
+
+RESUMO DA CONFERÊNCIA
+  Comparações: 88 
+  BATE   : 88 
+  DIFERE : 0 
+
+Saídas:  /workspace/lai-transparencia-replicacao/reprodutibilidade/saidas-R 
+Figuras: /workspace/lai-transparencia-replicacao/reprodutibilidade/figuras-R 
+========================================================================
+ FIM — 88 BATE / 0 DIFERE
+========================================================================

@@ -1,0 +1,97 @@
+{
+ "ano": 2016,
+ "arquivo": "20260915_Pedidos_csv_2016.csv",
+ "pedidos": 111458,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 75409,
+  "Não se trata de solicitação de informação": 11239,
+  "Acesso Negado": 8112,
+  "Acesso Parcialmente Concedido": 7084,
+  "Órgão não tem competência para responder sobre o assunto": 4074,
+  "Informação Inexistente": 3261,
+  "Pergunta Duplicada/Repetida": 2279
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 111458,
+  "mediana": 10.0,
+  "p90": 30.0,
+  "pct_acima_20": 24.4
+ },
+ "grupos": {
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 17365,
+   "negado": 2204,
+   "concedido": 9910,
+   "parcial": 1691,
+   "prorrogado": 1949,
+   "dias_mediana": 14.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 29.9,
+   "dias_n": 17365
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 37571,
+   "negado": 2686,
+   "concedido": 23162,
+   "parcial": 1788,
+   "prorrogado": 4954,
+   "dias_mediana": 12.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 25.0,
+   "dias_n": 37571
+  },
+  "Autarquias, fundações e agências": {
+   "pedidos": 38424,
+   "negado": 2705,
+   "concedido": 27569,
+   "parcial": 3108,
+   "prorrogado": 2429,
+   "dias_mediana": 6.0,
+   "dias_p90": 25.0,
+   "pct_acima_20": 17.1,
+   "dias_n": 38424
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 16184,
+   "negado": 403,
+   "concedido": 13458,
+   "parcial": 403,
+   "prorrogado": 1418,
+   "dias_mediana": 14.0,
+   "dias_p90": 62.0,
+   "pct_acima_20": 35.1,
+   "dias_n": 16184
+  },
+  "Controle interno": {
+   "pedidos": 1182,
+   "negado": 91,
+   "concedido": 726,
+   "parcial": 92,
+   "prorrogado": 60,
+   "dias_mediana": 15.0,
+   "dias_p90": 23.0,
+   "pct_acima_20": 19.5,
+   "dias_n": 1182
+  },
+  "Defensoria": {
+   "pedidos": 732,
+   "negado": 23,
+   "concedido": 584,
+   "parcial": 2,
+   "prorrogado": 104,
+   "dias_mediana": 7.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 14.5,
+   "dias_n": 732
+  }
+ }
+}

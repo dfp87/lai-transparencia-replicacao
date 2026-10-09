@@ -1,0 +1,175 @@
+{
+ "ano": 2024,
+ "arquivo": "20260915_Pedidos_csv_2024.csv",
+ "pedidos": 131030,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 95425,
+  "Acesso Negado": 10420,
+  "Acesso Parcialmente Concedido": 8766,
+  "Não se trata de solicitação de informação": 4551,
+  "Informação Inexistente": 4348,
+  "Órgão não tem competência para responder sobre o assunto": 3476,
+  "Pergunta Duplicada/Repetida": 3209,
+  " ": 835
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 130195,
+  "mediana": 13.0,
+  "p90": 30.0,
+  "pct_acima_20": 25.8
+ },
+ "grupos": {
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 14882,
+   "negado": 1403,
+   "concedido": 11282,
+   "parcial": 752,
+   "prorrogado": 2202,
+   "dias_mediana": 10.0,
+   "dias_p90": 25.0,
+   "pct_acima_20": 18.0,
+   "dias_n": 14880
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 20833,
+   "negado": 818,
+   "concedido": 17257,
+   "parcial": 750,
+   "prorrogado": 3679,
+   "dias_mediana": 12.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 26.3,
+   "dias_n": 20832
+  },
+  "Autarquias, fundações e agências": {
+   "pedidos": 50655,
+   "negado": 4636,
+   "concedido": 38393,
+   "parcial": 2568,
+   "prorrogado": 8575,
+   "dias_mediana": 9.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 17.5,
+   "dias_n": 50645
+  },
+  "Esfera municipal": {
+   "pedidos": 6197,
+   "negado": 243,
+   "concedido": 3961,
+   "parcial": 345,
+   "prorrogado": 1053,
+   "dias_mediana": 17.0,
+   "dias_p90": 92.0,
+   "pct_acima_20": 40.9,
+   "dias_n": 5550
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 30440,
+   "negado": 2827,
+   "concedido": 19714,
+   "parcial": 3583,
+   "prorrogado": 10788,
+   "dias_mediana": 18.0,
+   "dias_p90": 32.0,
+   "pct_acima_20": 37.8,
+   "dias_n": 30439
+  },
+  "Esfera estadual": {
+   "pedidos": 4709,
+   "negado": 189,
+   "concedido": 3139,
+   "parcial": 493,
+   "prorrogado": 1098,
+   "dias_mediana": 16.0,
+   "dias_p90": 59.0,
+   "pct_acima_20": 39.3,
+   "dias_n": 4690
+  },
+  "Legislativo": {
+   "pedidos": 952,
+   "negado": 77,
+   "concedido": 300,
+   "parcial": 10,
+   "prorrogado": 43,
+   "dias_mediana": 4.0,
+   "dias_p90": 26.0,
+   "pct_acima_20": 17.0,
+   "dias_n": 814
+  },
+  "Controle interno": {
+   "pedidos": 1447,
+   "negado": 165,
+   "concedido": 787,
+   "parcial": 240,
+   "prorrogado": 311,
+   "dias_mediana": 20.0,
+   "dias_p90": 31.0,
+   "pct_acima_20": 40.2,
+   "dias_n": 1447
+  },
+  "Defensoria": {
+   "pedidos": 22,
+   "negado": 1,
+   "concedido": 8,
+   "parcial": 0,
+   "prorrogado": 0,
+   "dias_mediana": 233.0,
+   "dias_p90": 886.0,
+   "pct_acima_20": 85.7,
+   "dias_n": 21
+  },
+  "Controle externo (tribunais de contas)": {
+   "pedidos": 369,
+   "negado": 3,
+   "concedido": 301,
+   "parcial": 3,
+   "prorrogado": 17,
+   "dias_mediana": 1.0,
+   "dias_p90": 14.0,
+   "pct_acima_20": 4.3,
+   "dias_n": 369
+  },
+  "não classificado": {
+   "pedidos": 149,
+   "negado": 12,
+   "concedido": 64,
+   "parcial": 6,
+   "prorrogado": 22,
+   "dias_mediana": 12.0,
+   "dias_p90": 31.200000000000017,
+   "pct_acima_20": 25.5,
+   "dias_n": 149
+  },
+  "Conselhos profissionais": {
+   "pedidos": 104,
+   "negado": 12,
+   "concedido": 36,
+   "parcial": 8,
+   "prorrogado": 1,
+   "dias_mediana": 2.0,
+   "dias_p90": 23.699999999999974,
+   "pct_acima_20": 11.4,
+   "dias_n": 88
+  },
+  "Judiciário": {
+   "pedidos": 271,
+   "negado": 34,
+   "concedido": 183,
+   "parcial": 8,
+   "prorrogado": 10,
+   "dias_mediana": 12.0,
+   "dias_p90": 48.0,
+   "pct_acima_20": 29.9,
+   "dias_n": 271
+  }
+ }
+}

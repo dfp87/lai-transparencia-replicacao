@@ -1,0 +1,32 @@
+=== REPLICACAO — artigo 2: como o Estado escreve o nao ===
+serie textual: 11 anos (2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025)
+consolidado do MinHash: carregado
+decisoes 2015-2025 somadas do registro: 918288
+   tabela: reprodutibilidade/saidas-py/tabela-serie-textual.csv (11 linhas)
+   tabela: reprodutibilidade/saidas-py/tabela-decisoes-2015-2025.csv (7 linhas)
+
+figuras:
+   tabela: reprodutibilidade/saidas-py/tabela-minhash-por-ano.csv (11 linhas)
+   3 figuras em reprodutibilidade/figuras-py
+
+=== CONFERENCIA: recalculado x publicado ===
+   respostas com texto (2015-2025)                      publicado 938987     recalculado 938987     BATE
+   repeticao literal md5 250 (global)                   publicado 20.64      recalculado 20.64      BATE
+   quase-repeticao MinHash 16x8 (global)                publicado 22.55      recalculado 22.55      BATE
+   MinHash 32x4 descartando baldes grandes              publicado 22.49      recalculado 22.49      BATE
+   MinHash 32x4 unindo baldes grandes                   publicado 37.47      recalculado 37.47      BATE
+   pedidos no registro (2012-2025)                      publicado 1641939    recalculado 1641939    BATE
+   2015: md5 250                                        publicado 20.86      recalculado 20.86      BATE
+   2015: MinHash 16x8                                   publicado 24.75      recalculado 24.75      BATE
+   2024: md5 250                                        publicado 20.28      recalculado 20.28      BATE
+   2024: MinHash 16x8                                   publicado 22.5       recalculado 22.46      BATE
+   2025: md5 250                                        publicado 20.4       recalculado 20.42      BATE
+   decisao Acesso Concedido 2015-2025 (n)               publicado 676295     recalculado 676295     BATE
+   decisao Nao se trata de solicitacao (n)              publicado 66025      recalculado 66025      BATE
+   decisao Acesso Negado (n)                            publicado 61824      recalculado 61824      BATE
+   decisao Acesso Parcialmente Concedido (n)            publicado 51981      recalculado 51981      BATE
+   decisao Informacao Inexistente (n)                   publicado 34098      recalculado 34098      BATE
+
+   BATE: 16 | DIFERE: 0
+
+tabelas: reprodutibilidade/saidas-py | figuras: reprodutibilidade/figuras-py

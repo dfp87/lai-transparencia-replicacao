@@ -1,0 +1,22 @@
+{
+ "ano": 2024,
+ "pedidos": 78894,
+ "pct_resumo": 94.5,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 63.0,
+ "ext_media_resposta": 1460.0,
+ "ext_mediana_resposta": 1045.0,
+ "respostas_distintas_inicio": 60707,
+ "pct_resposta_padronizada": 20.3,
+ "top_decisoes": {
+  "Acesso Concedido": 59142,
+  "Acesso Parcialmente Concedido": 5574,
+  "Acesso Negado": 5296,
+  "Informação Inexistente": 2917,
+  "Não se trata de solicitação de informação": 2380,
+  "Pergunta Duplicada/Repetida": 2022
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

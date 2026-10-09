@@ -1,0 +1,22 @@
+{
+ "ano": 2016,
+ "pedidos": 81042,
+ "pct_resumo": 100.0,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 53.0,
+ "ext_media_resposta": 1032.0,
+ "ext_mediana_resposta": 714.0,
+ "respostas_distintas_inicio": 60905,
+ "pct_resposta_padronizada": 21.2,
+ "top_decisoes": {
+  "Acesso Concedido": 58482,
+  "Não se trata de solicitação de informação": 5590,
+  "Acesso Parcialmente Concedido": 4890,
+  "Acesso Negado": 4520,
+  "Órgão não tem competência para responder sobre o assunto": 3243,
+  "Informação Inexistente": 2530
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

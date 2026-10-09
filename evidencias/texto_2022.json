@@ -1,0 +1,22 @@
+{
+ "ano": 2022,
+ "pedidos": 69062,
+ "pct_resumo": 94.4,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 51.0,
+ "ext_media_resposta": 1373.0,
+ "ext_mediana_resposta": 1060.0,
+ "respostas_distintas_inicio": 52375,
+ "pct_resposta_padronizada": 21.2,
+ "top_decisoes": {
+  "Acesso Concedido": 51021,
+  "Acesso Negado": 4789,
+  "Acesso Parcialmente Concedido": 3997,
+  "Não se trata de solicitação de informação": 3153,
+  "Informação Inexistente": 2434,
+  "Órgão não tem competência para responder sobre o assunto": 2037
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

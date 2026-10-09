@@ -1,0 +1,22 @@
+{
+ "ano": 2020,
+ "pedidos": 110663,
+ "pct_resumo": 98.8,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 55.0,
+ "ext_media_resposta": 1390.0,
+ "ext_mediana_resposta": 1176.0,
+ "respostas_distintas_inicio": 79740,
+ "pct_resposta_padronizada": 24.7,
+ "top_decisoes": {
+  "Acesso Concedido": 68696,
+  "Não se trata de solicitação de informação": 20490,
+  "Acesso Negado": 7261,
+  "Acesso Parcialmente Concedido": 5004,
+  "Informação Inexistente": 3750,
+  "Órgão não tem competência para responder sobre o assunto": 2933
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

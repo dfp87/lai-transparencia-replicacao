@@ -1,0 +1,179 @@
+{
+  "ano": 2025,
+  "arquivo": "20260915_Pedidos_csv_2025.csv",
+  "pedidos": 150189,
+  "colunas_lidas": ["OrgaoDestinatario", "Esfera", "Decisao", "MotivoNegativaAcesso", "DataRegistro", "DataResposta", "FoiProrrogado"],
+  "prazos": {
+    "n": 148681,
+    "mediana": 13,
+    "p90": 30,
+    "pct_acima_20": 26.2
+  },
+  "decisoes": {
+    "Acesso Concedido": 108226,
+    "Acesso Negado": 11404,
+    "Acesso Parcialmente Concedido": 10582,
+    "Informação Inexistente": 5375,
+    "Não se trata de solicitação de informação": 4998,
+    "Órgão não tem competência para responder sobre o assunto": 4668,
+    "Pergunta Duplicada/Repetida": 3428,
+    "8": 1508
+  },
+  "motivos_negativa": {
+    "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às informações pessoais.   § 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:   I - Terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem.": 49,
+    "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às informações pessoais.   § 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:   I - terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem.": 22,
+    "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro": 20,
+    "Dados pessoais de terceiros": 20,
+    "Reportamo-nos à solicitação encaminhada a esta Agência nos termos da Lei de Acesso à Informação e informamos que o pedido de cópia se refere a um documento com informações de terceiros. Por se tratar de informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 16 de maio de 2012, o documento tem  acesso restrito a agentes públicos legalmente autorizados e a pessoa a que se referirem , podendo ter sua  divulgação ou acesso por terceiros autorizados por previsão legal ou consentimento expresso da pessoa a que se referirem .  Com base em suas informações cadastrais, bem como considerando a ausência de documento que apresente indícios neste sentido, não foi possível identificar se o senhor(a) representa uma das partes do processo. Se esse for o caso, solicitamos que abra nova solicitação neste Serviço de Atendimento ao Cidadão – e-SIC, anexando procuração, contrato ou outro documento equivalente que comprove seu vínculo com uma das partes envolvidas. Cabe ressaltar que as deliberações da Diretoria Aneel são transmitidas via internet às terças-feiras no site da Agência. Os votos e decisões podem ser consultados no link https://www.gov.br/aneel/pt-br/reunioes-publicas/pautas-e-atas  Base Legal desta resposta: art. 7º, § 3º, da LAI, art. 3º e art. 55 do Decreto nº 7.724/2012, e art. 10, § 3º, da Norma Organizacional ANEEL 15 (Portaria nº 3.836/2016). Por fim, informamos da possibilidade de interposição de recurso ao Superintendente de Mediação Administrativa, Ouvidoria Setorial e Participação Pública, no prazo de 10 (dez) dias, conforme disposto no parágrafo único do art. 15 da Lei nº 12.527/2011.  Sistema Eletrônico do Serviço de Informações ao Cidadão (e-SIC) Agência Nacional de Energia Elétrica – ANEEL": 8,
+    "Dados pessoais": 7,
+    "O documento solicitado contém dados pessoais que não podem ser fornecidos a terceiro sem relação comprovada, conforme dispõe o §1º, do art. 31, da Lei 12.527/2011.": 7,
+    "Prezado cidadão,   Reportamo-nos à solicitação encaminhada a esta Agência nos termos da Lei de Acesso à Informação e informamos que o pedido de cópia se refere a um documento com informações de terceiros. Por se tratar de informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 16 de maio de 2012, o documento tem  acesso restrito a agentes públicos legalmente autorizados e a pessoa a que se referirem , podendo ter sua  divulgação ou acesso por terceiros autorizados por previsão legal ou consentimento expresso da pessoa a que se referirem . Com base em suas informações cadastrais, bem como considerando a ausência de documento que apresente indícios neste sentido, não foi possível identificar se o senhor(a) representa uma das partes do processo. Se esse for o caso, solicitamos que abra nova solicitação neste Serviço de Atendimento ao Cidadão – e-SIC, anexando procuração, contrato ou outro documento equivalente que comprove seu vínculo com uma das partes envolvidas. Cabe ressaltar que as deliberações da Diretoria Aneel são transmitidas via internet às terças-feiras no site da Agência. Os votos e decisões podem ser consultados no link https://www.gov.br/aneel/pt-br/reunioes-publicas/pautas-e-atas   Base Legal desta resposta: art. 7º, § 3º, da LAI, art. 3º e art. 55 do Decreto nº 7.724/2012, e art. 10, § 3º, da Norma Organizacional ANEEL 15 (Portaria nº 3.836/2016). Por fim, informamos da possibilidade de interposição de recurso ao Superintendente de Mediação Administrativa, Ouvidoria Setorial e Participação Pública, no prazo de 10 (dez) dias, conforme disposto no parágrafo único do art. 15 da Lei nº 12.527/2011.   Atenciosamente,  Serviço de Informações ao Cidadão  Superintendência de Mediação Administrativa e das Relações de Consumo - SMA  Agência Nacional de Energia Elétrica - ANEEL  www.aneel.gov.br/acessoainformacao": 7,
+    "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro.": 5,
+    "O documento solicitado contém dados pessoais que não podem ser fornecidos a terceiro sem relação com o fato, conforme dispõe o §1º, do art. 31, da Lei 12.527/2011.": 5
+  },
+  "grupos": {
+    "Autarquias, fundações e agências": {
+      "pedidos": 58352,
+      "negado": 4056,
+      "concedido": 45240,
+      "parcial": 2732,
+      "prorrogado": 0,
+      "dias_mediana": 10,
+      "dias_p90": 27,
+      "pct_acima_20": 20.3,
+      "dias_n": 58333
+    },
+    "Conselhos profissionais": {
+      "pedidos": 632,
+      "negado": 47,
+      "concedido": 388,
+      "parcial": 30,
+      "prorrogado": 0,
+      "dias_mediana": 5,
+      "dias_p90": 21,
+      "pct_acima_20": 10.5,
+      "dias_n": 630
+    },
+    "Controle externo (tribunais de contas)": {
+      "pedidos": 500,
+      "negado": 3,
+      "concedido": 382,
+      "parcial": 1,
+      "prorrogado": 0,
+      "dias_mediana": 1,
+      "dias_p90": 10,
+      "pct_acima_20": 1.6,
+      "dias_n": 500
+    },
+    "Controle interno": {
+      "pedidos": 1872,
+      "negado": 181,
+      "concedido": 929,
+      "parcial": 323,
+      "prorrogado": 0,
+      "dias_mediana": 21,
+      "dias_p90": 32,
+      "pct_acima_20": 58.3,
+      "dias_n": 1857
+    },
+    "Defensoria": {
+      "pedidos": 34,
+      "negado": 1,
+      "concedido": 22,
+      "parcial": 6,
+      "prorrogado": 0,
+      "dias_mediana": 104.5,
+      "dias_p90": 478.7,
+      "pct_acima_20": 73.5,
+      "dias_n": 34
+    },
+    "Esfera estadual": {
+      "pedidos": 6402,
+      "negado": 256,
+      "concedido": 4147,
+      "parcial": 447,
+      "prorrogado": 0,
+      "dias_mediana": 15,
+      "dias_p90": 63.9,
+      "pct_acima_20": 38.2,
+      "dias_n": 6192
+    },
+    "Esfera municipal": {
+      "pedidos": 9179,
+      "negado": 296,
+      "concedido": 5793,
+      "parcial": 398,
+      "prorrogado": 0,
+      "dias_mediana": 15,
+      "dias_p90": 65,
+      "pct_acima_20": 37.4,
+      "dias_n": 8200
+    },
+    "Estatais, bancos e empresas públicas": {
+      "pedidos": 17559,
+      "negado": 2766,
+      "concedido": 12406,
+      "parcial": 1150,
+      "prorrogado": 0,
+      "dias_mediana": 10,
+      "dias_p90": 24,
+      "pct_acima_20": 16.4,
+      "dias_n": 17550
+    },
+    "Executivo federal (ministérios e Presidência)": {
+      "pedidos": 32591,
+      "negado": 2847,
+      "concedido": 20854,
+      "parcial": 4415,
+      "prorrogado": 0,
+      "dias_mediana": 17,
+      "dias_p90": 31,
+      "pct_acima_20": 34.8,
+      "dias_n": 32591
+    },
+    "Judiciário": {
+      "pedidos": 378,
+      "negado": 53,
+      "concedido": 242,
+      "parcial": 7,
+      "prorrogado": 0,
+      "dias_mediana": 15,
+      "dias_p90": 68.6,
+      "pct_acima_20": 33.1,
+      "dias_n": 375
+    },
+    "Legislativo": {
+      "pedidos": 1094,
+      "negado": 10,
+      "concedido": 329,
+      "parcial": 18,
+      "prorrogado": 0,
+      "dias_mediana": 6,
+      "dias_p90": 24,
+      "pct_acima_20": 16.9,
+      "dias_n": 827
+    },
+    "Universidades e institutos federais": {
+      "pedidos": 21400,
+      "negado": 874,
+      "concedido": 17387,
+      "parcial": 1047,
+      "prorrogado": 0,
+      "dias_mediana": 13,
+      "dias_p90": 31,
+      "pct_acima_20": 28.2,
+      "dias_n": 21400
+    },
+    "não classificado": {
+      "pedidos": 196,
+      "negado": 14,
+      "concedido": 107,
+      "parcial": 8,
+      "prorrogado": 0,
+      "dias_mediana": 14,
+      "dias_p90": 30,
+      "pct_acima_20": 26,
+      "dias_n": 192
+    }
+  }
+}

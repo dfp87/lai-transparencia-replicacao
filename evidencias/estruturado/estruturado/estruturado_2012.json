@@ -1,0 +1,97 @@
+{
+ "ano": 2012,
+ "arquivo": "20260915_Pedidos_csv_2012.csv",
+ "pedidos": 55212,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 45425,
+  "Acesso Negado": 4857,
+  "Órgão não tem competência para responder sobre o assunto": 1777,
+  "Informação Inexistente": 1665,
+  "Pergunta Duplicada/Repetida": 742,
+  "Acesso Parcialmente Concedido": 726,
+  "Não se trata de solicitação de informação": 20
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 55212,
+  "mediana": 7.0,
+  "p90": 27.0,
+  "pct_acima_20": 21.3
+ },
+ "grupos": {
+  "Autarquias, fundações e agências": {
+   "pedidos": 27619,
+   "negado": 2516,
+   "concedido": 23060,
+   "parcial": 306,
+   "prorrogado": 1425,
+   "dias_mediana": 2.0,
+   "dias_p90": 21.0,
+   "pct_acima_20": 12.6,
+   "dias_n": 27619
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 14652,
+   "negado": 960,
+   "concedido": 12436,
+   "parcial": 102,
+   "prorrogado": 2195,
+   "dias_mediana": 16.0,
+   "dias_p90": 31.0,
+   "pct_acima_20": 30.8,
+   "dias_n": 14652
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 4409,
+   "negado": 233,
+   "concedido": 3587,
+   "parcial": 198,
+   "prorrogado": 379,
+   "dias_mediana": 16.0,
+   "dias_p90": 159.20000000000027,
+   "pct_acima_20": 36.5,
+   "dias_n": 4409
+  },
+  "Controle interno": {
+   "pedidos": 1023,
+   "negado": 63,
+   "concedido": 784,
+   "parcial": 5,
+   "prorrogado": 42,
+   "dias_mediana": 20.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 28.4,
+   "dias_n": 1023
+  },
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 7326,
+   "negado": 1073,
+   "concedido": 5409,
+   "parcial": 114,
+   "prorrogado": 926,
+   "dias_mediana": 10.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 25.5,
+   "dias_n": 7326
+  },
+  "Defensoria": {
+   "pedidos": 183,
+   "negado": 12,
+   "concedido": 149,
+   "parcial": 1,
+   "prorrogado": 0,
+   "dias_mediana": 1.0,
+   "dias_p90": 5.0,
+   "pct_acima_20": 0.0,
+   "dias_n": 183
+  }
+ }
+}

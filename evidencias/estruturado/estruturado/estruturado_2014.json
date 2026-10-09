@@ -1,0 +1,98 @@
+{
+ "ano": 2014,
+ "arquivo": "20260915_Pedidos_csv_2014.csv",
+ "pedidos": 90167,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 62359,
+  "Acesso Negado": 9943,
+  "Não se trata de solicitação de informação": 7486,
+  "Órgão não tem competência para responder sobre o assunto": 3512,
+  "Acesso Parcialmente Concedido": 3436,
+  "Informação Inexistente": 1882,
+  "Pergunta Duplicada/Repetida": 1525,
+  " ": 24
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 90143,
+  "mediana": 11.0,
+  "p90": 27.0,
+  "pct_acima_20": 21.5
+ },
+ "grupos": {
+  "Autarquias, fundações e agências": {
+   "pedidos": 42749,
+   "negado": 5355,
+   "concedido": 28511,
+   "parcial": 1696,
+   "prorrogado": 2717,
+   "dias_mediana": 6.0,
+   "dias_p90": 22.0,
+   "pct_acima_20": 13.6,
+   "dias_n": 42726
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 26239,
+   "negado": 1897,
+   "concedido": 19599,
+   "parcial": 840,
+   "prorrogado": 3206,
+   "dias_mediana": 15.0,
+   "dias_p90": 29.0,
+   "pct_acima_20": 28.9,
+   "dias_n": 26239
+  },
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 11177,
+   "negado": 2238,
+   "concedido": 6961,
+   "parcial": 531,
+   "prorrogado": 1166,
+   "dias_mediana": 16.0,
+   "dias_p90": 27.0,
+   "pct_acima_20": 24.6,
+   "dias_n": 11176
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 8515,
+   "negado": 327,
+   "concedido": 6444,
+   "parcial": 290,
+   "prorrogado": 687,
+   "dias_mediana": 14.0,
+   "dias_p90": 101.0,
+   "pct_acima_20": 35.0,
+   "dias_n": 8515
+  },
+  "Controle interno": {
+   "pedidos": 1135,
+   "negado": 124,
+   "concedido": 581,
+   "parcial": 79,
+   "prorrogado": 68,
+   "dias_mediana": 16.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 21.4,
+   "dias_n": 1135
+  },
+  "Defensoria": {
+   "pedidos": 352,
+   "negado": 2,
+   "concedido": 263,
+   "parcial": 0,
+   "prorrogado": 1,
+   "dias_mediana": 1.0,
+   "dias_p90": 7.0,
+   "pct_acima_20": 1.7,
+   "dias_n": 352
+  }
+ }
+}

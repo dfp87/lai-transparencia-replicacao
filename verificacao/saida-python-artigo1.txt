@@ -1,0 +1,37 @@
+=== REPLICACAO — artigo 1: os guardioes fora do espelho ===
+anos carregados: 14 (2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025)
+total de pedidos 2012-2025 (soma das evidencias anuais): 1641939
+   tabela: reprodutibilidade/saidas-py/tabela-serie-anual.csv (14 linhas)
+fotografia de 2025 com classificacao auditada: 14 grupos (base: 148681 pedidos com data)
+   tabela: reprodutibilidade/saidas-py/tabela-grupos-2025.csv (14 linhas)
+anos com classificacao por grupo: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+   tabela: reprodutibilidade/saidas-py/tabela-serie-por-grupo.csv (116 linhas)
+
+figuras:
+   7 figuras em reprodutibilidade/figuras-py
+
+=== CONFERENCIA: recalculado x publicado ===
+   2025: pedidos                                        publicado 150189     recalculado 150189     BATE
+   2025: pedidos com data valida                        publicado 148681     recalculado 148681     BATE
+   2025: mediana de dias                                publicado 13         recalculado 13.0       BATE
+   2025: p90 de dias                                    publicado 30         recalculado 30.0       BATE
+   2025: % acima de 20 dias                             publicado 26.2       recalculado 26.2       BATE
+   2012: pedidos                                        publicado 55212      recalculado 55212      BATE
+   2015: pedidos                                        publicado 102423     recalculado 102423     BATE
+   2020: pedidos                                        publicado 154079     recalculado 154079     BATE
+   2025: pedidos (serie)                                publicado 150189     recalculado 150189     BATE
+   2012-2025: pedidos (total)                           publicado 1641939    recalculado 1641939    BATE
+   2025: grupo Executivo federal (pedidos)              publicado 45296      recalculado 45296      BATE
+   2025: grupo Executivo federal (% acima de 20 dias)   publicado 31.5       recalculado 31.5       BATE
+   2025: grupo Executivo federal (% de negativa)        publicado 8.4        recalculado 8.4        BATE
+   2025: grupo Autarquias (pedidos)                     publicado 43339      recalculado 43339      BATE
+   2025: grupo Autarquias (% acima de 20 dias)          publicado 19.8       recalculado 19.8       BATE
+   2025: grupo Estatais (% de negativa)                 publicado 14.8       recalculado 14.8       BATE
+   2025: grupo Controle externo (pedidos)               publicado 500        recalculado 500        BATE
+   2025: grupo Judiciario (pedidos)                     publicado 378        recalculado 378        BATE
+   2025: grupo Legislativo (pedidos)                    publicado 173        recalculado 173        BATE
+   2025: grupo Defensoria (pedidos)                     publicado 34         recalculado 34         BATE
+
+   BATE: 20 | DIFERE: 0
+
+figuras/tabelas regravadas: reprodutibilidade/figuras-py | reprodutibilidade/saidas-py

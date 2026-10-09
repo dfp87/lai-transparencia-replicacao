@@ -1,0 +1,128 @@
+{
+ "metodo": {
+  "normalizacao": "250 caracteres da Resposta, minusculas, sem pontuacao",
+  "shingle": 5,
+  "k_permutacoes": 128,
+  "semente": 20261008,
+  "jaccard": 0.8,
+  "limiar_grupo": 5,
+  "lsh": "32 bandas de 4 linhas",
+  "baldes_grandes": "unidos (nao descartados)",
+  "versao": "minhash_respostas_v2.py"
+ },
+ "total_respostas": 938987,
+ "md5_250_pct": 20.64,
+ "minhash_pct": 37.47,
+ "por_ano": {
+  "2015": {
+   "respostas": 71116,
+   "md5_250_pct": 20.86,
+   "minhash_pct": 37.13,
+   "minhash_v2_pct": 24.73,
+   "grupos_ge_5": 631,
+   "maior_grupo": 5073,
+   "baldes_grandes": 502,
+   "segundos": 63.5
+  },
+  "2016": {
+   "respostas": 81042,
+   "md5_250_pct": 21.21,
+   "minhash_pct": 33.42,
+   "minhash_v2_pct": 25.25,
+   "grupos_ge_5": 814,
+   "maior_grupo": 2462,
+   "baldes_grandes": 350,
+   "segundos": 82.0
+  },
+  "2017": {
+   "respostas": 89738,
+   "md5_250_pct": 19.98,
+   "minhash_pct": 31.07,
+   "minhash_v2_pct": 20.76,
+   "grupos_ge_5": 753,
+   "maior_grupo": 2478,
+   "baldes_grandes": 572,
+   "segundos": 70.2
+  },
+  "2018": {
+   "respostas": 90628,
+   "md5_250_pct": 18.95,
+   "minhash_pct": 32.41,
+   "minhash_v2_pct": 22.85,
+   "grupos_ge_5": 736,
+   "maior_grupo": 2195,
+   "baldes_grandes": 587,
+   "segundos": 79.8
+  },
+  "2019": {
+   "respostas": 95398,
+   "md5_250_pct": 14.93,
+   "minhash_pct": 32.81,
+   "minhash_v2_pct": 20.14,
+   "grupos_ge_5": 745,
+   "maior_grupo": 3684,
+   "baldes_grandes": 417,
+   "segundos": 79.6
+  },
+  "2020": {
+   "respostas": 110663,
+   "md5_250_pct": 24.69,
+   "minhash_pct": 42.34,
+   "minhash_v2_pct": 20.37,
+   "grupos_ge_5": 686,
+   "maior_grupo": 10629,
+   "baldes_grandes": 669,
+   "segundos": 92.5
+  },
+  "2021": {
+   "respostas": 79111,
+   "md5_250_pct": 21.5,
+   "minhash_pct": 40.91,
+   "minhash_v2_pct": 21.34,
+   "grupos_ge_5": 521,
+   "maior_grupo": 4115,
+   "baldes_grandes": 612,
+   "segundos": 71.1
+  },
+  "2022": {
+   "respostas": 69062,
+   "md5_250_pct": 21.25,
+   "minhash_pct": 45.04,
+   "minhash_v2_pct": 25.44,
+   "grupos_ge_5": 476,
+   "maior_grupo": 3711,
+   "baldes_grandes": 579,
+   "segundos": 76.9
+  },
+  "2023": {
+   "respostas": 89508,
+   "md5_250_pct": 22.74,
+   "minhash_pct": 41.2,
+   "minhash_v2_pct": 24.39,
+   "grupos_ge_5": 636,
+   "maior_grupo": 4633,
+   "baldes_grandes": 540,
+   "segundos": 89.5
+  },
+  "2024": {
+   "respostas": 78894,
+   "md5_250_pct": 20.28,
+   "minhash_pct": 38.23,
+   "minhash_v2_pct": 22.47,
+   "grupos_ge_5": 565,
+   "maior_grupo": 4422,
+   "baldes_grandes": 332,
+   "segundos": 81.0
+  },
+  "2025": {
+   "respostas": 83827,
+   "md5_250_pct": 20.42,
+   "minhash_pct": 38.72,
+   "minhash_v2_pct": 21.51,
+   "grupos_ge_5": 628,
+   "maior_grupo": 4203,
+   "baldes_grandes": 484,
+   "segundos": 81.5
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "amostra": 12001,
+ "resultados": {
+  "atual": {
+   "aberturas_distintas": 10036,
+   "pct_padronizada": 12.7,
+   "maior_grupo": 281,
+   "grupos_ge5": 100
+  },
+  "lematizada": {
+   "aberturas_distintas": 10055,
+   "pct_padronizada": 12.7,
+   "maior_grupo": 280,
+   "grupos_ge5": 100
+  }
+ },
+ "ari_taxonomia_proxy": -0.024,
+ "ari_decisao_formal": -0.012,
+ "distribuicao_taxonomia": {
+  "desloca": 5703,
+  "entrega": 2944,
+  "indefinido": 2628,
+  "recusa": 656,
+  "formula": 70
+ }
+}

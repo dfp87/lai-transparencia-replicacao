@@ -1,0 +1,120 @@
+{
+ "ano": 2020,
+ "arquivo": "20260915_Pedidos_csv_2020.csv",
+ "pedidos": 154079,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 90575,
+  "Não se trata de solicitação de informação": 33514,
+  "Acesso Negado": 10851,
+  "Acesso Parcialmente Concedido": 6970,
+  "Informação Inexistente": 4957,
+  "Órgão não tem competência para responder sobre o assunto": 3920,
+  "Pergunta Duplicada/Repetida": 3078,
+  " ": 214
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 154073,
+  "mediana": 9.0,
+  "p90": 28.0,
+  "pct_acima_20": 21.5
+ },
+ "grupos": {
+  "Universidades e institutos federais": {
+   "pedidos": 22191,
+   "negado": 696,
+   "concedido": 18599,
+   "parcial": 939,
+   "prorrogado": 3276,
+   "dias_mediana": 12.0,
+   "dias_p90": 31.0,
+   "pct_acima_20": 28.4,
+   "dias_n": 22190
+  },
+  "Esfera municipal": {
+   "pedidos": 148,
+   "negado": 7,
+   "concedido": 53,
+   "parcial": 2,
+   "prorrogado": 4,
+   "dias_mediana": 11.0,
+   "dias_p90": 308.6,
+   "pct_acima_20": 40.0,
+   "dias_n": 145
+  },
+  "Autarquias, fundações e agências": {
+   "pedidos": 48541,
+   "negado": 4029,
+   "concedido": 34255,
+   "parcial": 2607,
+   "prorrogado": 6018,
+   "dias_mediana": 6.0,
+   "dias_p90": 23.0,
+   "pct_acima_20": 14.7,
+   "dias_n": 48539
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 59146,
+   "negado": 3938,
+   "concedido": 24464,
+   "parcial": 1968,
+   "prorrogado": 18421,
+   "dias_mediana": 12.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 25.5,
+   "dias_n": 59146
+  },
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 22297,
+   "negado": 2050,
+   "concedido": 12315,
+   "parcial": 1327,
+   "prorrogado": 3551,
+   "dias_mediana": 8.0,
+   "dias_p90": 25.0,
+   "pct_acima_20": 19.0,
+   "dias_n": 22297
+  },
+  "Controle interno": {
+   "pedidos": 1486,
+   "negado": 131,
+   "concedido": 884,
+   "parcial": 126,
+   "prorrogado": 84,
+   "dias_mediana": 14.0,
+   "dias_p90": 22.0,
+   "pct_acima_20": 15.1,
+   "dias_n": 1486
+  },
+  "não classificado": {
+   "pedidos": 183,
+   "negado": 0,
+   "concedido": 3,
+   "parcial": 1,
+   "prorrogado": 1,
+   "dias_mediana": 20.0,
+   "dias_p90": 28.0,
+   "pct_acima_20": 49.2,
+   "dias_n": 183
+  },
+  "Esfera estadual": {
+   "pedidos": 87,
+   "negado": 0,
+   "concedido": 2,
+   "parcial": 0,
+   "prorrogado": 46,
+   "dias_mediana": 385.0,
+   "dias_p90": 404.4,
+   "pct_acima_20": 72.4,
+   "dias_n": 87
+  }
+ }
+}

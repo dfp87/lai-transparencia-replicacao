@@ -1,0 +1,486 @@
+{
+ "2023": {
+  "pedidos": 142427,
+  "decisoes": {
+   "Acesso Concedido": 105478,
+   "Acesso Negado": 10624,
+   "Acesso Parcialmente Concedido": 8564,
+   "Informação Inexistente": 5242,
+   "Não se trata de solicitação de informação": 4699,
+   "Órgão não tem competência para responder sobre o assunto": 3900,
+   "Pergunta Duplicada/Repetida": 3399,
+   " ": 521
+  },
+  "especificacao_decisao_top": {
+   "Resposta solicitada inserida no Fala.Br": 84995,
+   " ": 17761,
+   "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes": 15991,
+   "Informações enviadas por e-mail": 2812,
+   "Informação sigilosa de acordo com legislação específica": 2167,
+   "Parte da informação é inexistente": 1827,
+   "Pedido genérico": 1529,
+   "Parte da informação é de competência de outro órgão/entidade": 1512
+  },
+  "motivo_negativa_top": {
+   " ": 142337
+  },
+  "esfera": {
+   "Federal": 131533,
+   "Municipal": 5865,
+   "Estadual": 4736,
+   "Serviços Autônomos ou Conselhos Profissionais": 293
+  },
+  "situacao": {
+   "Concluída": 141906,
+   "Cadastrada": 509,
+   "Encaminhada por Outro Órgão": 8,
+   "Prorrogada": 4
+  },
+  "origem": {
+   "Internet": 140793,
+   "E-mail": 743,
+   "Outros": 293
+  },
+  "forma_resposta": {
+   "Pelo sistema (com avisos por email)": 141377,
+   "Por Telefone": 818,
+   "Buscar/Consultar pessoalmente": 190,
+   "Correspondência física (com custo)": 42
+  },
+  "prorrogado_pct": 20.64,
+  "reencaminhado_pct": 8.71,
+  "dias_mediana": 11.0,
+  "dias_p90": 29.0,
+  "acima_20_dias_pct": 22.79,
+  "respondidos_pct": 99.63,
+  "solicitantes_unicos": 54935,
+  "top10_solicitantes_pct": 22.68,
+  "p99_pedidos_por_solicitante": 19,
+  "top_orgaos": {
+   "INSS – Instituto Nacional do Seguro Social": 9898,
+   "ANVISA – Agência Nacional de Vigilância Sanitária": 7004,
+   "MS – Ministério da Saúde": 5593,
+   "INEP – Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira": 4438,
+   "PETROBRAS – Petróleo Brasileiro S.A.": 4150,
+   "MF - Ministério da Fazenda": 3631,
+   "ANEEL – Agência Nacional de Energia Elétrica": 3336,
+   "CEF – Caixa Econômica Federal": 2906,
+   "PF – Polícia Federal": 2751,
+   "BACEN – Banco Central do Brasil": 2733
+  },
+  "top_assuntos": {
+   "Acesso à informação": 60185,
+   "Outros em Previdência": 6824,
+   "Outros em Administração": 3977,
+   "Concursos e processos seletivos": 3744,
+   "Licitações": 3595,
+   "Transparência": 3330,
+   "Atendimento": 2812,
+   "Gestão de Pessoas": 2419
+  },
+  "recursos": {
+   "linhas": 20485,
+   "tipo_recurso": {
+    "Informação incompleta": 7541,
+    "Outros": 4311,
+    "Informação recebida não corresponde à solicitada": 4035,
+    "Justificativa para o sigilo insatisfatória/não informada": 1625,
+    "Não concorda com a transformação do pedido em manifestação de ouvidoria": 1475,
+    "Ausência de justificativa legal para classificação": 678,
+    "Resposta não foi dada no prazo": 375
+   },
+   "instancia": {
+    "Primeira Instância": 11690,
+    "Segunda Instância": 4259,
+    "CGU": 2295,
+    "Pedido de Revisão": 1475
+   },
+   "tipo_resposta": {
+    "Indeferido": 8398,
+    "Deferido": 6318,
+    "Não conhecimento": 2445,
+    "Parcialmente deferido": 1467,
+    "Perda de objeto": 1070,
+    " ": 660
+   },
+   "informacao_concedida": {},
+   "taxa_recurso_pct": 14.38,
+   "top_orgaos_recurso": {
+    "CGU/SNAI - Secretaria Nacional de Transparência e Acesso à Informação": 3770,
+    "CEX – Comando do Exército": 1129,
+    "ANVISA – Agência Nacional de Vigilância Sanitária": 739,
+    "MS – Ministério da Saúde": 738,
+    "INEP – Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira": 588,
+    "MF - Ministério da Fazenda": 516,
+    "CC-PR – Casa Civil da Presidência da República": 421,
+    "CMRI - Comissão Mista de Reavaliação de Informações": 366
+   }
+  },
+  "solicitantes": {
+   "linhas": 54934,
+   "tipo": {
+    "Pessoa Física": 53988,
+    "Pessoa Juridica": 946
+   },
+   "genero": {
+    " ": 39202,
+    "Masculino": 8848,
+    "Feminino": 6767,
+    "Outros": 117
+   },
+   "escolaridade": {
+    " ": 41254,
+    "Ensino Superior ": 4805,
+    "Pós-graduação": 3135,
+    "Ensino Médio": 2881,
+    "Mestrado/Doutorado": 2095,
+    "Ensino Fundamental": 626
+   },
+   "profissao_top": {
+    " ": 41985,
+    "Outra": 2677,
+    "Empregado - setor privado": 1776,
+    "Estudante": 1767,
+    "Servidor público federal": 1648,
+    "Profis. Liberal/autônomo": 1085,
+    "Professor": 810,
+    "Empresário/empreendedor": 720
+   },
+   "uf_top": {
+    " ": 39943,
+    "SÃO PAULO": 3356,
+    "RIO DE JANEIRO": 1913,
+    "DISTRITO FEDERAL": 1402,
+    "MINAS GERAIS": 1339,
+    "PARANÁ": 727
+   }
+  }
+ },
+ "2024": {
+  "pedidos": 131030,
+  "decisoes": {
+   "Acesso Concedido": 95425,
+   "Acesso Negado": 10420,
+   "Acesso Parcialmente Concedido": 8766,
+   "Não se trata de solicitação de informação": 4551,
+   "Informação Inexistente": 4348,
+   "Órgão não tem competência para responder sobre o assunto": 3476,
+   "Pergunta Duplicada/Repetida": 3209,
+   " ": 835
+  },
+  "especificacao_decisao_top": {
+   "Resposta solicitada inserida no Fala.Br": 78040,
+   " ": 16419,
+   "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes": 11619,
+   "Informações enviadas por e-mail": 3049,
+   "Concedido acesso a sistema corporativo para consulta da informação": 2323,
+   "Informação sigilosa de acordo com legislação específica": 2172,
+   "Dados pessoais (art. 31 da Lei nº 12527/2011)": 2014,
+   "Parte da informação é de competência de outro órgão/entidade": 1840
+  },
+  "motivo_negativa_top": {
+   " ": 130678
+  },
+  "esfera": {
+   "Federal": 117345,
+   "Municipal": 7068,
+   "Estadual": 5960,
+   "Serviços Autônomos ou Conselhos Profissionais": 387
+  },
+  "situacao": {
+   "Concluída": 130195,
+   "Cadastrada": 793,
+   "Prorrogada": 25,
+   "Encaminhada por Outro Órgão": 17
+  },
+  "origem": {
+   "Internet": 129216,
+   "E-mail": 1082,
+   "Presencial": 301
+  },
+  "forma_resposta": {
+   "Pelo sistema (com avisos por email)": 130925,
+   "Correspondência eletrônica (e-mail)": 47,
+   "Por Telefone": 20,
+   "Buscar/Consultar pessoalmente": 15
+  },
+  "prorrogado_pct": 21.22,
+  "reencaminhado_pct": 6.92,
+  "dias_mediana": 13.0,
+  "dias_p90": 30.0,
+  "acima_20_dias_pct": 25.76,
+  "respondidos_pct": 99.36,
+  "solicitantes_unicos": 53045,
+  "top10_solicitantes_pct": 18.85,
+  "p99_pedidos_por_solicitante": 18,
+  "top_orgaos": {
+   "INEP – Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira": 6091,
+   "ANVISA – Agência Nacional de Vigilância Sanitária": 5894,
+   "MS – Ministério da Saúde": 4825,
+   "INSS – Instituto Nacional do Seguro Social": 4607,
+   "MF - Ministério da Fazenda": 3621,
+   "ANEEL – Agência Nacional de Energia Elétrica": 3448,
+   "MGI - Ministério da Gestão e da Inovação em Serviços Públicos": 3245,
+   "Prefeitura Municipal": 3079,
+   "PETROBRAS – Petróleo Brasileiro S.A.": 3054,
+   "PF – Polícia Federal": 2370
+  },
+  "top_assuntos": {
+   "Acesso à informação": 58855,
+   "Concursos e processos seletivos": 4940,
+   "Exame Nacional do Ensino Médio - Enem": 4490,
+   "Atendimento": 3094,
+   "Transparência": 2801,
+   "Outros em Administração": 2725,
+   "Licitações": 2473,
+   "Gestão de Pessoas": 2103
+  },
+  "recursos": {
+   "linhas": 18307,
+   "tipo_recurso": {
+    "Informação incompleta": 6711,
+    "Informação recebida não corresponde à solicitada": 4286,
+    "Outros": 3197,
+    "Justificativa para o sigilo insatisfatória/não informada": 1520,
+    "Não concorda com a transformação do pedido em manifestação de ouvidoria": 1301,
+    "Ausência de justificativa legal para classificação": 582,
+    "Resposta não foi dada no prazo": 395
+   },
+   "instancia": {
+    "Primeira Instância": 10454,
+    "Segunda Instância": 3673,
+    "CGU": 1975,
+    "Pedido de Revisão": 1301
+   },
+   "tipo_resposta": {
+    "Indeferido": 6622,
+    "Deferido": 5908,
+    "Não conhecimento": 2826,
+    "Parcialmente deferido": 1366,
+    " ": 832,
+    "Perda de objeto": 650
+   },
+   "informacao_concedida": {},
+   "taxa_recurso_pct": 13.97,
+   "top_orgaos_recurso": {
+    "CGU/SNAI - Secretaria Nacional de Transparência e Acesso à Informação": 3276,
+    "ANVISA – Agência Nacional de Vigilância Sanitária": 692,
+    "CEX – Comando do Exército": 661,
+    "MS – Ministério da Saúde": 644,
+    "MGI - Ministério da Gestão e da Inovação em Serviços Públicos": 494,
+    "CMRI - Comissão Mista de Reavaliação de Informações": 472,
+    "MF - Ministério da Fazenda": 421,
+    "INCRA – Instituto Nacional de Colonização e Reforma Agrária": 380
+   }
+  },
+  "solicitantes": {
+   "linhas": 53044,
+   "tipo": {
+    "Pessoa Física": 52152,
+    "Pessoa Juridica": 892
+   },
+   "genero": {
+    " ": 36461,
+    "Masculino": 9276,
+    "Feminino": 7234,
+    "Outros": 73
+   },
+   "escolaridade": {
+    " ": 38609,
+    "Ensino Superior ": 5316,
+    "Pós-graduação": 3480,
+    "Ensino Médio": 2727,
+    "Mestrado/Doutorado": 2272,
+    "Ensino Fundamental": 513
+   },
+   "profissao_top": {
+    " ": 39309,
+    "Outra": 2580,
+    "Estudante": 1992,
+    "Servidor público federal": 1979,
+    "Empregado - setor privado": 1944,
+    "Profis. Liberal/autônomo": 1087,
+    "Professor": 837,
+    "Empresário/empreendedor": 759
+   },
+   "uf_top": {
+    " ": 38484,
+    "SÃO PAULO": 3027,
+    "RIO DE JANEIRO": 1737,
+    "DISTRITO FEDERAL": 1421,
+    "MINAS GERAIS": 1310,
+    "PARANÁ": 753
+   }
+  }
+ },
+ "2025": {
+  "pedidos": 150189,
+  "decisoes": {
+   "Acesso Concedido": 108226,
+   "Acesso Negado": 11404,
+   "Acesso Parcialmente Concedido": 10582,
+   "Informação Inexistente": 5375,
+   "Não se trata de solicitação de informação": 4998,
+   "Órgão não tem competência para responder sobre o assunto": 4668,
+   "Pergunta Duplicada/Repetida": 3428,
+   " ": 1508
+  },
+  "especificacao_decisao_top": {
+   "Resposta solicitada inserida no Fala.Br": 85279,
+   " ": 19977,
+   "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes": 15784,
+   "Informações enviadas por e-mail": 3649,
+   "Informação sigilosa de acordo com legislação específica": 3548,
+   "Concedido acesso a sistema corporativo para consulta da informação": 3212,
+   "Parte da informação é de competência de outro órgão/entidade": 2213,
+   "Parte da informação é inexistente": 1900
+  },
+  "motivo_negativa_top": {
+   " ": 67397,
+   "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às informações pessoais.   § 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:   I - Terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem.  ": 23,
+   "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às informações pessoais.   § 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:   I - terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem.": 22,
+   "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às informações pessoais.   § 1º As informações pessoais, a que se refere este artigo, relativas à intimidade, vida privada, honra e imagem:   I - Terão seu acesso restrito, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da sua data de produção, a agentes públicos legalmente autorizados e à pessoa a que elas se referirem. ": 21,
+   "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro": 20,
+   "Dados pessoais de terceiros": 20,
+   "O documento solicitado contém dados pessoais que não podem ser fornecidos a terceiro sem relação comprovada, conforme dispõe o §1º, do art. 31, da Lei 12.527/2011.": 7,
+   "Reportamo-nos à solicitação encaminhada a esta Agência nos termos da Lei de Acesso à Informação e informamos que o pedido de cópia se refere a um documento com informações de terceiros. Por se tratar de informações pessoais, nos termos do art. 55 do Decreto nº 7.724, de 16 de maio de 2012, o documento tem  acesso restrito a agentes públicos legalmente autorizados e a pessoa a que se referirem , podendo ter sua  divulgação ou acesso por terceiros autorizados por previsão legal ou consentimento expresso da pessoa a que se referirem .  Com base em suas informações cadastrais, bem como considerando a ausência de documento que apresente indícios neste sentido, não foi possível identificar se o senhor(a) representa uma das partes do processo. Se esse for o caso, solicitamos que abra nova solicitação neste Serviço de Atendimento ao Cidadão – e-SIC, anexando procuração, contrato ou outro documento equivalente que comprove seu vínculo com uma das partes envolvidas. Cabe ressaltar que as deliberações da Diretoria Aneel são transmitidas via internet às terças-feiras no site da Agência. Os votos e decisões podem ser consultados no link https://www.gov.br/aneel/pt-br/reunioes-publicas/pautas-e-atas  Base Legal desta resposta: art. 7º, § 3º, da LAI, art. 3º e art. 55 do Decreto nº 7.724/2012, e art. 10, § 3º, da Norma Organizacional ANEEL 15 (Portaria nº 3.836/2016). Por fim, informamos da possibilidade de interposição de recurso ao Superintendente de Mediação Administrativa, Ouvidoria Setorial e Participação Pública, no prazo de 10 (dez) dias, conforme disposto no parágrafo único do art. 15 da Lei nº 12.527/2011.  Sistema Eletrônico do Serviço de Informações ao Cidadão (e-SIC) Agência Nacional de Energia Elétrica – ANEEL ": 7
+  },
+  "esfera": {
+   "Federal": 130409,
+   "Municipal": 10280,
+   "Estadual": 8062,
+   "Serviços Autônomos ou Conselhos Profissionais": 1136
+  },
+  "situacao": {
+   "Concluída": 148681,
+   "Cadastrada": 1376,
+   "Prorrogada": 85,
+   "Encaminhada por Outro Órgão": 47
+  },
+  "origem": {
+   "Internet": 147587,
+   "E-mail": 1788,
+   "Presencial": 280
+  },
+  "forma_resposta": {
+   "Pelo sistema (com avisos por email)": 150045,
+   "Correspondência eletrônica (e-mail)": 61,
+   "Por Telefone": 32,
+   "Buscar/Consultar pessoalmente": 16
+  },
+  "prorrogado_pct": 21.78,
+  "reencaminhado_pct": 6.8,
+  "dias_mediana": 13.0,
+  "dias_p90": 30.0,
+  "acima_20_dias_pct": 26.24,
+  "respondidos_pct": 99.0,
+  "solicitantes_unicos": 64928,
+  "top10_solicitantes_pct": 19.47,
+  "p99_pedidos_por_solicitante": 16,
+  "top_orgaos": {
+   "INEP – Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira": 6322,
+   "ANVISA – Agência Nacional de Vigilância Sanitária": 6049,
+   "INSS – Instituto Nacional do Seguro Social": 5683,
+   "Prefeitura Municipal": 5040,
+   "MS – Ministério da Saúde": 4893,
+   "MF - Ministério da Fazenda": 4168,
+   "BACEN – Banco Central do Brasil": 3993,
+   "ANEEL – Agência Nacional de Energia Elétrica": 3753,
+   "PETROBRAS – Petróleo Brasileiro S.A.": 3364,
+   "MGI - Ministério da Gestão e da Inovação em Serviços Públicos": 3360
+  },
+  "top_assuntos": {
+   "Acesso à informação": 40794,
+   "Transparência e acesso à informação": 17446,
+   "Concursos e processos seletivos": 6977,
+   "Educação Superior": 4970,
+   "Informações processuais": 4921,
+   "Gestão de Pessoas": 3558,
+   "Educação Básica": 3024,
+   "Transparência": 2321
+  },
+  "recursos": {
+   "linhas": 22278,
+   "tipo_recurso": {
+    "Informação incompleta": 9732,
+    "Informação recebida não corresponde à solicitada": 4532,
+    "Outros": 2841,
+    "Justificativa para o sigilo insatisfatória/não informada": 2234,
+    "Não concorda com a transformação do pedido em manifestação de ouvidoria": 1635,
+    "Resposta não foi dada no prazo": 598,
+    "Ausência de justificativa legal para classificação": 381
+   },
+   "instancia": {
+    "Primeira Instância": 12430,
+    "Segunda Instância": 4454,
+    "CGU": 2391,
+    "Pedido de Revisão": 1635
+   },
+   "tipo_resposta": {
+    "Deferido": 7224,
+    "Indeferido": 7053,
+    "Não conhecimento": 4160,
+    "Parcialmente deferido": 1582,
+    " ": 1148,
+    "Perda de objeto": 906
+   },
+   "informacao_concedida": {
+    "Não foi concedido acesso à informação.": 4844,
+    "Concedido acesso à informação inicial.": 4372,
+    "Concedido acesso parcial à informação inicial.": 1033,
+    "Concedido acesso à nova demanda (inovação recursal).": 352,
+    "Concedido acesso à informação inicial. Concedido acesso à nova demanda (inovação recursal).": 132
+   },
+   "taxa_recurso_pct": 14.83,
+   "top_orgaos_recurso": {
+    "CGU/SNAI - Secretaria Nacional de Transparência e Acesso à Informação": 4026,
+    "CMRI - Comissão Mista de Reavaliação de Informações": 764,
+    "ANVISA – Agência Nacional de Vigilância Sanitária": 665,
+    "Prefeitura Municipal": 641,
+    "MF - Ministério da Fazenda": 608,
+    "MS – Ministério da Saúde": 591,
+    "MGI - Ministério da Gestão e da Inovação em Serviços Públicos": 558,
+    "INSS – Instituto Nacional do Seguro Social": 468
+   }
+  },
+  "solicitantes": {
+   "linhas": 64927,
+   "tipo": {
+    "Pessoa Física": 63469,
+    "Pessoa Juridica": 1458
+   },
+   "genero": {
+    " ": 50429,
+    "Masculino": 8466,
+    "Feminino": 5980,
+    "Outros": 52
+   },
+   "escolaridade": {
+    " ": 52877,
+    "Ensino Superior ": 4465,
+    "Pós-graduação": 3068,
+    "Ensino Médio": 2094,
+    "Mestrado/Doutorado": 2041,
+    "Ensino Fundamental": 324
+   },
+   "profissao_top": {
+    " ": 53505,
+    "Outra": 2027,
+    "Servidor público federal": 1895,
+    "Empregado - setor privado": 1541,
+    "Estudante": 1489,
+    "Profis. Liberal/autônomo": 918,
+    "Professor": 769,
+    "Servidor público estadual": 670
+   },
+   "uf_top": {
+    " ": 52785,
+    "SÃO PAULO": 2432,
+    "RIO DE JANEIRO": 1489,
+    "DISTRITO FEDERAL": 1363,
+    "MINAS GERAIS": 1067,
+    "BAHIA": 597
+   }
+  }
+ }
+}

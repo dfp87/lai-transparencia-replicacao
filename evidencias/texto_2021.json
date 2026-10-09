@@ -1,0 +1,22 @@
+{
+ "ano": 2021,
+ "pedidos": 79111,
+ "pct_resumo": 94.5,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 55.0,
+ "ext_media_resposta": 1424.0,
+ "ext_mediana_resposta": 1198.0,
+ "respostas_distintas_inicio": 59542,
+ "pct_resposta_padronizada": 21.5,
+ "top_decisoes": {
+  "Acesso Concedido": 54285,
+  "Não se trata de solicitação de informação": 8659,
+  "Acesso Negado": 5110,
+  "Acesso Parcialmente Concedido": 4684,
+  "Informação Inexistente": 3032,
+  "Órgão não tem competência para responder sobre o assunto": 1957
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

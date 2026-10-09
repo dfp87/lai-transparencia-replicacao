@@ -1,0 +1,86 @@
+{
+ "total_respostas": 938987,
+ "md5_250_n": 193851,
+ "minhash_n": 211183,
+ "md5_250_pct": 20.64,
+ "minhash_pct": 22.49,
+ "por_ano": {
+  "2015": {
+   "respostas": 71116,
+   "md5_pct": 20.86,
+   "minhash_pct": 24.73,
+   "grupos": 776,
+   "maior_grupo": 610
+  },
+  "2016": {
+   "respostas": 81042,
+   "md5_pct": 21.21,
+   "minhash_pct": 25.25,
+   "grupos": 936,
+   "maior_grupo": 424
+  },
+  "2017": {
+   "respostas": 89738,
+   "md5_pct": 19.98,
+   "minhash_pct": 20.76,
+   "grupos": 881,
+   "maior_grupo": 327
+  },
+  "2018": {
+   "respostas": 90628,
+   "md5_pct": 18.95,
+   "minhash_pct": 22.85,
+   "grupos": 900,
+   "maior_grupo": 595
+  },
+  "2019": {
+   "respostas": 95398,
+   "md5_pct": 14.93,
+   "minhash_pct": 20.14,
+   "grupos": 914,
+   "maior_grupo": 1021
+  },
+  "2020": {
+   "respostas": 110663,
+   "md5_pct": 24.69,
+   "minhash_pct": 20.37,
+   "grupos": 938,
+   "maior_grupo": 370
+  },
+  "2021": {
+   "respostas": 79111,
+   "md5_pct": 21.5,
+   "minhash_pct": 21.34,
+   "grupos": 723,
+   "maior_grupo": 496
+  },
+  "2022": {
+   "respostas": 69062,
+   "md5_pct": 21.25,
+   "minhash_pct": 25.44,
+   "grupos": 684,
+   "maior_grupo": 700
+  },
+  "2023": {
+   "respostas": 89508,
+   "md5_pct": 22.74,
+   "minhash_pct": 24.39,
+   "grupos": 912,
+   "maior_grupo": 430
+  },
+  "2024": {
+   "respostas": 78894,
+   "md5_pct": 20.28,
+   "minhash_pct": 22.47,
+   "grupos": 788,
+   "maior_grupo": 329
+  },
+  "2025": {
+   "respostas": 83827,
+   "md5_pct": 20.42,
+   "minhash_pct": 21.51,
+   "grupos": 872,
+   "maior_grupo": 527
+  }
+ }
+}

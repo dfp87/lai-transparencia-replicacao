@@ -1,0 +1,36 @@
+# Corpus textual bruto (3,5 GB, dados abertos da CGU) — obtido na fonte, não redistribuído
+corpus/
+txt/
+csv/
+*.zip
+*.7z
+
+# Saídas geradas na execução (tabelas e figuras são regeneradas pelos scripts)
+saidas/
+saidas-py/
+saidas-R/
+figuras-py/
+figuras-R/
+
+# Manuscritos e material de artigo (não são publicados neste repositório)
+*.docx
+*.pdf
+fichamentos/
+_blocos-*.md
+_v*-base.md
+
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+
+# Segredos e configuração local
+.env
+*.key
+*.pem
+config.local.*

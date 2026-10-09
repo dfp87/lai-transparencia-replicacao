@@ -1,0 +1,850 @@
+[
+ {
+  "ano": 2015,
+  "negados_com_texto": 4583,
+  "negados_no_arquivo": 4583,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 59.22,
+  "citado_sem_norma_pct": 40.78,
+  "declarado_sem_norma_pct": 21.56,
+  "kappa": {
+   "n": 4583,
+   "concordancia_bruta": 36.2,
+   "concordancia_esperada": 16.97,
+   "kappa": 0.2316
+  },
+  "matriz": {
+   "dados_pessoais": {
+    "sigilo": 542,
+    "competencia_outro": 70,
+    "sem_norma": 274,
+    "dados_pessoais": 255,
+    "generico": 1,
+    "inexistente": 3,
+    "desproporcional": 6
+   },
+   "processo_em_curso": {
+    "sem_norma": 281,
+    "competencia_outro": 73,
+    "inexistente": 24,
+    "sigilo": 7,
+    "desproporcional": 2,
+    "dados_pessoais": 23,
+    "processo_em_curso": 7,
+    "generico": 1
+   },
+   "sigilo": {
+    "sem_norma": 336,
+    "sigilo": 391,
+    "competencia_outro": 266,
+    "desproporcional": 14,
+    "dados_pessoais": 30,
+    "inexistente": 4,
+    "processo_em_curso": 1,
+    "generico": 2
+   },
+   "sem_norma": {
+    "sem_norma": 617,
+    "desproporcional": 151,
+    "inexistente": 33,
+    "competencia_outro": 130,
+    "dados_pessoais": 8,
+    "generico": 35,
+    "sigilo": 13,
+    "processo_em_curso": 1
+   },
+   "generico": {
+    "sem_norma": 228,
+    "generico": 297,
+    "desproporcional": 97,
+    "competencia_outro": 72,
+    "dados_pessoais": 3,
+    "sigilo": 7,
+    "inexistente": 9
+   },
+   "desproporcional": {
+    "sem_norma": 133,
+    "desproporcional": 92,
+    "sigilo": 3,
+    "competencia_outro": 23,
+    "inexistente": 11,
+    "generico": 6,
+    "dados_pessoais": 1
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2016,
+  "negados_com_texto": 4520,
+  "negados_no_arquivo": 4520,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 51.5,
+  "citado_sem_norma_pct": 38.72,
+  "declarado_sem_norma_pct": 21.59,
+  "kappa": {
+   "n": 4520,
+   "concordancia_bruta": 43.41,
+   "concordancia_esperada": 16.76,
+   "kappa": 0.3201
+  },
+  "matriz": {
+   "sem_norma": {
+    "sem_norma": 584,
+    "desproporcional": 139,
+    "competencia_outro": 131,
+    "inexistente": 36,
+    "dados_pessoais": 15,
+    "generico": 48,
+    "sigilo": 23
+   },
+   "processo_em_curso": {
+    "sem_norma": 281,
+    "inexistente": 10,
+    "sigilo": 8,
+    "competencia_outro": 69,
+    "processo_em_curso": 5,
+    "dados_pessoais": 4
+   },
+   "sigilo": {
+    "competencia_outro": 221,
+    "sigilo": 501,
+    "sem_norma": 279,
+    "inexistente": 11,
+    "dados_pessoais": 40,
+    "desproporcional": 13,
+    "generico": 5
+   },
+   "generico": {
+    "generico": 390,
+    "sem_norma": 237,
+    "competencia_outro": 61,
+    "inexistente": 6,
+    "desproporcional": 90,
+    "sigilo": 8,
+    "dados_pessoais": 4
+   },
+   "desproporcional": {
+    "desproporcional": 291,
+    "sem_norma": 257,
+    "competencia_outro": 98,
+    "inexistente": 9,
+    "sigilo": 14,
+    "dados_pessoais": 4
+   },
+   "dados_pessoais": {
+    "dados_pessoais": 191,
+    "competencia_outro": 88,
+    "sigilo": 231,
+    "sem_norma": 112,
+    "desproporcional": 2,
+    "inexistente": 4
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2017,
+  "negados_com_texto": 5218,
+  "negados_no_arquivo": 5218,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 53.09,
+  "citado_sem_norma_pct": 36.68,
+  "declarado_sem_norma_pct": 20.41,
+  "kappa": {
+   "n": 5218,
+   "concordancia_bruta": 34.84,
+   "concordancia_esperada": 15.1,
+   "kappa": 0.2325
+  },
+  "matriz": {
+   "sigilo": {
+    "sigilo": 422,
+    "competencia_outro": 404,
+    "sem_norma": 240,
+    "dados_pessoais": 65,
+    "generico": 16,
+    "desproporcional": 19,
+    "inexistente": 10
+   },
+   "processo_em_curso": {
+    "sem_norma": 301,
+    "competencia_outro": 87,
+    "sigilo": 32,
+    "inexistente": 6,
+    "generico": 1,
+    "processo_em_curso": 3
+   },
+   "generico": {
+    "generico": 413,
+    "sem_norma": 362,
+    "competencia_outro": 147,
+    "dados_pessoais": 3,
+    "desproporcional": 127,
+    "inexistente": 12,
+    "sigilo": 9
+   },
+   "sem_norma": {
+    "desproporcional": 107,
+    "sem_norma": 625,
+    "inexistente": 75,
+    "competencia_outro": 192,
+    "sigilo": 27,
+    "generico": 30,
+    "dados_pessoais": 9
+   },
+   "dados_pessoais": {
+    "competencia_outro": 171,
+    "dados_pessoais": 168,
+    "sem_norma": 220,
+    "inexistente": 7,
+    "sigilo": 440,
+    "generico": 7,
+    "desproporcional": 6
+   },
+   "desproporcional": {
+    "sem_norma": 166,
+    "desproporcional": 187,
+    "competencia_outro": 61,
+    "inexistente": 20,
+    "sigilo": 11,
+    "dados_pessoais": 4,
+    "generico": 6
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2018,
+  "negados_com_texto": 6161,
+  "negados_no_arquivo": 6161,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 59.8,
+  "citado_sem_norma_pct": 37.72,
+  "declarado_sem_norma_pct": 19.46,
+  "kappa": {
+   "n": 6161,
+   "concordancia_bruta": 34.0,
+   "concordancia_esperada": 15.1,
+   "kappa": 0.2226
+  },
+  "matriz": {
+   "dados_pessoais": {
+    "dados_pessoais": 244,
+    "sigilo": 314,
+    "competencia_outro": 223,
+    "sem_norma": 243,
+    "inexistente": 8,
+    "desproporcional": 10,
+    "generico": 1
+   },
+   "sem_norma": {
+    "sigilo": 15,
+    "sem_norma": 602,
+    "competencia_outro": 249,
+    "desproporcional": 140,
+    "generico": 92,
+    "inexistente": 78,
+    "dados_pessoais": 23
+   },
+   "desproporcional": {
+    "desproporcional": 282,
+    "competencia_outro": 31,
+    "sem_norma": 274,
+    "inexistente": 16,
+    "sigilo": 10,
+    "dados_pessoais": 11,
+    "processo_em_curso": 1
+   },
+   "sigilo": {
+    "sigilo": 378,
+    "competencia_outro": 314,
+    "sem_norma": 418,
+    "dados_pessoais": 105,
+    "inexistente": 13,
+    "desproporcional": 25,
+    "generico": 10
+   },
+   "generico": {
+    "generico": 588,
+    "competencia_outro": 121,
+    "sem_norma": 456,
+    "desproporcional": 276,
+    "dados_pessoais": 7,
+    "inexistente": 40,
+    "sigilo": 15
+   },
+   "processo_em_curso": {
+    "competencia_outro": 84,
+    "sem_norma": 331,
+    "inexistente": 21,
+    "dados_pessoais": 16,
+    "sigilo": 43,
+    "desproporcional": 2,
+    "generico": 30,
+    "processo_em_curso": 1
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2019,
+  "negados_com_texto": 7526,
+  "negados_no_arquivo": 7526,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 56.87,
+  "citado_sem_norma_pct": 32.1,
+  "declarado_sem_norma_pct": 17.53,
+  "kappa": {
+   "n": 7526,
+   "concordancia_bruta": 46.96,
+   "concordancia_esperada": 15.29,
+   "kappa": 0.3738
+  },
+  "matriz": {
+   "sigilo": {
+    "sem_norma": 498,
+    "sigilo": 701,
+    "competencia_outro": 410,
+    "dados_pessoais": 131,
+    "desproporcional": 34,
+    "processo_em_curso": 2,
+    "inexistente": 8,
+    "generico": 8
+   },
+   "sem_norma": {
+    "sem_norma": 676,
+    "competencia_outro": 174,
+    "sigilo": 43,
+    "inexistente": 61,
+    "desproporcional": 269,
+    "generico": 42,
+    "dados_pessoais": 51,
+    "processo_em_curso": 3
+   },
+   "processo_em_curso": {
+    "sem_norma": 348,
+    "competencia_outro": 84,
+    "inexistente": 18,
+    "sigilo": 80,
+    "dados_pessoais": 16,
+    "desproporcional": 9,
+    "processo_em_curso": 6
+   },
+   "generico": {
+    "generico": 931,
+    "competencia_outro": 130,
+    "sem_norma": 527,
+    "desproporcional": 281,
+    "sigilo": 12,
+    "inexistente": 27,
+    "dados_pessoais": 10,
+    "processo_em_curso": 1
+   },
+   "desproporcional": {
+    "desproporcional": 842,
+    "sem_norma": 165,
+    "generico": 2,
+    "sigilo": 3,
+    "competencia_outro": 24,
+    "inexistente": 18,
+    "dados_pessoais": 8,
+    "processo_em_curso": 1
+   },
+   "dados_pessoais": {
+    "desproporcional": 11,
+    "dados_pessoais": 378,
+    "sem_norma": 202,
+    "competencia_outro": 262,
+    "generico": 3,
+    "inexistente": 6,
+    "sigilo": 10
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2020,
+  "negados_com_texto": 7261,
+  "negados_no_arquivo": 7261,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 64.34,
+  "citado_sem_norma_pct": 32.19,
+  "declarado_sem_norma_pct": 20.25,
+  "kappa": {
+   "n": 7261,
+   "concordancia_bruta": 47.79,
+   "concordancia_esperada": 15.7,
+   "kappa": 0.3806
+  },
+  "matriz": {
+   "dados_pessoais": {
+    "dados_pessoais": 597,
+    "sem_norma": 213,
+    "competencia_outro": 113,
+    "sigilo": 20,
+    "desproporcional": 16,
+    "generico": 3,
+    "inexistente": 6
+   },
+   "sem_norma": {
+    "sem_norma": 763,
+    "competencia_outro": 262,
+    "desproporcional": 219,
+    "generico": 98,
+    "sigilo": 25,
+    "inexistente": 77,
+    "dados_pessoais": 26
+   },
+   "sigilo": {
+    "competencia_outro": 363,
+    "dados_pessoais": 155,
+    "sigilo": 496,
+    "sem_norma": 454,
+    "generico": 7,
+    "desproporcional": 46,
+    "inexistente": 15
+   },
+   "generico": {
+    "sem_norma": 474,
+    "desproporcional": 337,
+    "generico": 912,
+    "competencia_outro": 79,
+    "sigilo": 16,
+    "inexistente": 33,
+    "dados_pessoais": 8
+   },
+   "desproporcional": {
+    "sem_norma": 109,
+    "desproporcional": 698,
+    "competencia_outro": 30,
+    "inexistente": 15,
+    "dados_pessoais": 9,
+    "generico": 3,
+    "sigilo": 2
+   },
+   "processo_em_curso": {
+    "sigilo": 94,
+    "sem_norma": 324,
+    "dados_pessoais": 8,
+    "competencia_outro": 97,
+    "inexistente": 12,
+    "desproporcional": 23,
+    "processo_em_curso": 4
+   }
+  },
+  "exemplos_sem_norma": [
+   "Prezado Senhor, Segue a resposta ao questionamento apresentado.",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2021,
+  "negados_com_texto": 5110,
+  "negados_no_arquivo": 5110,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 68.88,
+  "citado_sem_norma_pct": 37.87,
+  "declarado_sem_norma_pct": 18.2,
+  "kappa": {
+   "n": 5110,
+   "concordancia_bruta": 46.5,
+   "concordancia_esperada": 15.69,
+   "kappa": 0.3654
+  },
+  "matriz": {
+   "sigilo": {
+    "sigilo": 385,
+    "desproporcional": 33,
+    "sem_norma": 397,
+    "competencia_outro": 194,
+    "dados_pessoais": 89,
+    "inexistente": 8,
+    "processo_em_curso": 1,
+    "generico": 3
+   },
+   "sem_norma": {
+    "sem_norma": 608,
+    "desproporcional": 185,
+    "dados_pessoais": 14,
+    "generico": 23,
+    "inexistente": 36,
+    "competencia_outro": 55,
+    "sigilo": 9
+   },
+   "generico": {
+    "generico": 609,
+    "sem_norma": 297,
+    "dados_pessoais": 6,
+    "inexistente": 24,
+    "desproporcional": 281,
+    "competencia_outro": 45,
+    "sigilo": 9
+   },
+   "dados_pessoais": {
+    "dados_pessoais": 466,
+    "sem_norma": 127,
+    "competencia_outro": 109,
+    "desproporcional": 44,
+    "sigilo": 12,
+    "inexistente": 2,
+    "generico": 2
+   },
+   "processo_em_curso": {
+    "sem_norma": 293,
+    "competencia_outro": 70,
+    "sigilo": 73,
+    "dados_pessoais": 12,
+    "inexistente": 14,
+    "desproporcional": 1,
+    "processo_em_curso": 9,
+    "generico": 1
+   },
+   "desproporcional": {
+    "desproporcional": 299,
+    "competencia_outro": 34,
+    "sigilo": 12,
+    "sem_norma": 213,
+    "inexistente": 3,
+    "dados_pessoais": 2,
+    "generico": 1
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2022,
+  "negados_com_texto": 4789,
+  "negados_no_arquivo": 4789,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 70.56,
+  "citado_sem_norma_pct": 42.35,
+  "declarado_sem_norma_pct": 25.7,
+  "kappa": {
+   "n": 4789,
+   "concordancia_bruta": 44.56,
+   "concordancia_esperada": 17.85,
+   "kappa": 0.3252
+  },
+  "matriz": {
+   "processo_em_curso": {
+    "sigilo": 45,
+    "sem_norma": 365,
+    "competencia_outro": 87,
+    "inexistente": 3,
+    "dados_pessoais": 10,
+    "generico": 2,
+    "processo_em_curso": 2,
+    "desproporcional": 2
+   },
+   "sem_norma": {
+    "sem_norma": 811,
+    "generico": 171,
+    "dados_pessoais": 35,
+    "desproporcional": 97,
+    "competencia_outro": 78,
+    "inexistente": 31,
+    "sigilo": 8
+   },
+   "dados_pessoais": {
+    "dados_pessoais": 240,
+    "sem_norma": 117,
+    "inexistente": 3,
+    "competencia_outro": 92,
+    "desproporcional": 9,
+    "sigilo": 10,
+    "generico": 3
+   },
+   "sigilo": {
+    "sigilo": 382,
+    "sem_norma": 376,
+    "competencia_outro": 209,
+    "inexistente": 12,
+    "dados_pessoais": 84,
+    "desproporcional": 89,
+    "generico": 7
+   },
+   "generico": {
+    "desproporcional": 207,
+    "sem_norma": 245,
+    "generico": 428,
+    "competencia_outro": 64,
+    "dados_pessoais": 6,
+    "sigilo": 6,
+    "inexistente": 16
+   },
+   "desproporcional": {
+    "dados_pessoais": 2,
+    "desproporcional": 271,
+    "sem_norma": 114,
+    "competencia_outro": 41,
+    "inexistente": 4,
+    "sigilo": 4,
+    "generico": 1
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2023,
+  "negados_com_texto": 6054,
+  "negados_no_arquivo": 6054,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 66.83,
+  "citado_sem_norma_pct": 41.71,
+  "declarado_sem_norma_pct": 20.25,
+  "kappa": {
+   "n": 6054,
+   "concordancia_bruta": 41.63,
+   "concordancia_esperada": 17.01,
+   "kappa": 0.2966
+  },
+  "matriz": {
+   "sigilo": {
+    "competencia_outro": 290,
+    "sigilo": 705,
+    "sem_norma": 557,
+    "desproporcional": 58,
+    "dados_pessoais": 138,
+    "inexistente": 17,
+    "generico": 11
+   },
+   "processo_em_curso": {
+    "competencia_outro": 134,
+    "sem_norma": 386,
+    "sigilo": 74,
+    "desproporcional": 1,
+    "processo_em_curso": 14,
+    "dados_pessoais": 23,
+    "inexistente": 9
+   },
+   "generico": {
+    "sem_norma": 294,
+    "sigilo": 5,
+    "generico": 549,
+    "competencia_outro": 30,
+    "desproporcional": 210,
+    "inexistente": 17,
+    "dados_pessoais": 4
+   },
+   "sem_norma": {
+    "sem_norma": 714,
+    "desproporcional": 183,
+    "generico": 129,
+    "dados_pessoais": 55,
+    "sigilo": 40,
+    "competencia_outro": 71,
+    "inexistente": 34
+   },
+   "desproporcional": {
+    "desproporcional": 283,
+    "sem_norma": 470,
+    "sigilo": 7,
+    "dados_pessoais": 5,
+    "competencia_outro": 54,
+    "inexistente": 8,
+    "generico": 2
+   },
+   "dados_pessoais": {
+    "sem_norma": 104,
+    "competencia_outro": 70,
+    "dados_pessoais": 255,
+    "sigilo": 17,
+    "desproporcional": 17,
+    "inexistente": 4,
+    "generico": 5,
+    "processo_em_curso": 1
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2024,
+  "negados_com_texto": 5296,
+  "negados_no_arquivo": 5296,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 58.53,
+  "citado_sem_norma_pct": 46.53,
+  "declarado_sem_norma_pct": 14.9,
+  "kappa": {
+   "n": 5296,
+   "concordancia_bruta": 36.16,
+   "concordancia_esperada": 14.56,
+   "kappa": 0.2528
+  },
+  "matriz": {
+   "sem_norma": {
+    "sem_norma": 447,
+    "dados_pessoais": 53,
+    "desproporcional": 121,
+    "competencia_outro": 72,
+    "sigilo": 15,
+    "inexistente": 37,
+    "generico": 44
+   },
+   "sigilo": {
+    "sigilo": 553,
+    "desproporcional": 56,
+    "sem_norma": 601,
+    "competencia_outro": 203,
+    "dados_pessoais": 172,
+    "inexistente": 18,
+    "generico": 4
+   },
+   "generico": {
+    "sem_norma": 325,
+    "desproporcional": 133,
+    "generico": 324,
+    "sigilo": 3,
+    "dados_pessoais": 4,
+    "inexistente": 14,
+    "competencia_outro": 30
+   },
+   "processo_em_curso": {
+    "sem_norma": 623,
+    "competencia_outro": 100,
+    "processo_em_curso": 10,
+    "sigilo": 120,
+    "inexistente": 15,
+    "dados_pessoais": 21,
+    "generico": 2,
+    "desproporcional": 2
+   },
+   "dados_pessoais": {
+    "competencia_outro": 35,
+    "dados_pessoais": 321,
+    "sem_norma": 233,
+    "desproporcional": 7,
+    "sigilo": 11,
+    "generico": 2,
+    "inexistente": 4
+   },
+   "desproporcional": {
+    "desproporcional": 260,
+    "competencia_outro": 39,
+    "sem_norma": 235,
+    "generico": 4,
+    "inexistente": 11,
+    "sigilo": 3,
+    "processo_em_curso": 1,
+    "dados_pessoais": 8
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ },
+ {
+  "ano": 2025,
+  "negados_com_texto": 5306,
+  "negados_no_arquivo": 5306,
+  "negados_sem_texto": 0,
+  "citam_lai_pct": 64.04,
+  "citado_sem_norma_pct": 40.35,
+  "declarado_sem_norma_pct": 16.36,
+  "kappa": {
+   "n": 5306,
+   "concordancia_bruta": 41.03,
+   "concordancia_esperada": 14.82,
+   "kappa": 0.3077
+  },
+  "matriz": {
+   "generico": {
+    "sem_norma": 296,
+    "generico": 415,
+    "sigilo": 5,
+    "desproporcional": 142,
+    "inexistente": 18,
+    "competencia_outro": 22,
+    "dados_pessoais": 3
+   },
+   "sigilo": {
+    "sem_norma": 637,
+    "sigilo": 545,
+    "inexistente": 15,
+    "dados_pessoais": 160,
+    "competencia_outro": 181,
+    "desproporcional": 33,
+    "generico": 3
+   },
+   "dados_pessoais": {
+    "competencia_outro": 47,
+    "dados_pessoais": 251,
+    "sem_norma": 71,
+    "desproporcional": 12,
+    "sigilo": 11,
+    "inexistente": 9,
+    "generico": 1
+   },
+   "desproporcional": {
+    "desproporcional": 488,
+    "dados_pessoais": 6,
+    "inexistente": 25,
+    "generico": 5,
+    "sigilo": 15,
+    "sem_norma": 113,
+    "competencia_outro": 26
+   },
+   "sem_norma": {
+    "desproporcional": 160,
+    "dados_pessoais": 49,
+    "competencia_outro": 103,
+    "sem_norma": 465,
+    "inexistente": 39,
+    "sigilo": 9,
+    "generico": 42,
+    "processo_em_curso": 1
+   },
+   "processo_em_curso": {
+    "sem_norma": 559,
+    "sigilo": 111,
+    "competencia_outro": 124,
+    "dados_pessoais": 45,
+    "processo_em_curso": 13,
+    "inexistente": 13,
+    "desproporcional": 15,
+    "generico": 3
+   }
+  },
+  "exemplos_sem_norma": [
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»",
+   "«trecho suprimido por privacidade — dado pessoal de terceiro»"
+  ]
+ }
+]

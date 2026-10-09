@@ -1,0 +1,86 @@
+{
+ "ano": 2018,
+ "arquivo": "20260915_Pedidos_csv_2018.csv",
+ "pedidos": 127313,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 86363,
+  "Não se trata de solicitação de informação": 14623,
+  "Acesso Negado": 9397,
+  "Acesso Parcialmente Concedido": 6752,
+  "Informação Inexistente": 4293,
+  "Órgão não tem competência para responder sobre o assunto": 3399,
+  "Pergunta Duplicada/Repetida": 2486
+ },
+ "motivos_negativa": {},
+ "prazos": {
+  "n": 127313,
+  "mediana": 9.0,
+  "p90": 28.0,
+  "pct_acima_20": 21.5
+ },
+ "grupos": {
+  "Autarquias, fundações e agências": {
+   "pedidos": 46165,
+   "negado": 3743,
+   "concedido": 30989,
+   "parcial": 3709,
+   "prorrogado": 3662,
+   "dias_mediana": 4.0,
+   "dias_p90": 23.0,
+   "pct_acima_20": 13.8,
+   "dias_n": 46165
+  },
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 19204,
+   "negado": 1961,
+   "concedido": 10159,
+   "parcial": 596,
+   "prorrogado": 2015,
+   "dias_mediana": 9.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 18.3,
+   "dias_n": 19204
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 38041,
+   "negado": 2932,
+   "concedido": 24901,
+   "parcial": 1671,
+   "prorrogado": 5554,
+   "dias_mediana": 14.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 26.8,
+   "dias_n": 38041
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 22372,
+   "negado": 627,
+   "concedido": 19390,
+   "parcial": 661,
+   "prorrogado": 2899,
+   "dias_mediana": 13.0,
+   "dias_p90": 36.0,
+   "pct_acima_20": 30.8,
+   "dias_n": 22372
+  },
+  "Controle interno": {
+   "pedidos": 1531,
+   "negado": 134,
+   "concedido": 924,
+   "parcial": 115,
+   "prorrogado": 80,
+   "dias_mediana": 17.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 21.8,
+   "dias_n": 1531
+  }
+ }
+}

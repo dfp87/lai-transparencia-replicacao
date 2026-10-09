@@ -1,0 +1,602 @@
+[
+ {
+  "ano": 2012,
+  "pedidos": 55212,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 51008,
+   "preenchido_pct": 92.39,
+   "acima_50_caracteres_n": 8119,
+   "acima_50_caracteres_pct": 14.71,
+   "extensao_media_caracteres": 42.0,
+   "top_valores": [
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 28568
+    },
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 8973
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 5737
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2013,
+  "pedidos": 86661,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 75163,
+   "preenchido_pct": 86.73,
+   "acima_50_caracteres_n": 15066,
+   "acima_50_caracteres_pct": 17.38,
+   "extensao_media_caracteres": 46.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 31010
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 19006
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 9504
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2014,
+  "pedidos": 90167,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 75738,
+   "preenchido_pct": 84.0,
+   "acima_50_caracteres_n": 15476,
+   "acima_50_caracteres_pct": 17.16,
+   "extensao_media_caracteres": 47.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 40311
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 9901
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 9277
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2015,
+  "pedidos": 102423,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 85872,
+   "preenchido_pct": 83.84,
+   "acima_50_caracteres_n": 21301,
+   "acima_50_caracteres_pct": 20.8,
+   "extensao_media_caracteres": 49.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 47945
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 13726
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 7717
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2016,
+  "pedidos": 111458,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 90605,
+   "preenchido_pct": 81.29,
+   "acima_50_caracteres_n": 19939,
+   "acima_50_caracteres_pct": 17.89,
+   "extensao_media_caracteres": 48.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 54675
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 10846
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 6713
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2017,
+  "pedidos": 120790,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 98538,
+   "preenchido_pct": 81.58,
+   "acima_50_caracteres_n": 18127,
+   "acima_50_caracteres_pct": 15.01,
+   "extensao_media_caracteres": 46.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 64099
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 9954
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 7129
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2018,
+  "pedidos": 127313,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 102512,
+   "preenchido_pct": 80.52,
+   "acima_50_caracteres_n": 21488,
+   "acima_50_caracteres_pct": 16.88,
+   "extensao_media_caracteres": 47.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 64014
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 12617
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 6801
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2019,
+  "pedidos": 128926,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 108053,
+   "preenchido_pct": 83.81,
+   "acima_50_caracteres_n": 20853,
+   "acima_50_caracteres_pct": 16.17,
+   "extensao_media_caracteres": 46.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 71986
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 10977
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 4271
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2020,
+  "pedidos": 154079,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 108396,
+   "preenchido_pct": 70.35,
+   "acima_50_caracteres_n": 19814,
+   "acima_50_caracteres_pct": 12.86,
+   "extensao_media_caracteres": 46.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 74603
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 10895
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 2810
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2021,
+  "pedidos": 123271,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 99932,
+   "preenchido_pct": 81.07,
+   "acima_50_caracteres_n": 21050,
+   "acima_50_caracteres_pct": 17.08,
+   "extensao_media_caracteres": 47.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 66849
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 11641
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 3465
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2022,
+  "pedidos": 117993,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 100131,
+   "preenchido_pct": 84.86,
+   "acima_50_caracteres_n": 25321,
+   "acima_50_caracteres_pct": 21.46,
+   "extensao_media_caracteres": 50.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 63253
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 16898
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 2890
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2023,
+  "pedidos": 142427,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 124666,
+   "preenchido_pct": 87.53,
+   "acima_50_caracteres_n": 26416,
+   "acima_50_caracteres_pct": 18.55,
+   "extensao_media_caracteres": 48.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 84995
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 15991
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 2812
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2024,
+  "pedidos": 131030,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 0,
+   "preenchido_pct": 0.0,
+   "acima_50_caracteres_n": 0,
+   "acima_50_caracteres_pct": 0.0,
+   "extensao_media_caracteres": null,
+   "top_valores": []
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 114611,
+   "preenchido_pct": 87.47,
+   "acima_50_caracteres_n": 23456,
+   "acima_50_caracteres_pct": 17.9,
+   "extensao_media_caracteres": 47.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 78040
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 11619
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 3049
+    }
+   ]
+  }
+ },
+ {
+  "ano": 2025,
+  "pedidos": 150189,
+  "DetalhamentoDecisao": {
+   "preenchido_n": 5153,
+   "preenchido_pct": 3.43,
+   "acima_50_caracteres_n": 4222,
+   "acima_50_caracteres_pct": 2.81,
+   "extensao_media_caracteres": 69.0,
+   "top_valores": [
+    {
+     "valor": "A informação está protegida por sigilo bancário (Lei Complementar nº 105/2001)",
+     "n": 1328
+    },
+    {
+     "valor": "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro",
+     "n": 1021
+    },
+    {
+     "valor": "Desproporcional",
+     "n": 614
+    }
+   ]
+  },
+  "MotivoNegativaAcesso": {
+   "preenchido_n": 645,
+   "preenchido_pct": 0.43,
+   "acima_50_caracteres_n": 551,
+   "acima_50_caracteres_pct": 0.37,
+   "extensao_media_caracteres": 588.0,
+   "top_valores": [
+    {
+     "valor": "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamentais para o tratamento e acesso às infor",
+     "n": 71
+    },
+    {
+     "valor": "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro",
+     "n": 20
+    },
+    {
+     "valor": "Dados pessoais de terceiros",
+     "n": 20
+    }
+   ]
+  },
+  "EspecificacaoDecisao": {
+   "preenchido_n": 130212,
+   "preenchido_pct": 86.7,
+   "acima_50_caracteres_n": 31081,
+   "acima_50_caracteres_pct": 20.69,
+   "extensao_media_caracteres": 48.0,
+   "top_valores": [
+    {
+     "valor": "Resposta solicitada inserida no Fala.Br",
+     "n": 85279
+    },
+    {
+     "valor": "Orientação sobre como encontrar a informação solicitada na Internet ou em publicações existentes",
+     "n": 15784
+    },
+    {
+     "valor": "Informações enviadas por e-mail",
+     "n": 3649
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Se usar este código ou estes dados derivados, cite como abaixo."
+title: "Replicação — texto da resposta e perímetro da LAI (dados abertos do Fala.BR/CGU)"
+abstract: >-
+  Código e dados derivados para a replicação de duas análises dos dados abertos da Lei de
+  Acesso à Informação brasileira (Lei nº 12.527/2011): (i) o texto da resposta da LAI, de
+  2015 a 2025, com medida de resposta padronizada por repetição literal e por
+  quase-repetição (MinHash) e tipologia do fundamento da negativa; e (ii) o perímetro
+  institucional do acervo, de 2012 a 2025, com volume, prazo e negativa integral por grupo
+  de órgãos. Os scripts recalculam cada indicador a partir das evidências versionadas e
+  conferem o resultado contra os números publicados.
+authors:
+  - family-names: "Pinto"
+    given-names: "Douglas Ferreira"
+    affiliation: "Programa de Pós-Graduação em Governança e Transformação Digital (PPGGTD), Universidade Federal do Tocantins (UFT)"
+    orcid: ""
+contact:
+  - family-names: "Pinto"
+    given-names: "Douglas Ferreira"
+version: "1.0.0"
+date-released: "2026-10-09"
+license: MIT
+license-url: "https://github.com/dfp87/lai-transparencia-replicacao/blob/main/LICENSE"
+repository-code: "https://github.com/dfp87/lai-transparencia-replicacao"
+keywords:
+  - lei de acesso à informação
+  - transparência pública
+  - dados abertos
+  - governo digital
+  - quase-duplicata
+  - minhash
+  - resposta padronizada
+  - controle externo
+  - replicabilidade
+type: software

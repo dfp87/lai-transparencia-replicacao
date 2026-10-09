@@ -1,0 +1,141 @@
+{
+ "grupos_pedidos": [
+  {
+   "grupo": "Autarquias, fundações e agências",
+   "pedidos": 44298,
+   "dias_mediana": 10.0,
+   "acima20": 20.149995482063794,
+   "negado_pct": 6.783601968486162,
+   "concedido_pct": 83.39202672806898,
+   "prorrogado": 17.77281141360784,
+   "pct_total": 29.494836506002436
+  },
+  {
+   "grupo": "Executivo federal (ministérios)",
+   "pedidos": 36446,
+   "dias_mediana": 17.0,
+   "acima20": 35.002469406793615,
+   "negado_pct": 8.456346375459583,
+   "concedido_pct": 78.19513801240191,
+   "prorrogado": 35.20825330626132,
+   "pct_total": 24.266757219237096
+  },
+  {
+   "grupo": "não classificado",
+   "pedidos": 34474,
+   "dias_mediana": 10.0,
+   "acima20": 25.067426285645016,
+   "negado_pct": 5.1459070603933394,
+   "concedido_pct": 73.06085745779428,
+   "prorrogado": 15.832221384231596,
+   "pct_total": 22.953744948032146
+  },
+  {
+   "grupo": "Universidades e institutos",
+   "pedidos": 22169,
+   "dias_mediana": 13.0,
+   "acima20": 27.466281744778748,
+   "negado_pct": 4.145428300780369,
+   "concedido_pct": 86.52623032162028,
+   "prorrogado": 18.985971401506607,
+   "pct_total": 14.760734807475913
+  },
+  {
+   "grupo": "Estatais e bancos públicos",
+   "pedidos": 10293,
+   "dias_mediana": 12.0,
+   "acima20": 17.87622656174099,
+   "negado_pct": 23.307101913922082,
+   "concedido_pct": 70.53337219469542,
+   "prorrogado": 15.845720392499757,
+   "pct_total": 6.8533647604018935
+  },
+  {
+   "grupo": "Controle interno (CGU)",
+   "pedidos": 1673,
+   "dias_mediana": 21.0,
+   "acima20": 62.16377764494919,
+   "negado_pct": 10.280932456664674,
+   "concedido_pct": 67.18469814704125,
+   "prorrogado": 41.06395696353856,
+   "pct_total": 1.113929781808255
+  },
+  {
+   "grupo": "Controle externo (TCU/TCE)",
+   "pedidos": 500,
+   "dias_mediana": 1.0,
+   "acima20": 1.6,
+   "negado_pct": 0.6,
+   "concedido_pct": 76.6,
+   "prorrogado": 0.6,
+   "pct_total": 0.3329138618673804
+  },
+  {
+   "grupo": "Judiciário",
+   "pedidos": 302,
+   "dias_mediana": 13.0,
+   "acima20": 23.076923076923077,
+   "negado_pct": 16.225165562913908,
+   "concedido_pct": 67.54966887417218,
+   "prorrogado": 6.95364238410596,
+   "pct_total": 0.20107997256789778
+  },
+  {
+   "grupo": "Defensoria",
+   "pedidos": 34,
+   "dias_mediana": 104.5,
+   "acima20": 73.52941176470588,
+   "negado_pct": 2.941176470588235,
+   "concedido_pct": 82.35294117647058,
+   "prorrogado": 2.941176470588235,
+   "pct_total": 0.02263814260698187
+  }
+ ],
+ "grupos_recursos": [
+  {
+   "grupo": "Executivo federal (ministérios)",
+   "recursos": 5775,
+   "conc_info": 51.61904761904762
+  },
+  {
+   "grupo": "não classificado",
+   "recursos": 4584,
+   "conc_info": 49.018324607329845
+  },
+  {
+   "grupo": "Controle interno (CGU)",
+   "recursos": 4334,
+   "conc_info": 33.22565759113982
+  },
+  {
+   "grupo": "Autarquias, fundações e agências",
+   "recursos": 3657,
+   "conc_info": 55.592015313098166
+  },
+  {
+   "grupo": "Universidades e institutos",
+   "recursos": 2812,
+   "conc_info": 56.11664295874822
+  },
+  {
+   "grupo": "Estatais e bancos públicos",
+   "recursos": 1071,
+   "conc_info": 55.55555555555556
+  },
+  {
+   "grupo": "Judiciário",
+   "recursos": 37,
+   "conc_info": 40.54054054054054
+  },
+  {
+   "grupo": "Controle externo (TCU/TCE)",
+   "recursos": 7,
+   "conc_info": 57.14285714285714
+  },
+  {
+   "grupo": "Defensoria",
+   "recursos": 1,
+   "conc_info": 0.0
+  }
+ ]
+}

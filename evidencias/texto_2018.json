@@ -1,0 +1,22 @@
+{
+ "ano": 2018,
+ "pedidos": 90632,
+ "pct_resumo": 100.0,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 63.0,
+ "ext_media_resposta": 1043.0,
+ "ext_mediana_resposta": 769.0,
+ "respostas_distintas_inicio": 70631,
+ "pct_resposta_padronizada": 19.0,
+ "top_decisoes": {
+  "Acesso Concedido": 66822,
+  "Acesso Negado": 6161,
+  "Não se trata de solicitação de informação": 5639,
+  "Acesso Parcialmente Concedido": 3881,
+  "Informação Inexistente": 3247,
+  "Órgão não tem competência para responder sobre o assunto": 2867
+ },
+ "motivo_negativa_n": 0,
+ "motivo_negativa_top": {}
+}

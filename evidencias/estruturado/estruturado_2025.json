@@ -1,0 +1,186 @@
+{
+ "ano": 2025,
+ "arquivo": "20260915_Pedidos_csv_2025.csv",
+ "pedidos": 150189,
+ "colunas_lidas": [
+  "OrgaoDestinatario",
+  "Esfera",
+  "Decisao",
+  "Situacao",
+  "PrazoAtendimento",
+  "MotivoNegativaAcesso"
+ ],
+ "decisoes": {
+  "Acesso Concedido": 108226,
+  "Acesso Negado": 11404,
+  "Acesso Parcialmente Concedido": 10582,
+  "Informação Inexistente": 5375,
+  "Não se trata de solicitação de informação": 4998,
+  "Órgão não tem competência para responder sobre o assunto": 4668,
+  "Pergunta Duplicada/Repetida": 3428,
+  " ": 1508
+ },
+ "motivos_negativa": {
+  "A Lei de Acesso à Informação, Lei nº 12.527/2011, estabelece diretrizes fundamen": 71,
+  "Em resposta ao Pedido de Acesso à Informação, registrado na Plataforma Fala.Br s": 23,
+  "O pedido de acesso à informação pessoal foi feito pelo próprio titular do direit": 21,
+  "Corresponde à informação pessoal de privacidade, honra e imagem de terceiro": 20,
+  "Dados pessoais de terceiros": 20,
+  "Reportamo-nos à solicitação encaminhada a esta Agência nos termos da Lei de Aces": 14,
+  "O documento solicitado contém dados pessoais que não podem ser fornecidos a terc": 12,
+  "Prezado cidadão,   Reportamo-nos à solicitação encaminhada a esta Agência nos te": 8,
+  "Dados pessoais": 7,
+  "Prezada cidadã,   Reportamo-nos à solicitação encaminhada a esta Agência nos ter": 5
+ },
+ "prazos": {
+  "n": 148681,
+  "mediana": 13.0,
+  "p90": 30.0,
+  "pct_acima_20": 26.2
+ },
+ "grupos": {
+  "Estatais, bancos e empresas públicas": {
+   "pedidos": 19073,
+   "negado": 2902,
+   "concedido": 13501,
+   "parcial": 1236,
+   "prorrogado": 2701,
+   "dias_mediana": 10.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 16.3,
+   "dias_n": 19064
+  },
+  "Universidades e institutos federais": {
+   "pedidos": 21400,
+   "negado": 874,
+   "concedido": 17387,
+   "parcial": 1047,
+   "prorrogado": 4156,
+   "dias_mediana": 13.0,
+   "dias_p90": 31.0,
+   "pct_acima_20": 28.2,
+   "dias_n": 21400
+  },
+  "Esfera municipal": {
+   "pedidos": 9179,
+   "negado": 296,
+   "concedido": 5793,
+   "parcial": 398,
+   "prorrogado": 1614,
+   "dias_mediana": 15.0,
+   "dias_p90": 65.0,
+   "pct_acima_20": 37.4,
+   "dias_n": 8200
+  },
+  "Autarquias, fundações e agências": {
+   "pedidos": 56147,
+   "negado": 3824,
+   "concedido": 43660,
+   "parcial": 2580,
+   "prorrogado": 10391,
+   "dias_mediana": 10.0,
+   "dias_p90": 26.0,
+   "pct_acima_20": 19.8,
+   "dias_n": 56128
+  },
+  "Executivo federal (ministérios e Presidência)": {
+   "pedidos": 33287,
+   "negado": 2943,
+   "concedido": 21342,
+   "parcial": 4482,
+   "prorrogado": 11644,
+   "dias_mediana": 17.0,
+   "dias_p90": 31.0,
+   "pct_acima_20": 35.5,
+   "dias_n": 33287
+  },
+  "Esfera estadual": {
+   "pedidos": 6397,
+   "negado": 256,
+   "concedido": 4144,
+   "parcial": 446,
+   "prorrogado": 1360,
+   "dias_mediana": 15.0,
+   "dias_p90": 64.0,
+   "pct_acima_20": 38.2,
+   "dias_n": 6187
+  },
+  "Controle interno": {
+   "pedidos": 1872,
+   "negado": 181,
+   "concedido": 929,
+   "parcial": 323,
+   "prorrogado": 733,
+   "dias_mediana": 21.0,
+   "dias_p90": 32.0,
+   "pct_acima_20": 58.3,
+   "dias_n": 1857
+  },
+  "Legislativo": {
+   "pedidos": 1094,
+   "negado": 10,
+   "concedido": 329,
+   "parcial": 18,
+   "prorrogado": 29,
+   "dias_mediana": 6.0,
+   "dias_p90": 24.0,
+   "pct_acima_20": 16.9,
+   "dias_n": 827
+  },
+  "não classificado": {
+   "pedidos": 196,
+   "negado": 14,
+   "concedido": 107,
+   "parcial": 8,
+   "prorrogado": 35,
+   "dias_mediana": 14.0,
+   "dias_p90": 30.0,
+   "pct_acima_20": 26.0,
+   "dias_n": 192
+  },
+  "Judiciário": {
+   "pedidos": 378,
+   "negado": 53,
+   "concedido": 242,
+   "parcial": 7,
+   "prorrogado": 21,
+   "dias_mediana": 15.0,
+   "dias_p90": 68.60000000000002,
+   "pct_acima_20": 33.1,
+   "dias_n": 375
+  },
+  "Conselhos profissionais": {
+   "pedidos": 632,
+   "negado": 47,
+   "concedido": 388,
+   "parcial": 30,
+   "prorrogado": 27,
+   "dias_mediana": 5.0,
+   "dias_p90": 21.0,
+   "pct_acima_20": 10.5,
+   "dias_n": 630
+  },
+  "Controle externo (tribunais de contas)": {
+   "pedidos": 500,
+   "negado": 3,
+   "concedido": 382,
+   "parcial": 1,
+   "prorrogado": 3,
+   "dias_mediana": 1.0,
+   "dias_p90": 10.0,
+   "pct_acima_20": 1.6,
+   "dias_n": 500
+  },
+  "Defensoria": {
+   "pedidos": 34,
+   "negado": 1,
+   "concedido": 22,
+   "parcial": 6,
+   "prorrogado": 1,
+   "dias_mediana": 104.5,
+   "dias_p90": 478.7,
+   "pct_acima_20": 73.5,
+   "dias_n": 34
+  }
+ }
+}

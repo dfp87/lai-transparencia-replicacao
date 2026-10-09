@@ -1,0 +1,156 @@
+{
+ "2012": {
+  "negados": 4857,
+  "familias": {
+   "outros / forma de entrega": 1063,
+   "sigilo legal": 935,
+   "pedido genérico": 713,
+   "dados pessoais (art. 31)": 2126,
+   "desproporcional / desarrazoado": 3,
+   "processo decisório em curso": 17
+  }
+ },
+ "2013": {
+  "negados": 9629,
+  "familias": {
+   "dados pessoais (art. 31)": 3734,
+   "pedido genérico": 1252,
+   "outros / forma de entrega": 1803,
+   "sigilo legal": 1806,
+   "processo decisório em curso": 594,
+   "desproporcional / desarrazoado": 440
+  }
+ },
+ "2014": {
+  "negados": 9943,
+  "familias": {
+   "processo decisório em curso": 539,
+   "dados pessoais (art. 31)": 3182,
+   "sigilo legal": 2357,
+   "pedido genérico": 1037,
+   "outros / forma de entrega": 1417,
+   "desproporcional / desarrazoado": 1411
+  }
+ },
+ "2015": {
+  "negados": 7697,
+  "familias": {
+   "sigilo legal": 2020,
+   "dados pessoais (art. 31)": 2280,
+   "outros / forma de entrega": 1398,
+   "processo decisório em curso": 645,
+   "pedido genérico": 951,
+   "desproporcional / desarrazoado": 403
+  }
+ },
+ "2016": {
+  "negados": 8112,
+  "familias": {
+   "outros / forma de entrega": 1499,
+   "processo decisório em curso": 583,
+   "sigilo legal": 2056,
+   "pedido genérico": 1013,
+   "dados pessoais (art. 31)": 1543,
+   "desproporcional / desarrazoado": 1418
+  }
+ },
+ "2017": {
+  "negados": 8557,
+  "familias": {
+   "sigilo legal": 2198,
+   "processo decisório em curso": 605,
+   "pedido genérico": 1249,
+   "outros / forma de entrega": 1442,
+   "dados pessoais (art. 31)": 2436,
+   "desproporcional / desarrazoado": 627
+  }
+ },
+ "2018": {
+  "negados": 9397,
+  "familias": {
+   "dados pessoais (art. 31)": 2199,
+   "outros / forma de entrega": 1743,
+   "sigilo legal": 2121,
+   "desproporcional / desarrazoado": 732,
+   "pedido genérico": 1766,
+   "processo decisório em curso": 836
+  }
+ },
+ "2019": {
+  "negados": 10791,
+  "familias": {
+   "sigilo legal": 2888,
+   "outros / forma de entrega": 1722,
+   "dados pessoais (art. 31)": 2011,
+   "processo decisório em curso": 812,
+   "pedido genérico": 2189,
+   "desproporcional / desarrazoado": 1169
+  }
+ },
+ "2020": {
+  "negados": 10851,
+  "familias": {
+   "desproporcional / desarrazoado": 960,
+   "dados pessoais (art. 31)": 2084,
+   "outros / forma de entrega": 2170,
+   "sigilo legal": 2725,
+   "processo decisório em curso": 765,
+   "pedido genérico": 2147
+  }
+ },
+ "2021": {
+  "negados": 8713,
+  "familias": {
+   "sigilo legal": 2564,
+   "outros / forma de entrega": 1444,
+   "pedido genérico": 1641,
+   "dados pessoais (art. 31)": 1657,
+   "processo decisório em curso": 675,
+   "desproporcional / desarrazoado": 732
+  }
+ },
+ "2022": {
+  "negados": 8210,
+  "familias": {
+   "processo decisório em curso": 730,
+   "sigilo legal": 2459,
+   "outros / forma de entrega": 1754,
+   "dados pessoais (art. 31)": 1384,
+   "pedido genérico": 1309,
+   "desproporcional / desarrazoado": 574
+  }
+ },
+ "2023": {
+  "negados": 10624,
+  "familias": {
+   "sigilo legal": 3534,
+   "processo decisório em curso": 966,
+   "dados pessoais (art. 31)": 1394,
+   "pedido genérico": 1529,
+   "outros / forma de entrega": 2037,
+   "desproporcional / desarrazoado": 1164
+  }
+ },
+ "2024": {
+  "negados": 10420,
+  "familias": {
+   "sigilo legal": 3302,
+   "outros / forma de entrega": 1378,
+   "processo decisório em curso": 1286,
+   "pedido genérico": 1155,
+   "dados pessoais (art. 31)": 2014,
+   "desproporcional / desarrazoado": 1285
+  }
+ },
+ "2025": {
+  "negados": 11404,
+  "familias": {
+   "outros / forma de entrega": 1719,
+   "pedido genérico": 1365,
+   "sigilo legal": 4307,
+   "dados pessoais (art. 31)": 1511,
+   "processo decisório em curso": 1533,
+   "desproporcional / desarrazoado": 969
+  }
+ }
+}

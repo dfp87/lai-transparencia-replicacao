@@ -1,0 +1,27 @@
+{
+ "ano": 2025,
+ "pedidos": 83827,
+ "pct_resumo": 94.7,
+ "pct_detalhamento": 100.0,
+ "pct_resposta": 100.0,
+ "ext_media_resumo": 63.0,
+ "ext_media_resposta": 1539.0,
+ "ext_mediana_resposta": 1070.0,
+ "respostas_distintas_inicio": 64101,
+ "pct_resposta_padronizada": 20.4,
+ "top_decisoes": {
+  "Acesso Concedido": 62194,
+  "Acesso Parcialmente Concedido": 6795,
+  "Acesso Negado": 5306,
+  "Informação Inexistente": 3242,
+  "Não se trata de solicitação de informação": 2275,
+  "Órgão não tem competência para responder sobre o assunto": 2031
+ },
+ "motivo_negativa_n": 191,
+ "motivo_negativa_top": {
+  "Corresponde à informação pessoal de privacidade, honra e ima": 10,
+  "Em resposta ao Pedido de Acesso à Informação, registrado na ": 6,
+  "Dados pessoais de terceiros": 4,
+  "Dados pessoais": 4
+ }
+}

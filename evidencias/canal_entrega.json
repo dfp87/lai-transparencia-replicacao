@@ -1,0 +1,1587 @@
+[
+ {
+  "ano": 2012,
+  "pedidos": 55212,
+  "canal": {
+   "email": {
+    "n": 28568,
+    "pct": 51.74
+   },
+   "plataforma": {
+    "n": 9785,
+    "pct": 17.72
+   },
+   "outras": {
+    "n": 6918,
+    "pct": 12.53
+   },
+   "orientacao": {
+    "n": 5737,
+    "pct": 10.39
+   },
+   "não especificado": {
+    "n": 4204,
+    "pct": 7.61
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|email": 28568,
+   "concedido|plataforma": 9785,
+   "concedido|orientacao": 5737,
+   "negado|outras": 4857,
+   "outro|não especificado": 4204,
+   "concedido|outras": 2061
+  },
+  "dias_por_canal": {
+   "outras": {
+    "n": 6918,
+    "mediana": 5.0,
+    "p90": 29.0
+   },
+   "plataforma": {
+    "n": 9785,
+    "mediana": 9.0,
+    "p90": 29.0
+   },
+   "não especificado": {
+    "n": 4204,
+    "mediana": 3.0,
+    "p90": 25.0
+   },
+   "email": {
+    "n": 28568,
+    "mediana": 11.0,
+    "p90": 29.0
+   },
+   "orientacao": {
+    "n": 5737,
+    "mediana": 0.0,
+    "p90": 15.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 28568
+   },
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 8973
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 5737
+   },
+   {
+    "valor": "",
+    "n": 4204
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2126
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 812
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 713
+   },
+   {
+    "valor": "data, hora e local para consulta agendados",
+    "n": 671
+   },
+   {
+    "valor": "pedido incompreensível",
+    "n": 665
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 627
+   }
+  ],
+  "negado": {
+   "n": 4857,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 46151,
+   "email_pct": 61.9,
+   "plataforma_pct": 21.2
+  }
+ },
+ {
+  "ano": 2013,
+  "pedidos": 86661,
+  "canal": {
+   "plataforma": {
+    "n": 31742,
+    "pct": 36.63
+   },
+   "email": {
+    "n": 19006,
+    "pct": 21.93
+   },
+   "outras": {
+    "n": 14911,
+    "pct": 17.21
+   },
+   "não especificado": {
+    "n": 11498,
+    "pct": 13.27
+   },
+   "orientacao": {
+    "n": 9504,
+    "pct": 10.97
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 31742,
+   "concedido|email": 19006,
+   "outro|não especificado": 11498,
+   "negado|outras": 9629,
+   "concedido|orientacao": 9504,
+   "concedido|outras": 5282
+  },
+  "dias_por_canal": {
+   "email": {
+    "n": 19006,
+    "mediana": 13.0,
+    "p90": 27.0
+   },
+   "orientacao": {
+    "n": 9504,
+    "mediana": 1.0,
+    "p90": 20.0
+   },
+   "não especificado": {
+    "n": 11498,
+    "mediana": 3.0,
+    "p90": 23.0
+   },
+   "plataforma": {
+    "n": 31742,
+    "mediana": 14.0,
+    "p90": 32.0
+   },
+   "outras": {
+    "n": 14911,
+    "mediana": 10.0,
+    "p90": 30.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 31010
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 19006
+   },
+   {
+    "valor": "",
+    "n": 11498
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 9504
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 3734
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1437
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1252
+   },
+   {
+    "valor": "parte da informação contém dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1159
+   },
+   {
+    "valor": "pedido incompreensível",
+    "n": 903
+   },
+   {
+    "valor": "pedido exige tratamento adicional de dados",
+    "n": 900
+   }
+  ],
+  "negado": {
+   "n": 9629,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 65534,
+   "email_pct": 29.0,
+   "plataforma_pct": 48.44
+  }
+ },
+ {
+  "ano": 2014,
+  "pedidos": 90167,
+  "canal": {
+   "plataforma": {
+    "n": 41191,
+    "pct": 45.68
+   },
+   "outras": {
+    "n": 15369,
+    "pct": 17.05
+   },
+   "não especificado": {
+    "n": 14429,
+    "pct": 16.0
+   },
+   "email": {
+    "n": 9901,
+    "pct": 10.98
+   },
+   "orientacao": {
+    "n": 9277,
+    "pct": 10.29
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 41191,
+   "outro|não especificado": 14429,
+   "negado|outras": 9943,
+   "concedido|email": 9901,
+   "concedido|orientacao": 9277,
+   "concedido|outras": 5426
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 41191,
+    "mediana": 14.0,
+    "p90": 30.0
+   },
+   "não especificado": {
+    "n": 14405,
+    "mediana": 5.0,
+    "p90": 21.0
+   },
+   "outras": {
+    "n": 15369,
+    "mediana": 12.0,
+    "p90": 25.0
+   },
+   "email": {
+    "n": 9901,
+    "mediana": 12.0,
+    "p90": 27.0
+   },
+   "orientacao": {
+    "n": 9277,
+    "mediana": 3.0,
+    "p90": 20.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 40311
+   },
+   {
+    "valor": "",
+    "n": 14429
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 9901
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 9277
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 3182
+   },
+   {
+    "valor": "pedido desproporcional ou desarrazoado",
+    "n": 1411
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1186
+   },
+   {
+    "valor": "data, hora e local para consulta agendados",
+    "n": 1180
+   },
+   {
+    "valor": "informação classificada conforme artigos 23 e 24 da lei nº 12.527/2011",
+    "n": 1171
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1037
+   }
+  ],
+  "negado": {
+   "n": 9943,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 65795,
+   "email_pct": 15.05,
+   "plataforma_pct": 62.61
+  }
+ },
+ {
+  "ano": 2015,
+  "pedidos": 102423,
+  "canal": {
+   "plataforma": {
+    "n": 49018,
+    "pct": 47.86
+   },
+   "não especificado": {
+    "n": 16551,
+    "pct": 16.16
+   },
+   "outras": {
+    "n": 15411,
+    "pct": 15.05
+   },
+   "orientacao": {
+    "n": 13726,
+    "pct": 13.4
+   },
+   "email": {
+    "n": 7717,
+    "pct": 7.53
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 49018,
+   "outro|não especificado": 16551,
+   "concedido|orientacao": 13726,
+   "concedido|email": 7717,
+   "concedido|outras": 7714,
+   "negado|outras": 7697
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 49018,
+    "mediana": 14.0,
+    "p90": 31.0
+   },
+   "outras": {
+    "n": 15411,
+    "mediana": 13.0,
+    "p90": 30.0
+   },
+   "email": {
+    "n": 7717,
+    "mediana": 14.0,
+    "p90": 32.0
+   },
+   "não especificado": {
+    "n": 16550,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "orientacao": {
+    "n": 13726,
+    "mediana": 1.0,
+    "p90": 20.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 47945
+   },
+   {
+    "valor": "",
+    "n": 16551
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 13726
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 7717
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2280
+   },
+   {
+    "valor": "parte da informação contém dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1471
+   },
+   {
+    "valor": "data, hora e local para consulta agendados",
+    "n": 1354
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1130
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 1073
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 951
+   }
+  ],
+  "negado": {
+   "n": 7697,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 78175,
+   "email_pct": 9.87,
+   "plataforma_pct": 62.7
+  }
+ },
+ {
+  "ano": 2016,
+  "pedidos": 111458,
+  "canal": {
+   "plataforma": {
+    "n": 55693,
+    "pct": 49.97
+   },
+   "não especificado": {
+    "n": 20853,
+    "pct": 18.71
+   },
+   "outras": {
+    "n": 17353,
+    "pct": 15.57
+   },
+   "orientacao": {
+    "n": 10846,
+    "pct": 9.73
+   },
+   "email": {
+    "n": 6713,
+    "pct": 6.02
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 55693,
+   "outro|não especificado": 20853,
+   "concedido|orientacao": 10846,
+   "concedido|outras": 9241,
+   "negado|outras": 8112,
+   "concedido|email": 6713
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 55693,
+    "mediana": 14.0,
+    "p90": 32.0
+   },
+   "outras": {
+    "n": 17353,
+    "mediana": 15.0,
+    "p90": 32.0
+   },
+   "não especificado": {
+    "n": 20853,
+    "mediana": 2.0,
+    "p90": 21.0
+   },
+   "orientacao": {
+    "n": 10846,
+    "mediana": 2.0,
+    "p90": 21.0
+   },
+   "email": {
+    "n": 6713,
+    "mediana": 13.0,
+    "p90": 32.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 54675
+   },
+   {
+    "valor": "",
+    "n": 20853
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 10846
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 6713
+   },
+   {
+    "valor": "parte da informação contém dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1991
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1543
+   },
+   {
+    "valor": "pedido desproporcional ou desarrazoado",
+    "n": 1418
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1237
+   },
+   {
+    "valor": "data, hora e local para consulta agendados",
+    "n": 1225
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1186
+   }
+  ],
+  "negado": {
+   "n": 8112,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 82493,
+   "email_pct": 8.14,
+   "plataforma_pct": 67.51
+  }
+ },
+ {
+  "ano": 2017,
+  "pedidos": 120790,
+  "canal": {
+   "plataforma": {
+    "n": 65732,
+    "pct": 54.42
+   },
+   "não especificado": {
+    "n": 22252,
+    "pct": 18.42
+   },
+   "outras": {
+    "n": 15723,
+    "pct": 13.02
+   },
+   "orientacao": {
+    "n": 9954,
+    "pct": 8.24
+   },
+   "email": {
+    "n": 7129,
+    "pct": 5.9
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 65732,
+   "outro|não especificado": 22252,
+   "concedido|orientacao": 9954,
+   "negado|outras": 8557,
+   "concedido|outras": 7166,
+   "concedido|email": 7129
+  },
+  "dias_por_canal": {
+   "não especificado": {
+    "n": 22252,
+    "mediana": 2.0,
+    "p90": 21.0
+   },
+   "plataforma": {
+    "n": 65732,
+    "mediana": 14.0,
+    "p90": 31.0
+   },
+   "outras": {
+    "n": 15723,
+    "mediana": 13.0,
+    "p90": 31.0
+   },
+   "orientacao": {
+    "n": 9954,
+    "mediana": 3.0,
+    "p90": 22.0
+   },
+   "email": {
+    "n": 7129,
+    "mediana": 12.0,
+    "p90": 33.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 64099
+   },
+   {
+    "valor": "",
+    "n": 22252
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 9954
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 7129
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2436
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1678
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 1633
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1249
+   },
+   {
+    "valor": "parte da informação contém dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1192
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1081
+   }
+  ],
+  "negado": {
+   "n": 8557,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 89981,
+   "email_pct": 7.92,
+   "plataforma_pct": 73.05
+  }
+ },
+ {
+  "ano": 2018,
+  "pedidos": 127313,
+  "canal": {
+   "plataforma": {
+    "n": 65725,
+    "pct": 51.62
+   },
+   "não especificado": {
+    "n": 24801,
+    "pct": 19.48
+   },
+   "outras": {
+    "n": 17369,
+    "pct": 13.64
+   },
+   "orientacao": {
+    "n": 12617,
+    "pct": 9.91
+   },
+   "email": {
+    "n": 6801,
+    "pct": 5.34
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 65725,
+   "outro|não especificado": 24801,
+   "concedido|orientacao": 12617,
+   "negado|outras": 9397,
+   "concedido|outras": 7972,
+   "concedido|email": 6801
+  },
+  "dias_por_canal": {
+   "não especificado": {
+    "n": 24801,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "orientacao": {
+    "n": 12617,
+    "mediana": 2.0,
+    "p90": 21.0
+   },
+   "plataforma": {
+    "n": 65725,
+    "mediana": 13.0,
+    "p90": 30.0
+   },
+   "outras": {
+    "n": 17369,
+    "mediana": 10.0,
+    "p90": 30.0
+   },
+   "email": {
+    "n": 6801,
+    "mediana": 10.0,
+    "p90": 29.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 64014
+   },
+   {
+    "valor": "",
+    "n": 24801
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 12617
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 6801
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2199
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1766
+   },
+   {
+    "valor": "parte da informação contém dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1739
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 1711
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1443
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1116
+   }
+  ],
+  "negado": {
+   "n": 9397,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 93115,
+   "email_pct": 7.3,
+   "plataforma_pct": 70.58
+  }
+ },
+ {
+  "ano": 2019,
+  "pedidos": 128926,
+  "canal": {
+   "plataforma": {
+    "n": 74407,
+    "pct": 57.71
+   },
+   "não especificado": {
+    "n": 20873,
+    "pct": 16.19
+   },
+   "outras": {
+    "n": 18398,
+    "pct": 14.27
+   },
+   "orientacao": {
+    "n": 10977,
+    "pct": 8.51
+   },
+   "email": {
+    "n": 4271,
+    "pct": 3.31
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 74407,
+   "outro|não especificado": 20873,
+   "concedido|orientacao": 10977,
+   "negado|outras": 10791,
+   "concedido|outras": 7607,
+   "concedido|email": 4271
+  },
+  "dias_por_canal": {
+   "outras": {
+    "n": 18398,
+    "mediana": 14.0,
+    "p90": 30.0
+   },
+   "não especificado": {
+    "n": 20873,
+    "mediana": 4.0,
+    "p90": 21.0
+   },
+   "orientacao": {
+    "n": 10977,
+    "mediana": 4.0,
+    "p90": 21.0
+   },
+   "plataforma": {
+    "n": 74407,
+    "mediana": 13.0,
+    "p90": 29.0
+   },
+   "email": {
+    "n": 4271,
+    "mediana": 12.0,
+    "p90": 30.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 71986
+   },
+   {
+    "valor": "",
+    "n": 20873
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 10977
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 4271
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 2421
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 2189
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 2046
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2011
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1320
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1238
+   }
+  ],
+  "negado": {
+   "n": 10791,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 97262,
+   "email_pct": 4.39,
+   "plataforma_pct": 76.5
+  }
+ },
+ {
+  "ano": 2020,
+  "pedidos": 154079,
+  "canal": {
+   "plataforma": {
+    "n": 76380,
+    "pct": 49.57
+   },
+   "não especificado": {
+    "n": 45683,
+    "pct": 29.65
+   },
+   "outras": {
+    "n": 18311,
+    "pct": 11.88
+   },
+   "orientacao": {
+    "n": 10895,
+    "pct": 7.07
+   },
+   "email": {
+    "n": 2810,
+    "pct": 1.82
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 76380,
+   "outro|não especificado": 45683,
+   "concedido|orientacao": 10895,
+   "negado|outras": 10851,
+   "concedido|outras": 7460,
+   "concedido|email": 2810
+  },
+  "dias_por_canal": {
+   "não especificado": {
+    "n": 45677,
+    "mediana": 5.0,
+    "p90": 22.0
+   },
+   "plataforma": {
+    "n": 76380,
+    "mediana": 13.0,
+    "p90": 30.0
+   },
+   "outras": {
+    "n": 18311,
+    "mediana": 14.0,
+    "p90": 31.0
+   },
+   "orientacao": {
+    "n": 10895,
+    "mediana": 4.0,
+    "p90": 21.0
+   },
+   "email": {
+    "n": 2810,
+    "mediana": 8.0,
+    "p90": 27.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 74603
+   },
+   {
+    "valor": "",
+    "n": 45683
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 10895
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 2810
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 2147
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2084
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1824
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 1777
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1758
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1170
+   }
+  ],
+  "negado": {
+   "n": 10851,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 97545,
+   "email_pct": 2.88,
+   "plataforma_pct": 78.3
+  }
+ },
+ {
+  "ano": 2021,
+  "pedidos": 123271,
+  "canal": {
+   "plataforma": {
+    "n": 68385,
+    "pct": 55.48
+   },
+   "não especificado": {
+    "n": 23339,
+    "pct": 18.93
+   },
+   "outras": {
+    "n": 16441,
+    "pct": 13.34
+   },
+   "orientacao": {
+    "n": 11641,
+    "pct": 9.44
+   },
+   "email": {
+    "n": 3465,
+    "pct": 2.81
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 68385,
+   "outro|não especificado": 23339,
+   "concedido|orientacao": 11641,
+   "negado|outras": 8713,
+   "concedido|outras": 7728,
+   "concedido|email": 3465
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 68385,
+    "mediana": 13.0,
+    "p90": 30.0
+   },
+   "outras": {
+    "n": 16441,
+    "mediana": 13.0,
+    "p90": 30.0
+   },
+   "não especificado": {
+    "n": 23130,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "orientacao": {
+    "n": 11641,
+    "mediana": 3.0,
+    "p90": 20.0
+   },
+   "email": {
+    "n": 3465,
+    "mediana": 8.0,
+    "p90": 27.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 66849
+   },
+   {
+    "valor": "",
+    "n": 23339
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 11641
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 3465
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1816
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1657
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1641
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1620
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 1536
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1185
+   }
+  ],
+  "negado": {
+   "n": 8713,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 91219,
+   "email_pct": 3.8,
+   "plataforma_pct": 74.97
+  }
+ },
+ {
+  "ano": 2022,
+  "pedidos": 117993,
+  "canal": {
+   "plataforma": {
+    "n": 65425,
+    "pct": 55.45
+   },
+   "não especificado": {
+    "n": 17862,
+    "pct": 15.14
+   },
+   "orientacao": {
+    "n": 16898,
+    "pct": 14.32
+   },
+   "outras": {
+    "n": 14918,
+    "pct": 12.64
+   },
+   "email": {
+    "n": 2890,
+    "pct": 2.45
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 65425,
+   "outro|não especificado": 17862,
+   "concedido|orientacao": 16898,
+   "negado|outras": 8210,
+   "concedido|outras": 6708,
+   "concedido|email": 2890
+  },
+  "dias_por_canal": {
+   "não especificado": {
+    "n": 17630,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "outras": {
+    "n": 14918,
+    "mediana": 12.0,
+    "p90": 30.0
+   },
+   "plataforma": {
+    "n": 65425,
+    "mediana": 13.0,
+    "p90": 28.0
+   },
+   "orientacao": {
+    "n": 16898,
+    "mediana": 1.0,
+    "p90": 18.0
+   },
+   "email": {
+    "n": 2890,
+    "mediana": 10.0,
+    "p90": 29.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 63253
+   },
+   {
+    "valor": "",
+    "n": 17862
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 16898
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 2890
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 2172
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 1545
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1384
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1309
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1227
+   },
+   {
+    "valor": "pedido incompreensível",
+    "n": 1166
+   }
+  ],
+  "negado": {
+   "n": 8210,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 91921,
+   "email_pct": 3.14,
+   "plataforma_pct": 71.18
+  }
+ },
+ {
+  "ano": 2023,
+  "pedidos": 142427,
+  "canal": {
+   "plataforma": {
+    "n": 86350,
+    "pct": 60.63
+   },
+   "outras": {
+    "n": 19513,
+    "pct": 13.7
+   },
+   "não especificado": {
+    "n": 17761,
+    "pct": 12.47
+   },
+   "orientacao": {
+    "n": 15991,
+    "pct": 11.23
+   },
+   "email": {
+    "n": 2812,
+    "pct": 1.97
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 86350,
+   "outro|não especificado": 17761,
+   "concedido|orientacao": 15991,
+   "negado|outras": 10624,
+   "concedido|outras": 8889,
+   "concedido|email": 2812
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 86350,
+    "mediana": 14.0,
+    "p90": 30.0
+   },
+   "orientacao": {
+    "n": 15991,
+    "mediana": 1.0,
+    "p90": 20.0
+   },
+   "outras": {
+    "n": 19513,
+    "mediana": 15.0,
+    "p90": 31.0
+   },
+   "não especificado": {
+    "n": 17240,
+    "mediana": 6.0,
+    "p90": 25.0
+   },
+   "email": {
+    "n": 2812,
+    "mediana": 12.0,
+    "p90": 30.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 84995
+   },
+   {
+    "valor": "",
+    "n": 17761
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 15991
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 2812
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 2167
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1827
+   },
+   {
+    "valor": "pedido genérico",
+    "n": 1529
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1512
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 1394
+   },
+   {
+    "valor": "informação classificada conforme artigos 23 e 24 da lei nº 12.527/2011",
+    "n": 1367
+   }
+  ],
+  "negado": {
+   "n": 10624,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 114042,
+   "email_pct": 2.47,
+   "plataforma_pct": 75.72
+  }
+ },
+ {
+  "ano": 2024,
+  "pedidos": 131030,
+  "canal": {
+   "plataforma": {
+    "n": 80363,
+    "pct": 61.33
+   },
+   "outras": {
+    "n": 19580,
+    "pct": 14.94
+   },
+   "não especificado": {
+    "n": 16419,
+    "pct": 12.53
+   },
+   "orientacao": {
+    "n": 11619,
+    "pct": 8.87
+   },
+   "email": {
+    "n": 3049,
+    "pct": 2.33
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 80363,
+   "outro|não especificado": 16419,
+   "concedido|orientacao": 11619,
+   "negado|outras": 10420,
+   "concedido|outras": 9160,
+   "concedido|email": 3049
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 80363,
+    "mediana": 14.0,
+    "p90": 30.0
+   },
+   "não especificado": {
+    "n": 15584,
+    "mediana": 7.0,
+    "p90": 29.0
+   },
+   "outras": {
+    "n": 19580,
+    "mediana": 16.0,
+    "p90": 32.0
+   },
+   "orientacao": {
+    "n": 11619,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "email": {
+    "n": 3049,
+    "mediana": 11.0,
+    "p90": 31.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 78040
+   },
+   {
+    "valor": "",
+    "n": 16419
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 11619
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 3049
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 2323
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 2172
+   },
+   {
+    "valor": "dados pessoais (art. 31 da lei nº 12527/2011)",
+    "n": 2014
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 1840
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1689
+   },
+   {
+    "valor": "processo decisório em curso",
+    "n": 1286
+   }
+  ],
+  "negado": {
+   "n": 10420,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 104191,
+   "email_pct": 2.93,
+   "plataforma_pct": 77.13
+  }
+ },
+ {
+  "ano": 2025,
+  "pedidos": 150189,
+  "canal": {
+   "plataforma": {
+    "n": 88491,
+    "pct": 58.92
+   },
+   "outras": {
+    "n": 22288,
+    "pct": 14.84
+   },
+   "não especificado": {
+    "n": 19977,
+    "pct": 13.3
+   },
+   "orientacao": {
+    "n": 15784,
+    "pct": 10.51
+   },
+   "email": {
+    "n": 3649,
+    "pct": 2.43
+   }
+  },
+  "decisao_x_canal": {
+   "concedido|plataforma": 88486,
+   "outro|não especificado": 19969,
+   "concedido|orientacao": 15784,
+   "negado|outras": 11404,
+   "concedido|outras": 10881,
+   "concedido|email": 3649,
+   "concedido|não especificado": 8,
+   "outro|plataforma": 5,
+   "outro|outras": 3
+  },
+  "dias_por_canal": {
+   "plataforma": {
+    "n": 88491,
+    "mediana": 15.0,
+    "p90": 30.0
+   },
+   "orientacao": {
+    "n": 15784,
+    "mediana": 3.0,
+    "p90": 21.0
+   },
+   "outras": {
+    "n": 22288,
+    "mediana": 16.0,
+    "p90": 32.0
+   },
+   "não especificado": {
+    "n": 18469,
+    "mediana": 7.0,
+    "p90": 28.0
+   },
+   "email": {
+    "n": 3649,
+    "mediana": 12.0,
+    "p90": 32.0
+   }
+  },
+  "top_valores_brutos": [
+   {
+    "valor": "resposta solicitada inserida no fala.br",
+    "n": 85279
+   },
+   {
+    "valor": "",
+    "n": 19977
+   },
+   {
+    "valor": "orientação sobre como encontrar a informação solicitada na internet ou em publicações exis",
+    "n": 15784
+   },
+   {
+    "valor": "informações enviadas por e-mail",
+    "n": 3649
+   },
+   {
+    "valor": "informação sigilosa de acordo com legislação específica",
+    "n": 3548
+   },
+   {
+    "valor": "concedido acesso a sistema corporativo para consulta da informação",
+    "n": 3212
+   },
+   {
+    "valor": "parte da informação é de competência de outro órgão/entidade",
+    "n": 2213
+   },
+   {
+    "valor": "parte da informação é inexistente",
+    "n": 1900
+   },
+   {
+    "valor": "parte da informação é sigilosa de acordo com legislação específica",
+    "n": 1539
+   },
+   {
+    "valor": "processo decisório em curso",
+    "n": 1534
+   }
+  ],
+  "negado": {
+   "n": 11404,
+   "email_pct": 0.0,
+   "plataforma_pct": 0.0
+  },
+  "concedido": {
+   "n": 118808,
+   "email_pct": 3.07,
+   "plataforma_pct": 74.48
+  }
+ }
+]

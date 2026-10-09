@@ -1,0 +1,212 @@
+
+==============================================================================
+1. LEITURA DAS EVIDÊNCIAS
+==============================================================================
+serie_textual_2015-2025.csv : 11 anos | colunas: ano, pedidos, pct_resumo, pct_detalhamento, pct_resposta, ext_media_resumo, ext_media_resposta, ext_mediana_resposta, respostas_distintas_inicio, pct_resposta_padronizada, top_decisoes, motivo_negativa_n, motivo_negativa_top 
+Total de pedidos no registro estruturado, 2012-2025 : 1.641.939 
+Evidências lidas: consolidado MinHash (11 anos), canal (14), tipologia (14), convergência (11).
+
+==============================================================================
+3. TABELAS GRAVADAS EM saidas-R/
+==============================================================================
+  T1_composicao-decisao.csv                7 linhas
+  T2_serie-textual-por-ano.csv             11 linhas
+  T3_padronizacao-2metodos-3configs.csv    11 linhas
+  T4_decisoes-por-ano.csv                  11 linhas
+  T5_composicao-do-pedido.csv              13 linhas
+  T6_pedido-x-negativa.csv                 14 linhas
+  T7_convergencia-registro-texto.csv       11 linhas
+  T8_canal-de-entrega.csv                  14 linhas
+  T9_tipologia-da-negativa.csv             14 linhas
+
+==============================================================================
+4. FIGURAS GERADAS EM figuras-R/
+==============================================================================
+  F7_padronizacao-dois-metodos.png           (152821 bytes)
+  F5_padronizada-e-extensao.png              (163105 bytes)
+  F2_canal-de-entrega.png                    (183419 bytes)
+  F3_tipologia-da-negativa.png               (204320 bytes)
+
+==============================================================================
+5. CONFERÊNCIA — VALORES DO ARTIGO x VALORES RECALCULADOS
+==============================================================================
+
+INDICADOR                                   |         ARTIGO |    RECALCULADO | VEREDITO
+----------------------------------------------------------------------------------------- 
+Respostas com texto, 2015-2025              |         938987 |         938987 | BATE
+Pedidos registrados, 2012-2025              |        1641939 |        1641939 | BATE
+Repetição literal total (md5 250) %       |          20.64 |          20.64 | BATE
+Quase-repetição MinHash FINAL %           |          22.55 |          22.55 | BATE
+MinHash v2 (baldes descartados) %           |          22.49 |          22.49 | BATE
+MinHash v3 (baldes unidos) %                |          37.47 |          37.47 | BATE
+Quadro 1: Acesso Concedido n                |         676295 |         676295 | BATE
+Quadro 1: Acesso Concedido %                |           72.0 |           72.0 | BATE
+Quadro 1: Nao se trata de solic. %          |            7.0 |            7.0 | BATE
+Quadro 1: Acesso Negado n                   |          61824 |          61824 | BATE
+Quadro 1: Acesso Negado %                   |            6.6 |            6.6 | BATE
+Quadro 1: Parcialmente Concedido %          |            5.5 |            5.5 | BATE
+Quadro 1: Informacao Inexistente %          |            3.6 |            3.6 | BATE
+Quadro 1: Orgao incompetente %              |            2.9 |            2.9 | BATE
+Quadro 1: Pergunta Duplicada %              |            2.3 |            2.3 | BATE
+Serie 2015 exato (md5 250) %                |           20.9 |           20.9 | BATE
+Serie 2016 exato (md5 250) %                |           21.2 |           21.2 | BATE
+Serie 2017 exato (md5 250) %                |           20.0 |           20.0 | BATE
+Serie 2018 exato (md5 250) %                |           19.0 |           19.0 | BATE
+Serie 2019 exato (md5 250) %                |           14.9 |           14.9 | BATE
+Serie 2020 exato (md5 250) %                |           24.7 |           24.7 | BATE
+Serie 2021 exato (md5 250) %                |           21.5 |           21.5 | BATE
+Serie 2022 exato (md5 250) %                |           21.3 |           21.3 | BATE
+Serie 2023 exato (md5 250) %                |           22.7 |           22.7 | BATE
+Serie 2024 exato (md5 250) %                |           20.3 |           20.3 | BATE
+Serie 2025 exato (md5 250) %                |           20.4 |           20.4 | BATE
+Serie 2015 quase-repeticao (MinHash) %      |           24.8 |           24.8 | BATE
+Serie 2016 quase-repeticao (MinHash) %      |           25.2 |           25.2 | BATE
+Serie 2017 quase-repeticao (MinHash) %      |           20.9 |           20.9 | BATE
+Serie 2018 quase-repeticao (MinHash) %      |           22.8 |           22.8 | BATE
+Serie 2019 quase-repeticao (MinHash) %      |           20.1 |           20.1 | BATE
+Serie 2020 quase-repeticao (MinHash) %      |           20.6 |           20.6 | BATE
+Serie 2021 quase-repeticao (MinHash) %      |           21.3 |           21.3 | BATE
+Serie 2022 quase-repeticao (MinHash) %      |           25.6 |           25.6 | BATE
+Serie 2023 quase-repeticao (MinHash) %      |           24.4 |           24.4 | BATE
+Serie 2024 quase-repeticao (MinHash) %      |           22.5 |           22.5 | BATE
+Serie 2025 quase-repeticao (MinHash) %      |           21.6 |           21.6 | BATE
+Quadro 2: tipo contrato n                   |         335094 |         335094 | BATE
+Quadro 2: tipo indefinido n                 |         291758 |         291758 | BATE
+Quadro 2: tipo pessoal n                    |          85251 |          85251 | BATE
+Quadro 2: tipo ato n                        |          64463 |          64463 | BATE
+Quadro 2: tipo dado bruto n                 |          57998 |          57998 | BATE
+Quadro 2: tipo politica pub. n              |          54307 |          54307 | BATE
+Quadro 2: tipo gasto n                      |          50120 |          50120 | BATE
+Quadro 2: espec. generico n                 |         478527 |         478527 | BATE
+Quadro 2: espec. delimitado n               |         301196 |         301196 | BATE
+Quadro 2: espec. especifico n               |         159268 |         159268 | BATE
+Quadro 2: art13 desproporcional n           |         138098 |         138098 | BATE
+Quadro 2: art13 trabalho adic. n            |         104971 |         104971 | BATE
+Quadro 2: art13 generico n                  |          71473 |          71473 | BATE
+Quadro 2: contrato %                        |           35.7 |           35.7 | BATE
+Quadro 2: indefinido %                      |           31.1 |           31.1 | BATE
+Quadro 2: espec. generico %                 |           51.0 |           51.0 | BATE
+Quadro 3 espec generico: n                  |         478527 |         478527 | BATE
+Quadro 3 espec generico: negativa %         |            7.5 |            7.5 | BATE
+Quadro 3 espec generico: concessao %        |           71.4 |           71.4 | BATE
+Quadro 3 espec delimitado: n                |         301196 |         301196 | BATE
+Quadro 3 espec delimitado: negativa %       |            5.8 |            5.8 | BATE
+Quadro 3 espec delimitado: concessao %      |           72.6 |           72.6 | BATE
+Quadro 3 espec especifico: n                |         159268 |         159268 | BATE
+Quadro 3 espec especifico: negativa %       |            5.3 |            5.3 | BATE
+Quadro 3 espec especifico: concessao %      |           72.9 |           72.9 | BATE
+Quadro 3 art13 desproporcional: n           |         127544 |         127544 | BATE
+Quadro 3 art13 desproporcional: negativa %  |            8.5 |            8.5 | BATE
+Quadro 3 art13 desproporcional: concessao % |           70.0 |           70.0 | BATE
+Quadro 3 art13 sem marca: n                 |         664439 |         664439 | BATE
+Quadro 3 art13 sem marca: negativa %        |            6.4 |            6.4 | BATE
+Quadro 3 art13 sem marca: concessao %       |           72.0 |           72.0 | BATE
+Quadro 3 art13 generico: n                  |          71473 |          71473 | BATE
+Quadro 3 art13 generico: negativa %         |            6.4 |            6.4 | BATE
+Quadro 3 art13 generico: concessao %        |           74.3 |           74.3 | BATE
+Quadro 3 art13 trabalho adic.: n            |          75535 |          75535 | BATE
+Quadro 3 art13 trabalho adic.: negativa %   |            5.3 |            5.3 | BATE
+Quadro 3 art13 trabalho adic.: concessao %  |           73.1 |           73.1 | BATE
+Quadro 3 tipo indefinido: n                 |         291758 |         291758 | BATE
+Quadro 3 tipo indefinido: negativa %        |            7.2 |            7.2 | BATE
+Quadro 3 tipo indefinido: concessao %       |           71.4 |           71.4 | BATE
+Quadro 3 tipo ato: n                        |          64463 |          64463 | BATE
+Quadro 3 tipo ato: negativa %               |            7.5 |            7.5 | BATE
+Quadro 3 tipo ato: concessao %              |           80.6 |           80.6 | BATE
+Quadro 3 tipo dado bruto: n                 |          57998 |          57998 | BATE
+Quadro 3 tipo dado bruto: negativa %        |            6.7 |            6.7 | BATE
+Quadro 3 tipo dado bruto: concessao %       |           80.3 |           80.3 | BATE
+Quadro 3 tipo contrato: n                   |         335094 |         335094 | BATE
+Quadro 3 tipo contrato: negativa %          |            6.6 |            6.6 | BATE
+Quadro 3 tipo contrato: concessao %         |           80.6 |           80.6 | BATE
+Quadro 3 tipo gasto: n                      |          50120 |          50120 | BATE
+Quadro 3 tipo gasto: negativa %             |            5.8 |            5.8 | BATE
+Quadro 3 tipo gasto: concessao %            |           76.7 |           76.7 | BATE
+Quadro 3 tipo pessoal: n                    |          85251 |          85251 | BATE
+Quadro 3 tipo pessoal: negativa %           |            5.0 |            5.0 | BATE
+Quadro 3 tipo pessoal: concessao %          |           82.9 |           82.9 | BATE
+Quadro 3 tipo politica publica: n           |          54307 |          54307 | BATE
+Quadro 3 tipo politica publica: negativa %  |            5.0 |            5.0 | BATE
+Quadro 3 tipo politica publica: concessao % |           77.5 |           77.5 | BATE
+Quadro 4 2015: negativas com texto          |           4583 |           4583 | BATE
+Quadro 4 2015: cita norma LAI %             |           59.2 |           59.2 | BATE
+Quadro 4 2015: sem fundamento %             |           40.8 |           40.8 | BATE
+Quadro 4 2015: kappa                        |          0.232 |          0.232 | BATE
+Quadro 4 2016: negativas com texto          |           4520 |           4520 | BATE
+Quadro 4 2016: cita norma LAI %             |           51.5 |           51.5 | BATE
+Quadro 4 2016: sem fundamento %             |           48.5 |           48.5 | BATE
+Quadro 4 2016: kappa                        |          0.320 |          0.320 | BATE
+Quadro 4 2017: negativas com texto          |           5218 |           5218 | BATE
+Quadro 4 2017: cita norma LAI %             |           53.1 |           53.1 | BATE
+Quadro 4 2017: sem fundamento %             |           46.9 |           46.9 | BATE
+Quadro 4 2017: kappa                        |          0.233 |          0.233 | BATE
+Quadro 4 2018: negativas com texto          |           6161 |           6161 | BATE
+Quadro 4 2018: cita norma LAI %             |           59.8 |           59.8 | BATE
+Quadro 4 2018: sem fundamento %             |           40.2 |           40.2 | BATE
+Quadro 4 2018: kappa                        |          0.223 |          0.223 | BATE
+Quadro 4 2019: negativas com texto          |           7526 |           7526 | BATE
+Quadro 4 2019: cita norma LAI %             |           56.9 |           56.9 | BATE
+Quadro 4 2019: sem fundamento %             |           43.1 |           43.1 | BATE
+Quadro 4 2019: kappa                        |          0.374 |          0.374 | BATE
+Quadro 4 2020: negativas com texto          |           7261 |           7261 | BATE
+Quadro 4 2020: cita norma LAI %             |           64.3 |           64.3 | BATE
+Quadro 4 2020: sem fundamento %             |           35.7 |           35.7 | BATE
+Quadro 4 2020: kappa                        |          0.381 |          0.381 | BATE
+Quadro 4 2021: negativas com texto          |           5110 |           5110 | BATE
+Quadro 4 2021: cita norma LAI %             |           68.9 |           68.9 | BATE
+Quadro 4 2021: sem fundamento %             |           31.1 |           31.1 | BATE
+Quadro 4 2021: kappa                        |          0.365 |          0.365 | BATE
+Quadro 4 2022: negativas com texto          |           4789 |           4789 | BATE
+Quadro 4 2022: cita norma LAI %             |           70.6 |           70.6 | BATE
+Quadro 4 2022: sem fundamento %             |           29.4 |           29.4 | BATE
+Quadro 4 2022: kappa                        |          0.325 |          0.325 | BATE
+Quadro 4 2023: negativas com texto          |           6054 |           6054 | BATE
+Quadro 4 2023: cita norma LAI %             |           66.8 |           66.8 | BATE
+Quadro 4 2023: sem fundamento %             |           33.2 |           33.2 | BATE
+Quadro 4 2023: kappa                        |          0.297 |          0.297 | BATE
+Quadro 4 2024: negativas com texto          |           5296 |           5296 | BATE
+Quadro 4 2024: cita norma LAI %             |           58.5 |           58.5 | BATE
+Quadro 4 2024: sem fundamento %             |           41.5 |           41.5 | BATE
+Quadro 4 2024: kappa                        |          0.253 |          0.253 | BATE
+Quadro 4 2025: negativas com texto          |           5306 |           5306 | BATE
+Quadro 4 2025: cita norma LAI %             |           64.0 |           64.0 | BATE
+Quadro 4 2025: sem fundamento %             |           36.0 |           36.0 | BATE
+Quadro 4 2025: kappa                        |          0.308 |          0.308 | BATE
+Concordancia agrupada (registro x texto) %  |           41.5 |           41.5 | BATE
+Kappa de Cohen agrupado                     |          0.306 |          0.306 | BATE
+Textos sem fundamento normativo %           |           38.3 |           38.3 | BATE
+Registro sem fundamento normativo %         |           19.5 |           19.5 | BATE
+Processo em curso no registro %             |           10.2 |           10.2 | BATE
+Processo em curso no texto %                |            0.1 |            0.1 | BATE
+Canal e-mail 2012 %                         |           51.7 |           51.7 | BATE
+Canal plataforma 2012 %                     |           17.7 |           17.7 | BATE
+Canal e-mail 2025 %                         |            2.4 |            2.4 | BATE
+Canal plataforma 2025 %                     |           58.9 |           58.9 | BATE
+Canal nao especificado 2020 %               |           29.7 |           29.7 | BATE
+Tipologia dados pessoais 2012 %             |           43.8 |           43.8 | BATE
+Tipologia dados pessoais 2025 %             |           13.2 |           13.2 | BATE
+Tipologia sigilo legal 2012 %               |           19.3 |           19.3 | BATE
+Tipologia sigilo legal 2025 %               |           37.8 |           37.8 | BATE
+Tipologia processo em curso 2012 %          |            0.4 |            0.4 | BATE
+Tipologia processo em curso 2025 %          |           13.4 |           13.4 | BATE
+Extensao media 2015 (caracteres)            |            986 |            986 | BATE
+Extensao media 2025 (caracteres)            |           1539 |           1539 | BATE
+----------------------------------------------------------------------------------------- 
+TOTAL: 158 conferidos | 158 BATE | 0 DIFERE
+
+Conferência gravada em: /workspace/lai-transparencia-replicacao/reprodutibilidade/saidas-R/conferencia-artigo2.csv 
+
+==============================================================================
+6. SÍNTESE
+==============================================================================
+Respostas com texto 2015-2025 .... 938.987
+Pedidos registrados 2012-2025 .... 1.641.939
+Repetição literal (md5 250) ...... 20.64%
+Quase-repetição MinHash FINAL .... 22.55%
+MinHash v2 (baldes descartados) .. 22.49%
+MinHash v3 (baldes unidos) ....... 37.47%
+Kappa agrupado (registro x texto)  0.306 | concordância agrupada 41.5%
+
+Tabelas em : /workspace/lai-transparencia-replicacao/reprodutibilidade/saidas-R
+Figuras em : /workspace/lai-transparencia-replicacao/reprodutibilidade/figuras-R
+Fim.
