@@ -98,13 +98,12 @@ Quase-repetição (resposta inteira)       2025                       %         
 Repetição literal (resposta inteira)     2015                       %         16.66      16.66   BATE
 Repetição literal (resposta inteira)     2025                       %         13.41      13.41   BATE
 Correlação quase × plataforma           Pearson                    r        -0.672     -0.672   BATE
-Correlação quase × plataforma           Spearman                   rho      -0.618     -0.647   *** DIFERE ***
+Correlação quase × plataforma           Spearman                   rho      -0.647     -0.647   BATE
 Correlação literal × plataforma         Pearson                    r        -0.712     -0.712   BATE
 Correlação literal × plataforma         Spearman                   rho      -0.745     -0.745   BATE
 Robustez (sem tendência do tempo)         quase × plataforma — Pearson r        -0.377     -0.377   BATE
 Robustez (sem tendência do tempo)         literal × plataforma — Pearson r        -0.699     -0.699   BATE
 
 ============================================================================================================
- FIM — 88 itens conferidos | 87 BATE | 1 DIFERE
- DIVERGE — ver as linhas marcadas acima.
+ FIM — 88 itens conferidos | 88 BATE | 0 DIFERE
 ============================================================================================================

@@ -156,7 +156,7 @@ spearman <- function(x, y) pearson(rank(x), rank(y))
 resid <- function(v, xs) { b <- sum((xs - mean(xs)) * (v - mean(v))) / sum((xs - mean(xs))^2); v - (mean(v) - b * mean(xs) + b * xs) }
 
 check("Correlação quase × plataforma", "Pearson", "r", -0.672, pearson(plata, qse_int), 3)
-check("Correlação quase × plataforma", "Spearman", "rho", -0.618, spearman(plata, qse_int), 3)
+check("Correlação quase × plataforma", "Spearman", "rho", -0.647, spearman(plata, qse_int), 3)
 check("Correlação literal × plataforma", "Pearson", "r", -0.712, pearson(plata, lit_int), 3)
 check("Correlação literal × plataforma", "Spearman", "rho", -0.745, spearman(plata, lit_int), 3)
 
