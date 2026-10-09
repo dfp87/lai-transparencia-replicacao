@@ -1,0 +1,110 @@
+
+============================================================================================================
+ 1. LEITURA DAS EVIDÊNCIAS
+============================================================================================================
+anos com medição da resposta inteira: 11 | anos com medição por grupo: 11 | anos de canal de entrega: 14 
+
+============================================================================================================
+ 2. TOTAIS E AS DUAS UNIDADES DE MEDIDA
+============================================================================================================
+Corpus                                     respostas com texto (2015-2025) n        938987     938987   BATE
+Repetição literal                        média ponderada — janela 250 %         20.64      20.64   BATE
+Repetição literal                        média ponderada — resposta inteira %         14.86      14.86   BATE
+Quase-repetição                          média ponderada — janela 250 %         22.55      22.55   BATE
+Quase-repetição                          média ponderada — resposta inteira %         24.21      24.21   BATE
+Ano 2015                                   literal — janela 250     %         20.86      20.86   BATE
+Ano 2015                                   literal — resposta inteira %         16.66      16.66   BATE
+Ano 2015                                   quase — janela 250       %         24.75      24.75   BATE
+Ano 2015                                   quase — resposta inteira %         30.56      30.56   BATE
+Ano 2016                                   literal — janela 250     %         21.21      21.21   BATE
+Ano 2016                                   literal — resposta inteira %         16.71      16.71   BATE
+Ano 2016                                   quase — janela 250       %         25.24      25.24   BATE
+Ano 2016                                   quase — resposta inteira %         29.57      29.57   BATE
+Ano 2017                                   literal — janela 250     %         19.98      19.98   BATE
+Ano 2017                                   literal — resposta inteira %         17.20      17.20   BATE
+Ano 2017                                   quase — janela 250       %         20.85      20.85   BATE
+Ano 2017                                   quase — resposta inteira %         22.82      22.82   BATE
+Ano 2018                                   literal — janela 250     %         18.95      18.95   BATE
+Ano 2018                                   literal — resposta inteira %         14.42      14.42   BATE
+Ano 2018                                   quase — janela 250       %         22.84      22.84   BATE
+Ano 2018                                   quase — resposta inteira %         23.76      23.76   BATE
+Ano 2019                                   literal — janela 250     %         14.93      14.93   BATE
+Ano 2019                                   literal — resposta inteira %          9.43       9.43   BATE
+Ano 2019                                   quase — janela 250       %         20.13      20.13   BATE
+Ano 2019                                   quase — resposta inteira %         21.71      21.71   BATE
+Ano 2020                                   literal — janela 250     %         24.69      24.69   BATE
+Ano 2020                                   literal — resposta inteira %         20.20      20.20   BATE
+Ano 2020                                   quase — janela 250       %         20.60      20.60   BATE
+Ano 2020                                   quase — resposta inteira %         23.13      23.13   BATE
+Ano 2021                                   literal — janela 250     %         21.50      21.50   BATE
+Ano 2021                                   literal — resposta inteira %         14.92      14.92   BATE
+Ano 2021                                   quase — janela 250       %         21.33      21.33   BATE
+Ano 2021                                   quase — resposta inteira %         24.84      24.84   BATE
+Ano 2022                                   literal — janela 250     %         21.25      21.25   BATE
+Ano 2022                                   literal — resposta inteira %         13.27      13.27   BATE
+Ano 2022                                   quase — janela 250       %         25.64      25.64   BATE
+Ano 2022                                   quase — resposta inteira %         28.91      28.91   BATE
+Ano 2023                                   literal — janela 250     %         22.74      22.74   BATE
+Ano 2023                                   literal — resposta inteira %         13.58      13.58   BATE
+Ano 2023                                   quase — janela 250       %         24.42      24.42   BATE
+Ano 2023                                   quase — resposta inteira %         23.76      23.76   BATE
+Ano 2024                                   literal — janela 250     %         20.28      20.28   BATE
+Ano 2024                                   literal — resposta inteira %         12.64      12.64   BATE
+Ano 2024                                   quase — janela 250       %         22.46      22.46   BATE
+Ano 2024                                   quase — resposta inteira %         19.78      19.78   BATE
+Ano 2025                                   literal — janela 250     %         20.42      20.42   BATE
+Ano 2025                                   literal — resposta inteira %         13.41      13.41   BATE
+Ano 2025                                   quase — janela 250       %         21.57      21.57   BATE
+Ano 2025                                   quase — resposta inteira %         20.09      20.09   BATE
+Viés da janela (literal)                  2015                       p.p.      -4.20      -4.20   BATE
+Viés da janela (literal)                  2023                       p.p.      -9.16      -9.16   BATE
+Viés da janela (literal)                  2025                       p.p.      -7.01      -7.01   BATE
+Cauda dos baldes                           maior grupo de repetição — 2015 n           454        454   BATE
+Cauda dos baldes                           maior grupo de repetição — 2022 n           870        870   BATE
+Cauda dos baldes                           maior grupo de repetição — 2025 n           565        565   BATE
+
+============================================================================================================
+ 3. PADRONIZAÇÃO POR GRUPO DE ÓRGÃO
+============================================================================================================
+Autarquias, fundações e agências        respostas no período (federal) n        323921     323921   BATE
+Executivo federal (ministérios e Presidência) respostas no período (federal) n        307219     307219   BATE
+Universidades e institutos federais        respostas no período (federal) n        177768     177768   BATE
+Estatais, bancos e empresas públicas      respostas no período (federal) n        117716     117716   BATE
+Controle interno                           respostas no período (federal) n         11449      11449   BATE
+Grupos                                     respostas somadas = corpus n        938987     938073   BATE
+Executivo federal                          quase — 2015             %         25.25      25.25   BATE
+Executivo federal                          quase — 2025             %         11.07      11.07   BATE
+Universidades                              quase — 2015             %          7.37       7.37   BATE
+Universidades                              quase — 2025             %         13.12      13.12   BATE
+Autarquias                                 quase — 2015             %         39.40      39.40   BATE
+Autarquias                                 quase — 2025             %         31.28      31.28   BATE
+Estatais                                   quase — 2015             %         31.48      31.48   BATE
+Estatais                                   quase — 2025             %         21.87      21.87   BATE
+Controle interno                           quase — 2015             %         95.30      95.30   BATE
+Controle interno                           quase — 2025             %         12.37      12.37   BATE
+Controle interno                           literal — 2015           %         95.16      95.16   BATE
+Controle interno                           literal — 2020 (zero)    %          0.00       0.00   BATE
+Controle interno                           literal — 2025           %          7.58       7.58   BATE
+Controle interno                           respostas em 2015          n           723        723   BATE
+Defensoria                                 respostas no período      n           914        914   BATE
+
+============================================================================================================
+ 4. PLATAFORMIZAÇÃO E CORRELAÇÃO (11 ANOS)
+============================================================================================================
+Plataformização                          2015                       %         47.86      47.86   BATE
+Plataformização                          2025                       %         58.92      58.92   BATE
+Quase-repetição (resposta inteira)       2015                       %         30.56      30.56   BATE
+Quase-repetição (resposta inteira)       2025                       %         20.09      20.09   BATE
+Repetição literal (resposta inteira)     2015                       %         16.66      16.66   BATE
+Repetição literal (resposta inteira)     2025                       %         13.41      13.41   BATE
+Correlação quase × plataforma           Pearson                    r        -0.672     -0.672   BATE
+Correlação quase × plataforma           Spearman                   rho      -0.618     -0.647   *** DIFERE ***
+Correlação literal × plataforma         Pearson                    r        -0.712     -0.712   BATE
+Correlação literal × plataforma         Spearman                   rho      -0.745     -0.745   BATE
+Robustez (sem tendência do tempo)         quase × plataforma — Pearson r        -0.377     -0.377   BATE
+Robustez (sem tendência do tempo)         literal × plataforma — Pearson r        -0.699     -0.699   BATE
+
+============================================================================================================
+ FIM — 88 itens conferidos | 87 BATE | 1 DIFERE
+ DIVERGE — ver as linhas marcadas acima.
+============================================================================================================

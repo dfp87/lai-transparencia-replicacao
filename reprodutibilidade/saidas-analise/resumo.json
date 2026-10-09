@@ -21,7 +21,7 @@
   "quase_inteira_vs_plataforma": {
    "n": 11,
    "pearson": -0.672,
-   "spearman": -0.618
+   "spearman": -0.647
   },
   "literal_inteira_vs_plataforma": {
    "n": 11,

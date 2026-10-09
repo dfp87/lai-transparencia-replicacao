@@ -138,13 +138,22 @@ def pearson(xs, ys):
 
 
 def spearman(xs, ys):
-    def ordem(v):
-        o = sorted(range(len(v)), key=lambda i: v[i])
-        r = [0] * len(v)
-        for pos, i in enumerate(o):
-            r[i] = pos + 1
+    """Spearman com postos MÉDIOS em caso de empate (definição padrão)."""
+    def postos(v):
+        n = len(v)
+        ordem = sorted(range(n), key=lambda i: v[i])
+        r = [0.0] * n
+        i = 0
+        while i < n:
+            j = i
+            while j + 1 < n and v[ordem[j + 1]] == v[ordem[i]]:
+                j += 1
+            medio = (i + j) / 2.0 + 1
+            for k in range(i, j + 1):
+                r[ordem[k]] = medio
+            i = j + 1
         return r
-    return pearson(ordem(xs), ordem(ys))
+    return pearson(postos(xs), postos(ys))
 
 
 pares = [(r["plataforma_pct"], r["quase_inteira_pct"]) for r in linhas_c
