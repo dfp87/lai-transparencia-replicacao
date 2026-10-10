@@ -25,20 +25,27 @@ def ler(nome):
         return list(csv.DictReader(fh))
 
 
-def num(v, dec=1):
+def num(v, dec=1, milhar=False):
     try:
-        return ("%.*f" % (dec, float(v))).replace(".", ",")
+        x = float(v)
     except (TypeError, ValueError):
         return str(v)
+    if milhar:
+        return ("{:,.0f}".format(x) if dec == 0 else "{:,.{d}f}".format(x, d=dec)).replace(",", "\u00a0").replace(".", ",").replace("\u00a0", ".")
+    return ("%.*f" % (dec, x)).replace(".", ",")
 
 
-def tab(linhas, cab, campos, alinhados=()):
+def tab(linhas, cab, campos, alinhados=(), decimais=None, milhares=()):
+    decimais = decimais or {}
     out = ["| " + " | ".join(cab) + " |", "|" + "|".join("---" for _ in cab) + "|"]
     for r in linhas:
         cel = []
         for i, c in enumerate(campos):
             v = r.get(c, "")
-            cel.append(num(v, 1) if (i in alinhados and v != "") else str(v))
+            if v == "" or not (i in alinhados or i in milhares):
+                cel.append(str(v))
+            else:
+                cel.append(num(v, decimais.get(i, 1) if i in alinhados else 0, milhar=(i in milhares)))
         out.append("| " + " | ".join(cel) + " |")
     return "\n".join(out)
 
@@ -47,7 +54,7 @@ def tab(linhas, cab, campos, alinhados=()):
 pa = ler("por-ano.csv")
 if pa:
     t_serie = tab(pa, ["Ano", "Recursos", "Provido ou parcial (%)", "Não conhecido (%)", "Sem resposta (%)"],
-                  ["ano", "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct"], (2, 3, 4))
+                  ["ano", "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct"], (2, 3, 4), milhares=(1,))
 else:
     t_serie = "_Evidência `por-ano.csv` ausente._"
 
@@ -56,7 +63,7 @@ if mo:
     rot = [k for k in mo[0] if k not in ("recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct")][0]
     mo = sorted(mo, key=lambda r: -int(r["recursos"]))
     t_motivo = tab(mo, ["Motivo declarado pelo órgão", "Recursos", "Provido ou parcial (%)", "Não conhecido (%)"],
-                   [rot, "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct"], (2, 3))
+                   [rot, "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct"], (2, 3), milhares=(1,))
 else:
     t_motivo = "_Evidência `motivo-x-desfecho.csv` ausente._"
 
@@ -65,7 +72,7 @@ if pi:
     rot = [k for k in pi[0] if k not in ("recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct")][0]
     pi = sorted(pi, key=lambda r: -int(r["recursos"]))[:8]
     t_inst = tab(pi, ["Instância", "Recursos", "Provido ou parcial (%)", "Não conhecido (%)", "Sem resposta (%)"],
-                 [rot, "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct"], (2, 3, 4))
+                 [rot, "recursos", "provido_ou_parcial_pct", "nao_conhecido_pct", "sem_resposta_pct"], (2, 3, 4), milhares=(1,))
 else:
     t_inst = "_Evidência `instancia-x-desfecho.csv` ausente._"
 
@@ -95,7 +102,7 @@ if por_ano:
     for r in por_ano:
         r["alocacao"] = aloc[r["ano"]]
     t_amostra = tab(por_ano, ["Ano", "Respostas com texto", "Padronizadas", "% padronizadas", "Grupos", "Tamanho médio", "Amostra (630)"],
-                    ["ano", "respostas_com_texto", "padronizadas", "pct", "grupos", "tam", "alocacao"], (3, 5))
+                    ["ano", "respostas_com_texto", "padronizadas", "pct", "grupos", "tam", "alocacao"], (3, 5), milhares=(1, 2, 4, 6))
     resumoB = (tot_n, tot_p, 100.0 * tot_p / tot_n, tot_g, tot_p / tot_g, maior)
 else:
     t_amostra, resumoB = "_Evidência de MinHash ausente._", (0, 0, 0, 0, 0, 0)
@@ -107,7 +114,7 @@ t_prec = ("_Evidência `precisao-kappa.csv` ausente._" if not prec else tab(
     ["n", "dp_kappa", "_ic"], (1,)) if False else tab(
     [dict(r, _ic=round(1.96 * float(r["dp_kappa"]), 3)) for r in prec
      if abs(float(r["prevalencia_evasao"]) - 0.35) < 1e-9 and abs(float(r["kappa_esperado"]) - 0.70) < 1e-9],
-    ["n anotado", "Erro-padrão do κ", "Intervalo de 95% (±)"], ["n", "dp_kappa", "_ic"], (1, 2)))
+    ["n anotado", "Erro-padrão do κ", "Intervalo de 95% (±)"], ["n", "dp_kappa", "_ic"], (1, 2), decimais={1: 3, 2: 3}, milhares=(0,)))
 
 subs_A = {"{{TABELA-SERIE}}": t_serie, "{{TABELA-MOTIVO}}": t_motivo,
           "{{TABELA-INSTANCIA}}": t_inst, "{{TABELA-GUARDIOES}}": t_guard}
