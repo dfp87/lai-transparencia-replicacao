@@ -1,0 +1,26 @@
+=== Artigo 4 — arranjo recursal da LAI ===
+Corpus                             recursos         222242     222242   BATE
+Série 2012                        recursos           4606       4606   BATE
+Série 2025                        recursos          22278      22278   BATE
+Provimento 2025                    %                  39.5       39.5   BATE
+Não conhecido 2025                %                  18.7       18.7   BATE
+Sem resposta 2025                  %                   5.2        5.2   BATE
+Não conhecido 2021                %                  14.5       14.5   BATE
+Sem resposta 2021                  %                   3.1        3.1   BATE
+1ª instância                     provido (%)        47.9       47.9   BATE
+1ª instância                     não conhecido (%)       11.2       11.2   BATE
+Controle interno                   não conhecido (%)       38.9       38.9   BATE
+CMRI                               não conhecido (%)       62.8       62.8   BATE
+Informação incompleta            provido (%)        49.4       49.4   BATE
+Ausência de justificativa         não conhecido (%)       41.6       41.6   BATE
+Sigilo                             provido (%)        21.4       21.4   BATE
+
+--- guardiões (por grupo) ---
+               grupo recursos   pct
+1 Ministério Público        0 0.000
+2         Judiciário       94 0.042
+3        Legislativo        1 0.000
+4   Controle externo       30 0.013
+5   Controle interno     3722 1.675
+
+FIM — 15 itens conferidos | 15 BATE | 0 DIFERE

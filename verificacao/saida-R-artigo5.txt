@@ -1,0 +1,13 @@
+=== Artigo 5 — população-alvo e desenho ===
+Corpus                           respostas           938987      938987   BATE
+População-alvo                 padronizadas        227332      227332   BATE
+População-alvo                 % do corpus          24.21       24.21   BATE
+Grupos de repetição            grupos                9865        9865   BATE
+Tamanho médio                   respostas            23.04       23.04   BATE
+Maior grupo                      respostas              870         870   BATE
+Amostra                          unidades alocadas         630         630   BATE
+Precisão (n=400, κ=0,70)       erro-padrão         0.062       0.062   BATE
+Precisão (n=630, κ=0,70)       erro-padrão         0.049       0.049   BATE
+Precisão (n=1000, κ=0,70)      erro-padrão         0.039       0.039   BATE
+
+FIM — 10 itens conferidos | 10 BATE | 0 DIFERE
