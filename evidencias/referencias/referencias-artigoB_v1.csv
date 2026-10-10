@@ -1,0 +1,51 @@
+eixo,autores,titulo,ano,veiculo,doi,citacoes_crossref
+concordancia,,"Intercoder Reliability Techniques: Percent
+							Agreement",2017,The SAGE Encyclopedia of Communication Research Methods,10.4135/9781483381411.n260,12
+concordancia,,Content Analysis Intercoder Reliability Analyses,2007,We Interrupt This Newscast,10.1017/cbo9780511841064.012,0
+concordancia,"Warner, Henriette Wallén; Sandin, Jesper",The intercoder agreement when using the Driving Reliability and Error Analysis Method in road traffic accident investigations,2010,Safety Science,10.1016/j.ssci.2009.12.022,19
+concordancia,,"Intercoder Agreement, Scott's Coefficient of",2014,Wiley StatsRef: Statistics Reference Online,10.1002/9781118445112.stat01810,0
+concordancia,"Kang, Namjun; Kara, Ali; Laskey, H. A.; Seaton, F. B.",A SAS MACRO for Calculating Intercoder Agreement in Content Analysis,1993,Journal of Advertising,10.1080/00913367.1993.10673400,25
+concordancia,"Burla, Laila; Knierim, Birte; Barth, Jurgen; Liewald, Katharina",From Text to Codings,2008,Nursing Research,10.1097/01.nnr.0000313482.33917.7d,619
+kappa,,Kappa Coefficient of Agreement,,SpringerReference,10.1007/springerreference_205406,0
+kappa,,Kappa Coefficient of Agreement,2018,"The SAGE Encyclopedia of Educational Research, Measurement, and
+					Evaluation",10.4135/9781506326139.n369,1
+kappa,"Kvålseth, Tarald O.",Kappa Coefficient of Agreement,2011,International Encyclopedia of Statistical Science,10.1007/978-3-642-04898-2_323,1
+kappa,"Kvålseth, Tarald O.",Kappa Coefficient of Agreement,2025,International Encyclopedia of Statistical Science,10.1007/978-3-662-69359-9_311,1
+kappa,,Kappa Coefficient of Agreement,2016,There’s a Stat for That!: What to Do &amp; When to Do It,10.4135/9781071909775.n25,0
+kappa,"Fleiss, Joseph L.; Cohen, Jacob",The Equivalence of Weighted Kappa and the Intraclass Correlation Coefficient as Measures of Reliability,1973,Educational and Psychological Measurement,10.1177/001316447303300309,2666
+fleiss,,Table 4: Pairwise agreement between psychologists with Cohen’s Kappa index and multiple agreement between them with Fleiss’ Kappa index.,,component,10.7717/peerj-cs.1498/table-4,0
+fleiss,"Moons, Filip; Vandervieren, Ellen",Measuring agreement among several raters classifying subjects into one or more (hierarchical) categories: A generalization of Fleiss’ kappa,2025,Behavior Research Methods,10.3758/s13428-025-02746-8,22
+fleiss,"Quatto, Piero; Ripamonti, Enrico",raters: A Modification of Fleiss' Kappa in Case of Nominal and Ordinal Variables,2014,CRAN: Contributed Packages,10.32614/cran.package.raters,7
+fleiss,"Gautam, Shiva",A-Kappa: A measure of Agreement among Multiple Raters,2021,Journal of Data Science,10.6339/jds.201410_12(4).0007,2
+fleiss,"Fleiss, Joseph L.",Measuring nominal scale agreement among many raters.,1971,Psychological Bulletin,10.1037/h0031619,6471
+fleiss,"Cao, Hongyuan; Sen, Pranab K.; Peery, Anne F.; Dellon, Evan S.",Assessing agreement with multiple raters on correlated kappa statistics,2016,Biometrical Journal,10.1002/bimj.201500029,17
+gwet,"Gwet, Kilem L.",irrCAC: Computing the Extent of Agreement among Raters with Chance-Corrected Agreement Coefficient (CAC),2019,CRAN: Contributed Packages,10.32614/cran.package.irrcac,4
+gwet,"Almehrizi, Rashid Saif",Coefficient of agreement between two raters corrected for category prevalence: Alternative to kappa.,2025,Psychological Methods,10.1037/met0000732,6
+gwet,"Holcomb, Timothy",Lambda Coefficient of Rater-Mediated Agreement: Demonstration of a Chance-Corrected Agreement Coefficient (Poster 5),2022,AERA 2022,10.3102/ip.22.1887628,0
+gwet,"channel, AS",gwet,2026,report,10.55277/researchhub.x5endv4s.1,0
+gwet,,Kappa Coefficient of Agreement,,SpringerReference,10.1007/springerreference_205406,0
+gwet,"ERDOĞAN, Semra; OREKİCİ TEMEL, Gülhan","A Comparison of the Sensitivity, Specificity and Prevalence Response of Coefficients of Individual Agreement (CIA) with Cohen's Kappa and Gwet's AC1 Statistics",2015,Turkiye Klinikleri Journal of Biostatistics,10.5336/biostatic.2014-41410,0
+amostragem_estratificada,,Sampling,1996,Survey Research for Public Administration,10.4135/9781483327570.n3,0
+amostragem_estratificada,,Stratified Sampling,2015,Applied Survey Sampling,10.4135/9781483394022.n5,0
+amostragem_estratificada,"Kim, Jae Kwang",Stratified sampling,2025,Statistics in Survey Sampling,10.1201/9781003606147-4,0
+amostragem_estratificada,"Arnab, Raghunath",Stratified Sampling,2017,Survey Sampling Theory and Applications,10.1016/b978-0-12-811848-1.00007-8,22
+amostragem_estratificada,,Survey Design and Implementation,1996,Survey Research for Public Administration,10.4135/9781483327570.n4,0
+amostragem_estratificada,,Stratified Sampling,2008,Encyclopedia of Survey Research Methods,10.4135/9781412963947.n554,0
+anotacao_manual,"Reiss, Michael",Testing the Reliability of ChatGPT for Text Annotation and Classification: A Cautionary Remark,2023,posted-content,10.31219/osf.io/rvy5p,62
+anotacao_manual,"Higgins, Derrick",Reliability of human annotation of semantic roles in noisy text,2007,International Conference on Semantic Computing (ICSC 2007),10.1109/icosc.2007.4338387,0
+anotacao_manual,"Raychaudhuri, Soumya",Using Text Classification for Gene Function Annotation,2006,Computational Text Analysis,10.1093/oso/9780198567400.003.0015,0
+anotacao_manual,"Rouzegar, Hamidreza; Makrehchi, Masoud",Enhancing Text Classification through LLM-Driven Active Learning and Human Annotation,2024,Proceedings of the 18th Linguistic Annotation Workshop (LAW-XVIII),10.18653/v1/2024.law-1.10,12
+anotacao_manual,"Higgins, Derrick",Reliability of human annotation of semantic roles in noisy text,2007,International Conference on Semantic Computing (ICSC 2007),10.1109/icsc.2007.102,4
+anotacao_manual,,Figure B2: Schematic overview of the annotation framework used for text classification.,,component,10.7717/peerj-cs.3921/fig-4,0
+resposta_evasiva,"Khaltar, Odkhuu",Tax evasion and governance quality: The moderating role of adopting open government,2023,International Review of Administrative Sciences,10.1177/00208523231197317,31
+resposta_evasiva,"Tomaskovic-Devey, Donald; Leiter, Jeffrey; Thompson, Shealy",Organizational Survey Nonresponse,1994,Administrative Science Quarterly,10.2307/2393298,232
+resposta_evasiva,,Can Administrative Data Assess Physicians' Quality of Care?—Reply,2003,JAMA,10.1001/jama.289.20.2648-c,10
+resposta_evasiva,"Heffetz, Ori; Lichtinger, Guy; Reeves, Daniel","Assessing Nonresponse Bias in Macro Indicators by Combining Para-, Administrative, and Survey Data",2024,report,10.3386/w32935,0
+resposta_evasiva,"Zwelling-Aamot, Marcy",Can Administrative Data Assess Physicians' Quality of Care?—Reply,2003,JAMA,10.1001/jama.289.20.2648-b,0
+resposta_evasiva,"Heffetz, Ori; Reeves, Daniel; Lichtinger, Guy","Assessing Nonresponse Bias in Macro Indicators by Combining Para-, Administrative, and Survey Data",2024,posted-content,10.2139/ssrn.4894434,0
+quase_duplicata,"Hassanian-esfahani, Roya; Kargar, Mohammad-javad",Sectional MinHash for near-duplicate detection,2018,Expert Systems with Applications,10.1016/j.eswa.2018.01.014,17
+quase_duplicata,"Shayegan, Mohammad-Javad; Faizollahi-Samarin, Mehdi",An extended version of sectional MinHash method for near-duplicate detection,2022,The Journal of Supercomputing,10.1007/s11227-022-04447-x,1
+quase_duplicata,"Carvalho, Luiz Olmes; Santos, Lucio F. D.; Oliveira, Willian D.; Traina, Agma J. M.",Efficient Self-similarity Range Wide-joins Fostering Near-duplicate Image Detection in Emergency Scenarios,2016,Proceedings of the 18th International Conference on Enterprise Information Systems,10.5220/0005868900810091,2
+quase_duplicata,"Thaiyalnayaki, S.; Sasikala, J.; Ponraj, R.",Indexing near-duplicate images in web search using minhash algorithm,2018,Materials Today: Proceedings,10.1016/j.matpr.2017.11.297,4
+quase_duplicata,,Video Near-duplicate Detection,,SpringerReference,10.1007/springerreference_72916,0
+quase_duplicata,"Thaiyalnayaki, S.; Sasikala, J.; Ponraj, R.",Detecting near-duplicate images using segmented minhash algorithm,2019,International Journal of Advanced Intelligence Paradigms,10.1504/ijaip.2019.096963,2
