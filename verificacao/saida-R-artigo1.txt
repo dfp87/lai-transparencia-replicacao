@@ -1,7 +1,7 @@
 ========================================================================
  Replicação — 'Os guardiões fora do espelho' (LAI, 2012-2025)
  Base: /workspace/lai-transparencia-replicacao 
- Data/hora: 09/10/2026 16:51:54 
+ Data/hora: 10/10/2026 16:35:46 
 ========================================================================
 
 [1] Lendo os 14 JSON anuais e o de grupos auditados...
