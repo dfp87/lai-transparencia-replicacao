@@ -44,7 +44,7 @@ quase-repetição) e as duas bases de referências conferidas por DOI.
 
 **Não está, de propósito:**
 
-- os **manuscritos** das duas análises (em avaliação editorial; não são pré-publicados aqui);
+- os **manuscritos** dos artigos (em avaliação editorial; não são pré-publicados aqui);
 - o **corpus textual bruto** (~3,5 GB de arquivos anuais de Respostas e o CSV de Pedidos,
   Recursos e Solicitantes): são dados abertos da CGU, e o script aponta a origem em vez de
   redistribuir cópia;
