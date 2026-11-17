@@ -1,14 +1,15 @@
 cff-version: 1.2.0
 message: "Se usar este código ou estes dados derivados, cite como abaixo."
-title: "Replicação — texto da resposta e perímetro da LAI (dados abertos do Fala.BR/CGU)"
+title: "Replicação — cinco análises da LAI (dados abertos do Fala.BR/CGU)"
 abstract: >-
-  Código e dados derivados para a replicação de duas análises dos dados abertos da Lei de
-  Acesso à Informação brasileira (Lei nº 12.527/2011): (i) o texto da resposta da LAI, de
-  2015 a 2025, com medida de resposta padronizada por repetição literal e por
-  quase-repetição (MinHash) e tipologia do fundamento da negativa; e (ii) o perímetro
-  institucional do acervo, de 2012 a 2025, com volume, prazo e negativa integral por grupo
-  de órgãos. Os scripts recalculam cada indicador a partir das evidências versionadas e
-  conferem o resultado contra os números publicados.
+  Código e dados derivados para a replicação de cinco análises dos dados abertos da Lei de
+  Acesso à Informação brasileira (Lei nº 12.527/2011): (i) o perímetro institucional do
+  acervo, de 2012 a 2025; (ii) o texto da resposta, de 2015 a 2025, com medida de resposta
+  padronizada por repetição literal e por quase-repetição (MinHash) e tipologia do
+  fundamento da negativa; (iii) a padronização medida sobre a resposta inteira; (iv) o
+  arranjo recursal — 222.242 recursos, motivo, instância e desfecho; e (v) a precisão da
+  amostra rotulada. Os scripts recalculam cada indicador a partir das evidências
+  versionadas e conferem o resultado contra os números publicados: 410 itens, 410 BATE.
 authors:
   - family-names: "Pinto"
     given-names: "Douglas Ferreira"
@@ -17,8 +18,8 @@ authors:
 contact:
   - family-names: "Pinto"
     given-names: "Douglas Ferreira"
-version: "1.0.0"
-date-released: "2026-10-09"
+version: "1.2.0"
+date-released: "2026-11-17"
 license: MIT
 license-url: "https://github.com/dfp87/lai-transparencia-replicacao/blob/main/LICENSE"
 repository-code: "https://github.com/dfp87/lai-transparencia-replicacao"

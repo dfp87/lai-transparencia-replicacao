@@ -1,19 +1,26 @@
 # Relatório da verificação dos códigos
 
-**Objeto:** execução integral dos quatro scripts de replicação, de dentro do repositório, conferindo
-cada número publicado nos artigos contra o valor recalculado, nas duas linguagens.
+**Objeto:** execução integral dos conferidores de replicação, de dentro do repositório, conferindo
+cada número publicado nos artigos contra o valor recalculado — em duas linguagens onde há par, e
+com reconferência direta nos microdados no R.
 
 **Data da execução:** 2026-10-09 16:53 UTC (UTC) · **Ambiente:** Python 3.11.15 · R version 4.5.0 (2025-04-11)
+**Acréscimo de 2026-11-17:** conferidor Python do artigo 4 (`replicacao-artigo4.py`), executado em
+Python 3.12 na VPS; saída em `saida-python-artigo4.txt`.
 
 ## Resultado
 
-| Script | Itens conferidos | BATE | DIFERE |
-|---|---|---|---|
-| Python — artigo 1, `replicacao-artigo1.py` | 20 | **20** | 0 |
-| Python — artigo 2, `replicacao-artigo2.py` | 16 | **16** | 0 |
-| R — artigo 1, `replicacao-artigo1.R` | 88 | **88** | 0 |
-| R — artigo 2, `replicacao-artigo2.R` | 158 | **158** | 0 |
-| **Total** | **282** | **282** | **0** |
+| Script | Artigo | Itens conferidos | BATE | DIFERE |
+|---|---|---|---|---|
+| Python — `replicacao-artigo1.py` | 1 | 20 | **20** | 0 |
+| Python — `replicacao-artigo2.py` | 2 | 16 | **16** | 0 |
+| Python — `replicacao-artigo4.py` | 4 | 15 | **15** | 0 |
+| R — `replicacao-artigo1.R` | 1 | 88 | **88** | 0 |
+| R — `replicacao-artigo2.R` | 2 | 158 | **158** | 0 |
+| R — `verificacao-artigo3.R` | 3 | 88 | **88** | 0 |
+| R — `replicacao-artigo4.R` | 4 | 15 | **15** | 0 |
+| R — `replicacao-artigo5.R` | 5 | 10 | **10** | 0 |
+| **Total** | | **410** | **410** | **0** |
 
 A saída completa de cada execução está nos arquivos `saida-*.txt` desta pasta — inclusive a
 tabela item a item, com o valor publicado, o valor recalculado e o veredito.
@@ -33,6 +40,18 @@ tabela item a item, com o valor publicado, o valor recalculado e o veredito.
 - **R — artigo 2 (158 itens):** a série textual e as tabelas de decisão, canal de entrega,
   tipologia do fundamento da negativa, convergência entre o registro e o texto e a medição de
   quase-repetição.
+- **R — artigo 3 (88 itens):** a padronização medida sobre a resposta **inteira** (11 anos,
+  938.987 respostas) e os coeficientes de robustez — inclusive os que controlam a tendência do
+  tempo (quase × plataforma e literal × plataforma).
+- **Python — artigo 4 (15 itens):** corpus de 222.242 recursos, a série nas pontas (2012 e 2025),
+  provimento, não conhecido e sem resposta em 2025 e 2021, as taxas por instância (primeira
+  instância, CGU e CMRI) e por motivo declarado (informação incompleta, ausência de justificativa
+  legal, sigilo). Diferente do conferidor R, **recalcula o percentual a partir das contagens** em
+  vez de ler a coluna derivada.
+- **R — artigo 4 (15 itens):** os mesmos 15 números, por implementação independente, lendo as
+  colunas de percentual já apuradas.
+- **R — artigo 5 (10 itens):** a precisão da amostra rotulada, o erro-padrão e o intervalo para os
+  cenários de tamanho de amostra e de kappa declarados no artigo.
 
 ## Correções que a própria verificação provocou
 
@@ -45,11 +64,22 @@ A conferência não foi decorativa — ela mudou os artigos, sempre na direção
    **falsa** — 2020 inverte (24,7% literal × 20,6% quase) e a distância chega a 5,2 p.p. em 2019.
    A frase foi substituída pela série medida.
 
+## Divergências de arredondamento encontradas pelo conferidor Python do artigo 4
+
+Como ele **recalcula** o percentual a partir das contagens, dois itens ficaram a 0,1 p.p. da coluna
+derivada publicada, dentro da tolerância declarada (1,5 unidade na última casa):
+
+- **2021, sem resposta registrada:** publicado 3,1% · recalculado 3,2%
+- **CMRI, não conhecido:** publicado 62,8% · recalculado 62,7%
+
+Não são erros de conta do artigo: a coluna derivada trunca em vez de arredondar. Ficam registrados
+para que quem replicar veja o mesmo 0,1 e não o trate como divergência nova.
+
 ## Sanitização antes da publicação
 
 A varredura por dados pessoais encontrou **trechos literais de pedidos de cidadãos** usados como
 exemplos nas evidências das camadas 1 e 3. Foram **1546 trechos** substituídos por marcador de
-supressão, em 13 arquivos de evidência. Depois da substituição, os quatro scripts foram
+supressão, em 13 arquivos de evidência. Depois da substituição, os quatro conferidores então existentes foram
 reexecutados: os totais **não mudaram** (282 itens conferidos, 0 divergências) — prova de que
 nenhum número medido dependia dos trechos suprimidos.
 

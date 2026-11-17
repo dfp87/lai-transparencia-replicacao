@@ -1,15 +1,35 @@
-# Replicação — texto da resposta e perímetro da LAI (dados abertos do Fala.BR/CGU)
+# Replicação — cinco análises da LAI (dados abertos do Fala.BR/CGU)
 
-Este repositório contém o **código e os dados derivados** que sustentam duas análises dos
+Este repositório contém o **código e os dados derivados** que sustentam **cinco análises** dos
 dados abertos da Lei de Acesso à Informação brasileira (Lei nº 12.527/2011), no âmbito do
-Programa de Pós-Graduação em Governança e Transformação Digital (PPGGTD/UFT):
+Programa de Pós-Graduação em Governança e Transformação Digital (PPGGTD/UFT).
 
-1. **O texto da resposta** — o que o Estado escreve quando responde (ou nega), de 2015 a 2025:
+> **Atenção ao número do artigo:** o nome dos scripts segue a ordem interna desta série, que
+> **não é** a ordem de publicação. A tabela abaixo é a correspondência oficial entre título,
+> número e script.
+
+| # | Artigo | Scripts de replicação | Conferência |
+|---|---|---|---|
+| 1 | **Os guardiões fora do espelho** — perímetro institucional (2012–2025) | `replicacao-artigo1.py`, `replicacao-artigo1.R`, `lai_pipeline.py`/`.R` | 20 (Python) + 88 (R) |
+| 2 | **Como o Estado escreve o "não"** — o texto da resposta (2015–2025) | `replicacao-artigo2.py`, `replicacao-artigo2.R`, `minhash_respostas_v2.py`, `lai_pipeline.py`/`.R` | 16 (Python) + 158 (R) |
+| 3 | **A resposta inteira** — padronização sobre a resposta completa | `minhash_resposta_inteira.py`, `padronizacao_por_grupo_ano.py`, `consolidar_resposta_inteira.py`, `montar_artigo3.py` | 88 (R) |
+| 4 | **O que o cidadão contesta** — 222.242 recursos da LAI (2012–2025) | `recursos_estudo_A.py`, `replicacao-artigo4.py`, `replicacao-artigo4.R`, `figuras-e-precisao.py` | 15 (Python) + 15 (R) |
+| 5 | **Medir a evasão** — precisão da amostra e intervalo | `figuras-e-precisao.py`, `montar_artigos_4e5.py`, `replicacao-artigo5.R` | 10 (R) |
+
+Em uma frase cada:
+
+1. **Perímetro institucional** — quem está dentro do acervo e como cada grupo de órgãos responde,
+   de 2012 a 2025: volume, prazo e negativa por grupo, e a ausência de parte dos órgãos de
+   controle e de justiça no acervo publicado.
+2. **O texto da resposta** — o que o Estado escreve quando responde (ou nega), de 2015 a 2025:
    presença de resumo e detalhamento, extensão, decisão, fundamento normativo da negativa e
-   **repetição de resposta** (resposta padronizada por repetição literal e por quase-repetição).
-2. **O perímetro institucional** — quem está dentro do acervo e como cada grupo de órgãos
-   responde, de 2012 a 2025: volume, prazo e negativa por grupo, e a ausência de parte dos
-   órgãos de controle e de justiça no acervo publicado.
+   **repetição de resposta** (padronização por repetição literal e por quase-repetição).
+3. **A resposta inteira** — a mesma medição de padronização aplicada à resposta completa, e não à
+   janela de 250 caracteres, como teste de robustez do achado.
+4. **O que o cidadão contesta** — o arranjo recursal: 222.242 recursos, motivo declarado,
+   instância de julgamento e desfecho, de 2012 a 2025.
+5. **Medir a evasão** — a precisão da amostra rotulada e o efeito do tamanho da amostra sobre o
+   intervalo, com o intervalo de confiança declarado.
 
 O objetivo do repositório é permitir **clonar, inspecionar e reproduzir** cada número publicado
 nos dois artigos, sem depender de memória de execução: cada script recalcula os indicadores a
@@ -47,6 +67,9 @@ python3 reprodutibilidade/replicacao-artigo2.py
 # artigo 2, refazendo a medição de quase-repetição do zero sobre o corpus bruto
 # (opcional: ~25 min por ano; exige os arquivos anuais de Respostas em <dir>)
 python3 reprodutibilidade/replicacao-artigo2.py --corpus /caminho/para/respostas
+
+# artigo 4 — o arranjo recursal (conferência dos 15 números publicados)
+python3 reprodutibilidade/replicacao-artigo4.py
 ```
 
 ### R (RStudio ou linha de comando)
@@ -55,6 +78,9 @@ python3 reprodutibilidade/replicacao-artigo2.py --corpus /caminho/para/respostas
 # na raiz do repositório
 source("reprodutibilidade/replicacao-artigo1.R")
 source("reprodutibilidade/replicacao-artigo2.R")
+source("reprodutibilidade/verificacao-artigo3.R")
+source("reprodutibilidade/replicacao-artigo4.R")
+source("reprodutibilidade/replicacao-artigo5.R")
 ```
 
 Ou, em terminal: `Rscript reprodutibilidade/replicacao-artigo1.R` (execução completa em ~70 s).
@@ -71,12 +97,17 @@ Ambos os scripts escrevem as tabelas em `saidas/` (CSV) e as figuras em `saidas/
 
 ## O que cada script faz
 
-| Script | Entrada | Saída |
-|---|---|---|
-| `replicacao-artigo1.py` / `.R` | 14 JSON anuais + tabela de grupos auditada (2025) | série anual; tabela por grupo; série por grupo; 7 figuras |
-| `replicacao-artigo2.py` / `.R` | série textual anual, decisões, canal de entrega, tipologia da negativa, convergência registro×texto, resultados do MinHash | tabelas de decisão, de texto e de padronização; figuras |
-| `lai_pipeline.py` / `.R` | corpus bruto (CSV anuais) | evidências anuais (`estruturado_<ano>.json`, `texto_<ano>.json`) |
-| `minhash_respostas_v2.py` | corpus textual bruto | quase-repetição por ano (MinHash) nas três configurações auditadas |
+| Script | Artigo | Entrada | Saída |
+|---|---|---|---|
+| `replicacao-artigo1.py` / `.R` | 1 | 14 JSON anuais + tabela de grupos auditada (2025) | série anual; tabela por grupo; série por grupo; 7 figuras |
+| `replicacao-artigo2.py` / `.R` | 2 | série textual anual, decisões, canal de entrega, tipologia da negativa, convergência registro×texto, resultados do MinHash | tabelas de decisão, de texto e de padronização; figuras |
+| `verificacao-artigo3.R` | 3 | saídas de `saidas-minhash/` e `saidas-grupo-ano/` | conferência da padronização sobre a resposta inteira e das correlações de robustez |
+| `recursos_estudo_A.py` | 4 | arquivos anuais de Recursos e Reclamações (Fala.BR/CGU) | `saidas-recursos/`: base analítica, por ano, motivo × desfecho, instância × desfecho, guardiões, `resumo.json` |
+| `replicacao-artigo4.py` / `.R` | 4 | `saidas-recursos/*.csv` | conferência item a item dos 15 números publicados |
+| `replicacao-artigo5.R` | 5 | `saidas-recursos/precisao-kappa.csv` | conferência da precisão, do erro-padrão e do intervalo |
+| `lai_pipeline.py` / `.R` | 1 e 2 | corpus bruto (CSV anuais) | evidências anuais (`estruturado_<ano>.json`, `texto_<ano>.json`) |
+| `minhash_respostas_v2.py` | 2 | corpus textual bruto | quase-repetição por ano (MinHash) nas três configurações auditadas |
+| `minhash_resposta_inteira.py` | 3 | corpus textual bruto | padronização sobre a resposta inteira (11 anos, 938.987 respostas) |
 
 ## Método, em três frases
 
@@ -116,10 +147,32 @@ Ver `CITATION.cff`. Citação sugerida:
 
 ## Verificação
 
-`verificacao/` guarda o relatório da conferência número a número: os quatro scripts foram
-executados e cada valor publicado nos dois artigos foi comparado com o valor recalculado, nas
-duas linguagens, incluindo a conferência do R contra os **microdados originais** — camada
-independente das evidências derivadas.
+`verificacao/` guarda o relatório da conferência número a número: cada valor publicado nos cinco
+artigos foi comparado com o valor recalculado, e a saída de cada execução está versionada.
+
+| Conferidor | Artigo | Itens | Resultado |
+|---|---|---|---|
+| `replicacao-artigo1.py` | 1 | 20 | 20 BATE |
+| `replicacao-artigo2.py` | 2 | 16 | 16 BATE |
+| `replicacao-artigo4.py` | 4 | 15 | 15 BATE |
+| `replicacao-artigo1.R` | 1 | 88 | 88 BATE |
+| `replicacao-artigo2.R` | 2 | 158 | 158 BATE |
+| `verificacao-artigo3.R` | 3 | 88 | 88 BATE |
+| `replicacao-artigo4.R` | 4 | 15 | 15 BATE |
+| `replicacao-artigo5.R` | 5 | 10 | 10 BATE |
+| **Total** | | **410** | **410 BATE, 0 DIFERE** |
+
+Duas independências diferentes convivem aqui, e o README declara qual é qual:
+
+- **entre linguagens** — o mesmo número é recalculado em Python e em R por implementações
+  separadas (`artigos 1, 2 e 4`);
+- **entre camadas** — o R reconfere direto nos **microdados originais** de Pedidos, sem passar
+  pelas evidências derivadas (`LAI_MICRO`).
+
+No artigo 4, o conferidor Python é mais estrito que o R em um ponto: ele **recalcula o percentual**
+a partir das contagens (`Provido + Provido em parte` sobre `recursos`), em vez de ler a coluna de
+percentual já apurada. Isso expôs duas diferenças de arredondamento de 0,1 p.p. (2021 sem resposta
+e CMRI), registradas em `verificacao/saida-python-artigo4.txt`.
 
 ## Sanitização e limites
 
